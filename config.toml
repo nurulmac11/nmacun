@@ -1,0 +1,57 @@
+# The URL the site will be built for
+base_url = "https://nmacun.com"
+title = "nurulmac11's blog"
+
+#theme = "after-dark"
+theme = "terminimal"
+generate_feed = true
+feed_filename = "rss.xml"
+
+taxonomies = [
+    # You can enable/disable RSS
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# When set to "true", all code blocks are highlighted.
+highlight_code = true
+highlight_theme = "one-dark"
+# Whether external links are to be opened in a new tab
+# If this is true, a `rel="noopener"` will always automatically be added for security reasons
+#external_links_target_blank = true
+
+
+[extra]
+# Put all your custom variables here
+after_dark_menu = [
+    {url = "/", name = "Home"},
+    {url = "/about/", name = "About me"},
+#    {url = "categories", name = "Categories"},
+#    {url = "tags", name = "Tags"},
+    {url = "https://www.linkedin.com/in/nrlmcn/", name = "linkedin", target= "_blank"},
+    {url = "https://github.com/nurulmac11", name = "github", target= "_blank"},
+]
+menu_items = [
+    # each of these is optional, name and url are required
+    # $BASE_URL is going to be substituted by base_url from configuration
+    {name = "blog", url = "$BASE_URL"},
+    {name = "about me", url = "$BASE_URL/about"},
+#    {name = "contact", url = "$BASE_URL/contact"},
+    {name = "rss", url = "$BASE_URL/rss.xml"},
+    {url = "https://www.linkedin.com/in/nrlmcn/", name = "linkedin", newtab=true},
+    {url = "https://github.com/nurulmac11", name = "github", newtab=true},
+
+    # set newtab to true to make the link open in new tab
+#    {name = "github", url = "url-to-your-github", newtab = true},
+]
+after_dark_title = "another developer"
+author = "nurulmac11"
+logo_text = "nurulmac11's blog"
+#background_color = "dark"
