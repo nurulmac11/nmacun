@@ -6,9 +6,9 @@ date = 2022-11-12
 tags = ["google app engine", "google cloud platform", "cloudflare", "ssl", "subdomain"]
 +++
 
-We have 3 separate environment(namely, version) for our app which is hosted in google app engine; development, staging and production.
+We have 3 separate environments(namely, version) for our app which is hosted in google app engine; development, staging and production.
 We already have example.com mapped to master version of app but I need to map staging.extra.example.com to staging environment with ssl enabled.
-Google App Engine allow you to add a wildcard custom domain then it automatically maps each versions as subdomains of it.
+Google App Engine allows you to add a wildcard custom domain then it automatically maps each versions as subdomains of it.
 So, in our case, if we add *.extra.example.com, google app engine will automatically map staging environment(version) to staging.extra.example.com.
 
 <!-- more -->
@@ -25,16 +25,18 @@ Since we will need to this once in a every 3 months, don't forget to write a wik
 
 For this part, you will need cloudflare api token. In this post, I won't explain it but you can find several guides on web about this.
 
-Create a new directory to work within it.
+> 1 - Create a new directory to work within it.
+
 ```shell
 mkdir ssl && cd ssl
 ```
-Create a new file named cloudflare with this command;
+
+> 2 - Create a new file named cloudflare with this command;
 ```shell
 touch cloudflare
 ```
 
-After that fill cloudflare file up to the type of cloudflare key that you got, don't forgot to key or token with your credentials.
+> 3 - After that fill cloudflare file up to the type of cloudflare key that you got, don't forgot to key or token with your credentials.
 ```shell
 # Example credentials file using restricted API Token (recommended):
 dns_cloudflare_api_token = 0123456789abcdef0123456789abcdef01234567
@@ -46,7 +48,7 @@ dns_cloudflare_email = cloudflare@example.com
 dns_cloudflare_api_key = 0123456789abcdef0123456789abcdef01234
 ```
 
-After that create docker-compose.yml file, don't forget to change website and email;
+> 4 - After that create docker-compose.yml file, don't forget to change website and email;
 ```yaml
 version: "2"
 
@@ -64,7 +66,7 @@ services:
 ```
 
 
-Then run;
+> 5 - Then run;
 ```shell
 docker-compose up
 ```
@@ -100,6 +102,7 @@ So, now you have your ssl certificates. We will upload these to google cloud pla
 
 ### Adding certificates to custom domain
 
+*under construction...*
 
 Resources:
 - <a rel="external" target="_blank" href="https://www.nodinrogers.com/post/2022-03-10-certbot-cloudflare-docker">https://www.nodinrogers.com/post/2022-03-10-certbot-cloudflare-docker</a>
