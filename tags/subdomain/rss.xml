@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>nurulmac11&#x27;s blog - subdomain</title>
+        <link>https://nmacun.com</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://nmacun.com/tags/subdomain/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate>
+        <item>
+            <title>Setting SSL for Custom Subdomain on Google App Engine</title>
+            <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+            <link>https://nmacun.com/ssl-settings-custom-subdomain-google-app-engine/</link>
+            <guid>https://nmacun.com/ssl-settings-custom-subdomain-google-app-engine/</guid>
+            <description>&lt;p&gt;We have 3 separate environments(namely, version) for our app which is hosted in google app engine; development, staging
+and production.
+We already have example.com mapped to master version of app but I need to map staging.extra.example.com to staging
+environment with ssl enabled.
+Google App Engine allows you to add a wildcard custom domain then it automatically maps each versions as subdomains of
+it.
+So, in our case, if we add *.extra.example.com, google app engine will automatically map staging environment(version) to
+staging.extra.example.com.&lt;&#x2F;p&gt;
+</description>
+        </item>
+    </channel>
+</rss>

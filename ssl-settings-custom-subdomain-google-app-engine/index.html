@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>nurulmac11&#x27;s blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="robots" content="noodp"/>
+
+    <link rel="stylesheet" href="https://nmacun.com/style.css">
+    <link rel="stylesheet" href="https://nmacun.com/color/blue.css">
+
+    <link rel="stylesheet" href="https://nmacun.com/font-hack-subset.css">
+
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://nmacun.com/rss.xml">
+    <link rel="stylesheet" href="https://nmacun.com/normalize.css">
+        <link rel="shortcut icon" type="image&#x2F;png" href="/favicon.png">
+    
+    </head>
+
+<body class="">
+<div class="container">
+    
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                    
+                <a href="https://nmacun.com" style="text-decoration: none;">
+                    <div class="logo">
+                      
+                            nurulmac11&#x27;s blog
+                        
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        
+        
+                <nav class="menu">
+            <ul class="menu__inner">
+                <li class="active"><a href="https://nmacun.com">blog</a></li>
+            
+                <li><a href="https://nmacun.com/about">about me</a></li>
+            
+                <li><a href="https://nmacun.com/rss.xml">rss</a></li>
+            
+                <li><a href="https://www.linkedin.com/in/nrlmcn/" target="_blank" rel="external">linkedin</a></li>
+            
+                <li><a href="https://github.com/nurulmac11" target="_blank" rel="external">github</a></li>
+            </ul>
+        </nav>
+    
+    
+        
+    </header>
+    
+
+    <div class="content">
+        
+    <div class="post">
+        
+    <h1 class="post-title"><a href="https://nmacun.com/ssl-settings-custom-subdomain-google-app-engine/">Setting SSL for Custom Subdomain on Google App Engine</a></h1>
+    <div class="post-meta-inline">
+        
+<span class="post-date">
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32"
+     width="16" height="16" fill="none" stroke="currentcolor"
+     stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z"/>
+</svg>
+Published
+            2022-11-12
+        </span>
+
+        
+    </div>
+<br/>
+<div class="post-meta-inline">
+    <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <circle cx="16" cy="16" r="14"/>
+        <path d="M16 8 L16 16 20 20"/>
+    </svg>
+    <span>6 minute read</span>
+</div>
+<br/>
+
+        <span class="post-tags-inline">
+                <a class="post-tag" href="https://nmacun.com/tags/google-app-engine/">#google app engine</a>
+            
+                <a class="post-tag" href="https://nmacun.com/tags/google-cloud-platform/">#google cloud platform</a>
+            
+                <a class="post-tag" href="https://nmacun.com/tags/cloudflare/">#cloudflare</a>
+            
+                <a class="post-tag" href="https://nmacun.com/tags/ssl/">#ssl</a>
+            
+                <a class="post-tag" href="https://nmacun.com/tags/subdomain/">#subdomain</a>
+            </span>
+    
+<br/>
+    
+
+        
+        <div class="post-content">
+            <p>We have 3 separate environments(namely, version) for our app which is hosted in google app engine; development, staging
+and production.
+We already have example.com mapped to master version of app but I need to map staging.extra.example.com to staging
+environment with ssl enabled.
+Google App Engine allows you to add a wildcard custom domain then it automatically maps each versions as subdomains of
+it.
+So, in our case, if we add *.extra.example.com, google app engine will automatically map staging environment(version) to
+staging.extra.example.com.</p>
+<span id="continue-reading"></span>
+<p>But there is a problem with wildcard subdomains, google app engine's managed SSL certificates doesn't work in this
+situation.
+Check this quote for explanation;</p>
+<blockquote>
+<p>&quot;But why?&quot; you will probably ask yourself. To issue a wildcard SSL certificate with LetsEncrypt, you need to achieve a
+DNS-01 challenge instead of HTTP-01 challenge. To automate certificate renewal (which is required given their TTL), you
+need to modify your DNS zone via API, which is different for each DNS provider. That is why Google does not (for now)
+implement managed wildcard SSL certificates.</p>
+</blockquote>
+<p>So, we will need to generate our certificate using certbot. There was a working ready to use google cloud certbot
+image (eu.gcr.io/gcloud-certbot/gcloud-certbot)
+but it seems like that doesn't work anymore. So, instead of using this image and automating it on cloud, we will
+generate certificates on our localhost, then upload it manually.
+Since we will need to this once in a every 3 months, don't forget to write a wiki about process for your company.</p>
+<h3 id="creating-ssl-certificate">Creating SSL Certificate</h3>
+<p>For this part, you will need cloudflare api token. In this post, I won't explain it but you can find several guides on
+web about this.</p>
+<blockquote>
+<p>1 - Create a new directory to work within it.</p>
+</blockquote>
+<pre data-lang="shell" style="background-color:#2b303b;color:#6c7079;" class="language-shell "><code class="language-shell" data-lang="shell"><span style="color:#abb2bf;">mkdir ssl &amp;&amp; cd ssl
+</span></code></pre>
+<blockquote>
+<p>2 - Create a new file named cloudflare with this command;</p>
+</blockquote>
+<pre data-lang="shell" style="background-color:#2b303b;color:#6c7079;" class="language-shell "><code class="language-shell" data-lang="shell"><span style="color:#abb2bf;">touch cloudflare
+</span></code></pre>
+<blockquote>
+<p>3 - After that fill cloudflare file up to the type of cloudflare key that you got, don't forgot to key or token with
+your credentials.</p>
+</blockquote>
+<pre data-lang="shell" style="background-color:#2b303b;color:#6c7079;" class="language-shell "><code class="language-shell" data-lang="shell"><span style="color:#abb2bf;"># Example credentials file using restricted API Token (recommended):
+</span><span style="color:#abb2bf;">dns_cloudflare_api_token = 0123456789abcdef0123456789abcdef01234567
+</span></code></pre>
+<p>or</p>
+<pre data-lang="shell" style="background-color:#2b303b;color:#6c7079;" class="language-shell "><code class="language-shell" data-lang="shell"><span style="color:#abb2bf;"># Example credentials file using Global API Key (not recommended):
+</span><span style="color:#abb2bf;">dns_cloudflare_email = cloudflare@example.com
+</span><span style="color:#abb2bf;">dns_cloudflare_api_key = 0123456789abcdef0123456789abcdef01234
+</span></code></pre>
+<blockquote>
+<p>4 - After that create docker-compose.yml file, don't forget to change website and email;</p>
+</blockquote>
+<pre data-lang="yaml" style="background-color:#2b303b;color:#6c7079;" class="language-yaml "><code class="language-yaml" data-lang="yaml"><span style="color:#eb6772;">version</span><span style="color:#abb2bf;">: </span><span style="color:#9acc76;">&quot;2&quot;
+</span><span style="color:#abb2bf;">
+</span><span style="color:#eb6772;">services</span><span style="color:#abb2bf;">:
+</span><span style="color:#abb2bf;">  </span><span style="color:#eb6772;">letsencrypt-cloudflare</span><span style="color:#abb2bf;">:
+</span><span style="color:#abb2bf;">    </span><span style="color:#eb6772;">image</span><span style="color:#abb2bf;">: </span><span style="color:#9acc76;">certbot/dns-cloudflare
+</span><span style="color:#abb2bf;">
+</span><span style="color:#abb2bf;">    </span><span style="font-style:italic;color:#5f697a;"># Issue certificate
+</span><span style="color:#abb2bf;">    </span><span style="color:#eb6772;">command</span><span style="color:#abb2bf;">: </span><span style="color:#9acc76;">certonly --non-interactive --dns-cloudflare --dns-cloudflare-credentials /opt/cloudflare/credentials --agree-tos -d extra.example.com --email youremail@example.com --server https://acme-v02.api.letsencrypt.org/directory
+</span><span style="color:#abb2bf;">
+</span><span style="color:#abb2bf;">    </span><span style="color:#eb6772;">volumes</span><span style="color:#abb2bf;">:
+</span><span style="color:#abb2bf;">      - </span><span style="color:#9acc76;">./cloudflare:/opt/cloudflare
+</span><span style="color:#abb2bf;">      - </span><span style="color:#9acc76;">./letsencrypt:/etc/letsencrypt
+</span><span style="color:#abb2bf;">      - </span><span style="color:#9acc76;">./letsencrypt/log:/var/log/letsencrypt
+</span></code></pre>
+<blockquote>
+<p>5 - Then run;</p>
+</blockquote>
+<pre data-lang="shell" style="background-color:#2b303b;color:#6c7079;" class="language-shell "><code class="language-shell" data-lang="shell"><span style="color:#abb2bf;">docker-compose up
+</span></code></pre>
+<p>and you should got an output like this;</p>
+<pre data-lang="shell" style="background-color:#2b303b;color:#6c7079;" class="language-shell "><code class="language-shell" data-lang="shell"><span style="color:#abb2bf;">[+] Running 1/1
+</span><span style="color:#abb2bf;"> ⠿ Container sslproblems-letsencrypt-cloudflare-1  Recreated                                                                                                                             0.1s
+</span><span style="color:#abb2bf;">Attaching to sslproblems-letsencrypt-cloudflare-1
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | Saving debug log to /var/log/letsencrypt/letsencrypt.log
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | Account registered.
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | Requesting a certificate for extra.example.com
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | Unsafe permissions on credentials configuration file: /opt/cloudflare/credentials
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | Waiting 10 seconds for DNS changes to propagate
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  |
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | Successfully received certificate.
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | Certificate is saved at: /etc/letsencrypt/live/extra.example.com/fullchain.pem
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | Key is saved at:         /etc/letsencrypt/live/extra.example.com/privkey.pem
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | This certificate expires on 2023-02-10.
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | These files will be updated when the certificate renews.
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | NEXT STEPS:
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | - The certificate will need to be renewed before it expires. Certbot can automatically renew the certificate in the background, but you may need to take steps to enable that functionality. See https://certbot.org/renewal-setup for instructions.
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  |
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | If you like Certbot, please consider supporting our work by:
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  |  * Donating to ISRG / Let&#39;s Encrypt:   https://letsencrypt.org/donate
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  |  * Donating to EFF:                    https://eff.org/donate-le
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1  | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+</span><span style="color:#abb2bf;">sslproblems-letsencrypt-cloudflare-1 exited with code 0
+</span></code></pre>
+<p>So, now you have your ssl certificates. We will upload these to google cloud platform.</p>
+<h3 id="adding-certificates-to-custom-domain">Adding certificates to custom domain</h3>
+<p>After getting your ssl certificates, which is <code>letsencrypt/live/extra.example.com/fullchain.pem</code>
+and <code>letsencrypt/live/extra.example.com/privkey.pem</code>
+you can add these to google app engine.</p>
+<blockquote>
+<p>1 - <a href="https://console.cloud.google.com/appengine/settings/certificates" rel="external" target="_blank">
+https://console.cloud.google.com/appengine/settings/certificates</a>
+Go to this url and click on <code>UPLOAD NEW CERTIFICATE</code>. So before uploading we need one more step.</p>
+</blockquote>
+<blockquote>
+<p>2 - Since privkey.pem file is incompatible with google, we need to convert it using this command;</p>
+<p><code>openssl rsa -in privkey.pem &gt; out_privkey.pem</code></p>
+</blockquote>
+<blockquote>
+<p>3 - After this, we can upload fullchain to public key section and out_privkey to RSA private key section.</p>
+</blockquote>
+<blockquote>
+<p>4 - Then, refresh the page and click to certificate that you just created. And click add custom domain. Select your
+main domain on the
+<code>Select the domain you want to use</code> section and in the <code>Point your domain to example..</code> section,
+type <code>*.extra.example.com</code>. Then save this record.</p>
+</blockquote>
+<blockquote>
+<p>5 - After that refresh the page, and click on the certificate that you just created, and mark the domain if it's not
+marked automatically to enable this certificate for that domain in the <code>Enable SSL for the following custom domains</code>
+section.</p>
+</blockquote>
+<blockquote>
+<p>6 - So as a final step, check <code>Custom Domains</code> tab. There should be a new record with your new custom subdomain.
+Add that record to your cloudflare dns records. </p>
+</blockquote>
+<p>That was all. Hope that works for you too. Reach me out via linkedin if you have any questions.</p>
+<p>Resources:</p>
+<ul>
+<li><a rel="external" target="_blank" href="https://www.nodinrogers.com/post/2022-03-10-certbot-cloudflare-docker">https://www.nodinrogers.com/post/2022-03-10-certbot-cloudflare-docker</a></li>
+<li><a rel="external" target="_blank" href="https://www.murrayc.com/permalink/2017/10/15/google-app-engine-using-subdomains/">https://www.murrayc.com/permalink/2017/10/15/google-app-engine-using-subdomains/</a></li>
+<li><a rel="external" target="_blank" href="https://dev.to/zenika/how-to-use-secured-wildcard-custom-domains-on-appengine-1a9b">https://dev.to/zenika/how-to-use-secured-wildcard-custom-domains-on-appengine-1a9b</a></li>
+<li><a rel="external" target="_blank" href="https://certbot-dns-cloudflare.readthedocs.io/en/stable/#credentials">https://certbot-dns-cloudflare.readthedocs.io/en/stable/#credentials</a></li>
+</ul>
+
+        </div>
+
+        
+        <hr>
+        <p class="author">
+            
+                Published by nurulmac11
+            
+        </p>
+    </div>
+
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footer__inner">
+                <div class="copyright">
+                        <span>© 
+    2022
+ nurulmac11</span>
+                    <span class="copyright-theme">
+                        <span class="copyright-theme-sep">:: </span>
+                        Theme: <a href="https://github.com/pawroman/zola-theme-terminimal/" target="_blank">Terminimal</a> by pawroman
+                    </span>
+                </div>
+            </div>
+    </footer>
+    
+
+</div>
+</body>
+
+</html>
