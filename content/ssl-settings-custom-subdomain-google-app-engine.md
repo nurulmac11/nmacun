@@ -7,7 +7,7 @@ tags = ["google app engine", "google cloud platform", "cloudflare", "ssl", "subd
 +++
 
 We have 3 separate environments(namely, version) for our app which is hosted in google app engine; development, staging
-and production.
+and production. 
 We already have example.com mapped to master version of app but I need to map staging.extra.example.com to staging
 environment with ssl enabled.
 Google App Engine allows you to add a wildcard custom domain then it automatically maps each versions as subdomains of
