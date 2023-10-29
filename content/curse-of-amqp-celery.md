@@ -41,7 +41,7 @@ celery -A src.tasks worker -n hp@Billing-Manager --pool=gevent --concurrency=100
 ```
 
 
-Pretty simple and straightforward actually. We have redis as a broker on the same network and postgresql db for storing results of tasks. Also we are using ETA and retry features of celery which makes things more complex and hard. But we keep having mysterious problems with celery. What's happening was, our workers were stopping to process tasks suddenly, after working several hours, without any error. When we check the logs, status machine, network, everything seemed ok. 
+Pretty simple and straightforward actually. We have redis as a broker on the same network and postgresql db for storing results of tasks. Also we are using ETA and retry features of celery which makes things more complex and hard. But we keep having mysterious problems with celery. What's happening was, our workers were stopping to process tasks suddenly, after working several hours, without any error. When we check the logs, status of the server, network, everything seemed ok. I even tried switching in between redis and rabbitmq as broker several times, but didn't help at all.
 
 There were <a href="https://stackoverflow.com/a/33936673/4087794" target="_blank">some debugging suggestions</a> on the internet using tools such as strace but they lead to nothing. My best guess was it was caused some kind of deadlock or connection problem with broker. Seemed like celery was losing connection to broker but was unable to reconnect to broker. I found some discussions on celery/kombu repo's discussion pages but there were no solution, just some unclosed pull requests that still needs work.
 
@@ -58,7 +58,7 @@ Then I started to try different methods. Firstly, I tried to switch just thread 
 celery -A src.tasks worker -n 'hp@Billing-Manager' --pool=eventlet --concurrency=100 -Q hp -l INFO &
 ```
 
-Then I found another pooling method, which was eventlet. It's very similar to gevent, I am still not sure what's the difference exactly but it seems like they are using different libraried underneath them. If you want to read more about this, you can <a href="https://blog.gevent.org/2010/02/27/why-gevent/" target="_blank">check this link</a>.
+Then I found another pooling method, which was eventlet. It's very similar to gevent, I am still not sure what's the difference exactly but it seems like they are using different libraries underneath them. If you want to read more about this, you can <a href="https://blog.gevent.org/2010/02/27/why-gevent/" target="_blank">check this link</a>.
 
 This was working much better compared to the alternatives but it was filling memory just within minutes. After checking task methods, I cleared all unhandled exceptions and return values. Also removed exc parameter from self.retry calls. Even we had a database for storing results, it seems like celery was unable to clear these from memory or it was happening because our tasks were retried all day several times. But this memory issue also solved after this update. Now, it works flawlessly.
 
