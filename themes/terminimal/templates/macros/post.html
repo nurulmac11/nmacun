@@ -19,50 +19,34 @@
 
 
 {% macro date(page) %}
-<span class="post-date">
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32"
-     width="16" height="16" fill="none" stroke="currentcolor"
-     stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z"/>
-</svg>
-Published
+    <span class="post-date">
         {%- if page.date %}
             {{ page.date | date(format="%Y-%m-%d") }}
         {% endif -%}
     </span>
 {% endmacro post_date %}
 
-{% macro update_date(page) %}
-<span class="post-date">
-        <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32"
-             width="16" height="16" fill="none" stroke="currentcolor"
-             stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-            <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z"/>
-        </svg>
-    Updated {{ page.updated | date(format="%Y-%m-%d") }}
-    </span>
-{% endmacro update_date %}
 
 {% macro earlier_later(page) %}
-    {%- if config.extra.enable_post_view_navigation and page.earlier or page.later %}
+    {%- if config.extra.enable_post_view_navigation and page.lower or page.higher %}
         <div class="pagination">
             <div class="pagination__title">
                 <span class="pagination__title-h">{{ config.extra.post_view_navigation_prompt }}</span>
                 <hr />
             </div>
             <div class="pagination__buttons">
-                {%- if page.later %}
+                {%- if page.higher %}
                     <span class="button previous">
-                        <a href="{{ page.later.permalink | safe }}">
+                        <a href="{{ page.higher.permalink | safe }}">
                             <span class="button__icon">←</span>&nbsp;
-                            <span class="button__text">{{ page.later.title }}</span>
+                            <span class="button__text">{{ page.higher.title }}</span>
                         </a>
                     </span>
                 {% endif %}
-                {% if page.earlier %}
+                {% if page.lower %}
                     <span class="button next">
-                        <a href="{{ page.earlier.permalink | safe }}">
-                            <span class="button__text">{{ page.earlier.title }}</span>&nbsp;
+                        <a href="{{ page.lower.permalink | safe }}">
+                            <span class="button__text">{{ page.lower.title }}</span>&nbsp;
                             <span class="button__icon">→</span>
                         </a>
                     </span>
@@ -77,25 +61,9 @@ Published
     <h1 class="post-title"><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h1>
     <div class="post-meta-inline">
         {{ post_macros::date(page=page) }}
-        {% if page.updated and page.updated != page.date %}
-        <br/>
-        {{ post_macros::update_date(page=page) }}
-        {% endif %}
     </div>
-<br/>
-<div class="post-meta-inline">
-    <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32"
-         width="16" height="16" fill="none" stroke="currentcolor"
-         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-        <circle cx="16" cy="16" r="14"/>
-        <path d="M16 8 L16 16 20 20"/>
-    </svg>
-    <span>{{ page.reading_time }} minute read</span>
-</div>
-<br/>
-{{ post_macros::tags(page=page) }}
-<br/>
-    {{ post_macros::categories(page=page) }}
+
+    {{ post_macros::tags(page=page) }}
 {% endmacro header %}
 
 
@@ -119,27 +87,17 @@ Published
 {% macro tags(page, short=false) %}
     {%- if page.taxonomies and page.taxonomies.tags %}
         <span class="post-tags-inline">
-            {%- for tag in page.taxonomies.tags %}
-                <a class="post-tag" href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">#{{ tag }}</a>
-            {% endfor -%}
-        </span>
-    {% endif -%}
-{% endmacro tags %}
-
-{% macro categories(page, short=false) %}
-{%- if page.taxonomies and page.taxonomies.categories %}
-<span class="post-categories-inline">
             {%- if short %}
                 ::
                 {%- set sep = "," -%}
             {% else %}
-                :: categories:&nbsp;
+                :: tags:&nbsp;
                 {%- set sep = "&nbsp;" -%}
             {% endif -%}
-            {%- for category in page.taxonomies.categories%}
-                <a class="post-category" href="{{ get_taxonomy_url(kind='categories', name=category) | safe }}">{{ category }}</a>
+            {%- for tag in page.taxonomies.tags | sort | unique(case_sensitive=false) %}
+                <a class="post-tag" href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">#{{ tag }}</a>
                 {%- if not loop.last %}{{ sep | safe }}{% endif -%}
             {% endfor -%}
         </span>
-{% endif -%}
-{% endmacro categories%}
+    {% endif -%}
+{% endmacro tags %}

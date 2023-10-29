@@ -2,6 +2,7 @@
 {% import "macros/head.html" as head_macros -%}
 {% import "macros/menu.html" as menu_macros -%}
 {% import "macros/post.html" as post_macros -%}
+{% import "macros/title.html" as title_macros -%}
 
 <!DOCTYPE html>
 <html lang="{%- if config.default_language -%}{{ config.default_language }}{%- else -%}en{%- endif -%}">
@@ -11,12 +12,16 @@
     {{ head_macros::head(config=config) }}
 
     {%- if config.generate_feed %}
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml") | safe }}">
+        {%- if "rss" in config.feed_filename %}
+            {% set feed_type = 'rss+xml' %}
+        {%- else %}
+            {% set feed_type = 'atom+xml' %}
+        {% endif -%}
+        <link rel="alternate" type="application/{{ feed_type }}" title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}">
     {% endif -%}
 
-    <link rel="stylesheet" href="{{ get_url(path="normalize.css", trailing_slash=false) | safe }}">
     {%- if config.extra.favicon %}
-        <link rel="shortcut icon" type="{{ config.extra.favicon_mimetype | default(value="image/x-icon") }}" href="{{ config.extra.favicon | safe }}">
+        <link rel="shortcut icon" type="{{ config.extra.favicon_mimetype | default(value="image/x-icon") | safe }}" href="{{ config.extra.favicon | safe }}">
     {% endif -%}
 
     {%- block extra_head %}
@@ -29,8 +34,8 @@
     <header class="header">
         <div class="header__inner">
             <div class="header__logo">
-                {%- if config.logo_home_link %}
-                    {% set logo_link = config.logo_home_link %}
+                {%- if config.extra.logo_home_link %}
+                    {% set logo_link = config.extra.logo_home_link %}
                 {% else %}
                     {% set logo_link = config.base_url %}
                 {% endif -%}
@@ -108,7 +113,7 @@
 
                     <span class="copyright-theme">
                         <span class="copyright-theme-sep">:: </span>
-                        Theme: <a href="https://github.com/pawroman/zola-theme-terminimal/" target="_blank">Terminimal</a> by pawroman
+                        Theme: <a href="https://github.com/pawroman/zola-theme-terminimal/">Terminimal</a> by pawroman
                     </span>
                 </div>
             {% endif -%}
@@ -117,6 +122,8 @@
     {% endblock footer %}
 
 </div>
+{%- block extra_body %}
+{% endblock extra_body -%}
 </body>
 
 </html>

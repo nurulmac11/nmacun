@@ -11,11 +11,6 @@
   margin: 20px auto;
   padding: 20px 0;
 
-  .author {
-    opacity: 0.5;
-    font-size: 12px;
-  }
-
   @media (max-width: $tablet-max-width) {
     max-width: 660px;
   }
@@ -56,12 +51,6 @@
 
   %tags {
     margin-bottom: 20px;
-    font-size: 12px;
-    opacity: .5;
-  }
-
-  %categories {
-    margin-bottom: 20px;
     font-size: 1rem;
     opacity: .5;
   }
@@ -74,23 +63,6 @@
 
   &-tags-inline {
     @extend %tags;
-
-    display: inline;
-
-    @media (max-width: $phone-max-width) {
-      display: block;
-    }
-  }
-
-
-  &-categories {
-    @extend %categories;
-
-    display: block;
-  }
-
-  &-categories-inline {
-    @extend %categories;
 
     display: inline;
 
