@@ -31,13 +31,13 @@ because I was a child and afraid of I need to pay some extra internet bill etc.
 <p>
 At high school years, I met with php. I remember that oop was pretty new for php in those years. 
 So, I met with algorithmic thinking first time, like a basic syntax of a programming language, if, else, for etc.
-I continued to code websites using php. After coding several websites just for fun with vanilla php, css, I learnt about frameworks.
+I continued to code websites using php. After coding several websites just for fun with vanilla php, css, I learned about frameworks.
 Then, I met with codeigniter, bootstrap and coded several websites with those too.</p>
 
 <p>
-At college years, I met with python and love it. It was easy to simple, code and love. 
-Since then, I am using python for everything, mainly web coding. I coded several website using django, django rest framework.
-I learnt basics of REST api. At some point, I met with vue.js and it was my first javascript framework for frontend.
+At college years, I met with python and love it. It was so simple and easy to learn, code and love. 
+Since then, I am using python for everything, mainly web coding. I coded several websites using django, django rest framework.
+I learned basics of REST api. At some point, I met with vue.js and it was my first javascript framework for frontend.
 So, I had gained experience with frontend coding also.
 </p>
 

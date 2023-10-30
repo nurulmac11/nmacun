@@ -7,7 +7,7 @@ tags = ["celery", "eta", "sqs", "eta", "retry"]
 +++
 > Nobody panics when things go "according to plan." Even if the plan is horrifying! 
 
-If you haven't had a problem with celery yet, most likely, you haven't used it enough. In this post, I will explain problems that I encountered and solutions to them, finally.
+If you haven't had a problem with celery yet, most likely, you haven't used it enough. In this post, I will explain problems that I've encountered and solutions I finally found after struggling for days.
 
 <!-- more -->
  TLDR:
