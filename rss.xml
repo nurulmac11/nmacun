@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>nurulmac11&#x27;s blog</title>
+      <link>https://nmacun.com</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://nmacun.com/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Curse of AMQP: Celery</title>
+          <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://nmacun.com/curse-of-amqp-celery/</link>
+          <guid>https://nmacun.com/curse-of-amqp-celery/</guid>
+          <description>&lt;blockquote&gt;
+&lt;p&gt;Nobody panics when things go &amp;quot;according to plan.&amp;quot; Even if the plan is horrifying! &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;If you haven&#x27;t had a problem with celery yet, most likely, you haven&#x27;t used it enough. In this post, I will explain problems that I&#x27;ve encountered and solutions I finally found after struggling for days.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>contact</title>
+          <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://nmacun.com/contact/</link>
+          <guid>https://nmacun.com/contact/</guid>
+          <description></description>
+      </item>
+      <item>
+          <title>Setting SSL for Custom Subdomain on Google App Engine</title>
+          <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://nmacun.com/ssl-settings-custom-subdomain-google-app-engine/</link>
+          <guid>https://nmacun.com/ssl-settings-custom-subdomain-google-app-engine/</guid>
+          <description>&lt;p&gt;We have 3 separate environments(namely, version) for our app which is hosted in google app engine; development, staging
+and production. 
+We already have example.com mapped to master version of app but I need to map staging.extra.example.com to staging
+environment with ssl enabled.
+Google App Engine allows you to add a wildcard custom domain then it automatically maps each versions as subdomains of
+it.
+So, in our case, if we add *.extra.example.com, google app engine will automatically map staging environment(version) to
+staging.extra.example.com.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>who and what is nurulmac11</title>
+          <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://nmacun.com/about/</link>
+          <guid>https://nmacun.com/about/</guid>
+          <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nmacun.com&#x2F;about&#x2F;#about&quot;&gt;About me&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nmacun.com&#x2F;about&#x2F;#movie&quot;&gt;Movies&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nmacun.com&#x2F;about&#x2F;#photography&quot;&gt;Photography&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;section id=&quot;about&quot;&gt;
+&lt;h3 id=&quot;about-me&quot;&gt;About me&lt;&#x2F;h3&gt;
+&lt;p&gt;
+nurulmac11 is my first nickname on the internet. It was simply one of the email address suggestions of hotmail when I
+was 11. So, hotmail combined my name, lastname and age and generated this username.
+I liked this username, and I am using it since then.
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+So, my name is Nurullah Macun. I am from Manisa and living in Ankara. I am coding since my childhood. I started coding 
+websites using free website tools (namely, tr.gg, I guess it&#x27;s still active?) at about 2008 and met with html, css. 
+I would like to share webarchive snapshot of that website, but I am a bit embarrassed :D 
+I even remember asking my parents to if I can open a website using this tool 
+because I was a child and afraid of I need to pay some extra internet bill etc. 
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+At high school years, I met with php. I remember that oop was pretty new for php in those years. 
+So, I met with algorithmic thinking first time, like a basic syntax of a programming language, if, else, for etc.
+I continued to code websites using php. After coding several websites just for fun with vanilla php, css, I learned about frameworks.
+Then, I met with codeigniter, bootstrap and coded several websites with those too.&lt;&#x2F;p&gt;
+&lt;p&gt;
+At college years, I met with python and love it. It was so simple and easy to learn, code and love. 
+Since then, I am using python for everything, mainly web coding. I coded several websites using django, django rest framework.
+I learned basics of REST api. At some point, I met with vue.js and it was my first javascript framework for frontend.
+So, I had gained experience with frontend coding also.
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+At my professional working years, I continued to work in similar tech stacks, which is python, 
+django on the backend side and react.js on the frontend. Mostly, I worked at the startups, 
+so I find a chance to touch each part of web development not only backend.
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+Besides from coding, here are some other parts of me. You can check;&lt;&#x2F;p&gt;
+&lt;&#x2F;section&gt;
+&lt;hr &#x2F;&gt;
+&lt;section id=&quot;movie&quot;&gt;
+&lt;h3 id=&quot;movie-recommendations&quot;&gt;Movie recommendations&lt;&#x2F;h3&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0165832&quot;&gt;Interstate 60: Episodes of the Road&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+A perfect movie about life, death and road.
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0050976&#x2F;?ref_=ttls_li_tt2&quot;&gt;The Seventh Seal&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+How can we believe in the faithful when we lack faith? What will happen to us who want to believe, but can not? What about those who neither want to nor can believe? Why can&#x27;t I kill God in me?
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0050976&#x2F;?ref_=ttls_li_tt2&quot;&gt;Nocturnal Animals&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+A movie about a novel.
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0371257&#x2F;?ref_=ttls_li_tt&quot;&gt;Stay&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+“If this is a dream, the whole world is inside it.”
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0243017&#x2F;?ref_=ttls_li_tt&quot;&gt;Waking Life&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+“There’s only one instant, and it’s right now. And it’s eternity.”
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0477139&#x2F;?ref_=ttls_li_tt&quot;&gt;Wristcutters: A Love Story&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0107653&#x2F;?ref_=ttls_li_tt&quot;&gt;Naked&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&quot;I&#x27;ve got an infinite number of places to go, the problem is where to stay.&quot;
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0098327&#x2F;?ref_=ttls_li_tt&quot;&gt;The Seventh Continent&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+Darkest movie I&#x27;ve ever watched.
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0460791&#x2F;?ref_=ttls_li_tt&quot;&gt;The Fall&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+A movie like a fairytale.
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0812243&#x2F;?ref_=ttls_li_tt&quot;&gt;Ex Drummer&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0125659&#x2F;?ref_=ttls_li_tt&quot;&gt;Open Your Eyes&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0330243&#x2F;?ref_=ttls_li_tt&quot;&gt;Day of the Wacko&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&quot;Why must this day end? Will nothing else happen?&quot;
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0485851&#x2F;?ref_=ttls_li_tt&quot;&gt;The Air I Breathe&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&quot;Sometimes the things you can&#x27;t change end up changing you.&quot;
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0106856&#x2F;?ref_=nv_sr_srsg_3&quot;&gt;Falling Down&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+A very similar movie to Joker but much better, older
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0211933&#x2F;?ref_=ttls_li_tt&quot;&gt;Awake&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0211933&#x2F;?ref_=ttls_li_tt&quot;&quot;&gt;Wild Tales&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0088680&#x2F;?ref_=ttls_li_tt&quot;&gt;After Hours&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.imdb.com&#x2F;title&#x2F;tt0119019&#x2F;?ref_=ttls_li_tt&quot;&gt;Dream with the Fishes&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;&#x2F;section&gt;
+&lt;hr &#x2F;&gt;
+&lt;section id=&quot;photography&quot;&gt;
+&lt;h3 id=&quot;photography&quot;&gt;Photography&lt;&#x2F;h3&gt;
+&lt;p&gt;
+I am into photography also. Currently I am using Sony A7 III and my Iphone 14 pro as camera.
+&lt;br&#x2F;&gt;
+Also I have these lenses;
+&lt;ul&gt;
+&lt;li&gt;Sony Fe 24mm F&#x2F;1.4 GM&lt;&#x2F;li&gt;
+&lt;li&gt;Tamron 70-300mm f&#x2F;4.5-6.3 Di III RXD&lt;&#x2F;li&gt;
+&lt;li&gt;Sony FE 85mm F&#x2F;1.8&lt;&#x2F;li&gt;
+&lt;li&gt;Tamron 28-75mm f&#x2F;2.8 Di III VXD&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;You can check my instagram &lt;a target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.instagram.com&#x2F;nrlmcn&#x2F;&quot; rel=&quot;external&quot;&gt;from here.&lt;&#x2F;a&gt;
+&lt;br &#x2F;&gt;
+Here are some examples of my shots;
+&lt;div style=&quot;text-align: center&quot;&gt;
+
+    &lt;a href=&quot;https:&#x2F;&#x2F;nmacun.com&#x2F;photos&#x2F;sky.jpg&quot; target=&quot;_blank&quot; role=&quot;img&quot; style=&quot;float: left; margin: 5px&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;nmacun.com&amp;#x2F;processed_images&amp;#x2F;sky.e8c36ff6f7ee3fde.jpg&quot; width=&quot;240px&quot; height=&quot;180px&quot;&#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;nmacun.com&#x2F;photos&#x2F;sky2.jpg&quot; target=&quot;_blank&quot; role=&quot;img&quot; style=&quot;float: left; margin: 5px&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;nmacun.com&amp;#x2F;processed_images&amp;#x2F;sky2.18326544bac5cd33.jpg&quot; width=&quot;240px&quot; height=&quot;180px&quot;&#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;nmacun.com&#x2F;photos&#x2F;lake.jpg&quot; target=&quot;_blank&quot; role=&quot;img&quot; style=&quot;float: left; margin: 5px&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;nmacun.com&amp;#x2F;processed_images&amp;#x2F;lake.4dc19fcdeb7c20c9.jpg&quot; width=&quot;240px&quot; height=&quot;180px&quot;&#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;nmacun.com&#x2F;photos&#x2F;child.jpg&quot; target=&quot;_blank&quot; role=&quot;img&quot; style=&quot;float: left; margin: 5px&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;nmacun.com&amp;#x2F;processed_images&amp;#x2F;child.9434ed277c72f887.jpg&quot; width=&quot;240px&quot; height=&quot;180px&quot;&#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;nmacun.com&#x2F;photos&#x2F;waiting.jpg&quot; target=&quot;_blank&quot; role=&quot;img&quot; style=&quot;float: left; margin: 5px&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;nmacun.com&amp;#x2F;processed_images&amp;#x2F;waiting.2c3e3e2bbeca3d81.jpg&quot; width=&quot;240px&quot; height=&quot;180px&quot;&#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;nmacun.com&#x2F;photos&#x2F;lunapark.jpg&quot; target=&quot;_blank&quot; role=&quot;img&quot; style=&quot;float: left; margin: 5px&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;nmacun.com&amp;#x2F;processed_images&amp;#x2F;lunapark.fa17efb9f40ab533.jpg&quot; width=&quot;240px&quot; height=&quot;180px&quot;&#x2F;&gt;
+    &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;p&gt;
+&lt;&#x2F;section&gt;
+</description>
+      </item>
+    </channel>
+</rss>

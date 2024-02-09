@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>nurulmac11&#x27;s blog - sqs</title>
+      <link>https://nmacun.com</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://nmacun.com/tags/sqs/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Curse of AMQP: Celery</title>
+          <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://nmacun.com/curse-of-amqp-celery/</link>
+          <guid>https://nmacun.com/curse-of-amqp-celery/</guid>
+          <description>&lt;blockquote&gt;
+&lt;p&gt;Nobody panics when things go &amp;quot;according to plan.&amp;quot; Even if the plan is horrifying! &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;If you haven&#x27;t had a problem with celery yet, most likely, you haven&#x27;t used it enough. In this post, I will explain problems that I&#x27;ve encountered and solutions I finally found after struggling for days.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

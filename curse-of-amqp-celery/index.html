@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Curse of AMQP: Celery</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="robots" content="noodp"/>
+
+    <link rel="stylesheet" href="https://nmacun.com/style.css">
+    <link rel="stylesheet" href="https://nmacun.com/color/blue.css">
+
+    <link rel="stylesheet" href="https://nmacun.com/font-hack-subset.css">
+
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="https://nmacun.com/rss.xml">
+    
+        <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    
+    </head>
+
+<body class="">
+<div class="container">
+    
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                    
+                <a href="https://nmacun.com" style="text-decoration: none;">
+                    <div class="logo">
+                      
+                            nurulmac11&#x27;s blog
+                        
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        
+        
+                <nav class="menu">
+            <ul class="menu__inner">
+                <li class="active"><a href="https://nmacun.com">blog</a></li>
+            
+                <li><a href="https://nmacun.com/about">about me</a></li>
+            
+                <li><a href="https://nmacun.com/rss.xml">rss</a></li>
+            
+                <li><a href="https://www.linkedin.com/in/nrlmcn/" target="_blank" rel="noopener noreferrer">linkedin</a></li>
+            
+                <li><a href="https://github.com/nurulmac11" target="_blank" rel="noopener noreferrer">github</a></li>
+            </ul>
+        </nav>
+    
+    
+        
+    </header>
+    
+
+    <div class="content">
+        
+    <div class="post">
+        
+    <h1 class="post-title"><a href="https://nmacun.com/curse-of-amqp-celery/">Curse of AMQP: Celery</a></h1>
+    <div class="post-meta-inline">
+        
+    <span class="post-date">
+            2023-10-30
+        </span>
+
+    </div>
+
+    
+        <span class="post-tags-inline">
+                :: tags:&nbsp;
+                <a class="post-tag" href="https://nmacun.com/tags/celery/">#celery</a>&nbsp;
+                <a class="post-tag" href="https://nmacun.com/tags/eta/">#eta</a>&nbsp;
+                <a class="post-tag" href="https://nmacun.com/tags/retry/">#retry</a>&nbsp;
+                <a class="post-tag" href="https://nmacun.com/tags/sqs/">#sqs</a></span>
+    
+
+        
+        <div class="post-content">
+            <blockquote>
+<p>Nobody panics when things go &quot;according to plan.&quot; Even if the plan is horrifying! </p>
+</blockquote>
+<p>If you haven't had a problem with celery yet, most likely, you haven't used it enough. In this post, I will explain problems that I've encountered and solutions I finally found after struggling for days.</p>
+<span id="continue-reading"></span>
+<p>TLDR:</p>
+<ul>
+<li>For a low workload of a few processes per minute, stick with default thread pooling for your workers.</li>
+<li>If you're dealing with high throughput (thousands of processes per minute), opt for eventlet pooling.</li>
+<li>Avoid using gevent.</li>
+<li>When facing memory issues, ensure there are no unhandled exceptions within your tasks and task methods return only True, also, don't use exc parameter within retry calls.</li>
+</ul>
+<hr />
+<p>This was our celery config and command to start workers within fastapi project;</p>
+<pre data-lang="python" style="background-color:#2b303b;color:#6c7079;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#abb2bf;">app </span><span style="color:#adb7c9;">= </span><span style="color:#eb6772;">Celery</span><span style="color:#abb2bf;">(
+</span><span style="color:#abb2bf;">    </span><span style="color:#9acc76;">&quot;tasks&quot;</span><span style="color:#abb2bf;">,
+</span><span style="color:#abb2bf;">    </span><span style="color:#eb6772;">broker</span><span style="color:#adb7c9;">=</span><span style="color:#abb2bf;">os.</span><span style="color:#eb6772;">getenv</span><span style="color:#abb2bf;">(</span><span style="color:#9acc76;">&quot;CELERY_BROKER&quot;</span><span style="color:#abb2bf;">, </span><span style="color:#9acc76;">&quot;redis://redis&quot;</span><span style="color:#abb2bf;">),
+</span><span style="color:#abb2bf;">    </span><span style="color:#eb6772;">broker_connection_retry</span><span style="color:#adb7c9;">=</span><span style="color:#db9d63;">True</span><span style="color:#abb2bf;">,
+</span><span style="color:#abb2bf;">    </span><span style="color:#eb6772;">broker_connection_max_retries</span><span style="color:#adb7c9;">=</span><span style="color:#db9d63;">None</span><span style="color:#abb2bf;">,
+</span><span style="color:#abb2bf;">    </span><span style="color:#eb6772;">broker_connection_timeout</span><span style="color:#adb7c9;">=</span><span style="color:#db9d63;">60</span><span style="color:#abb2bf;">,
+</span><span style="color:#abb2bf;">    </span><span style="color:#eb6772;">result_backend</span><span style="color:#adb7c9;">=</span><span style="color:#abb2bf;">os.</span><span style="color:#eb6772;">getenv</span><span style="color:#abb2bf;">(</span><span style="color:#9acc76;">&quot;CELERY_RESULT_BACKEND&quot;</span><span style="color:#abb2bf;">, </span><span style="color:#9acc76;">&quot;db+postgresql://admin:admin@192.168.1.1:5432/example-db&quot;</span><span style="color:#abb2bf;">),
+</span><span style="color:#abb2bf;">    </span><span style="color:#eb6772;">task_soft_time_limit</span><span style="color:#adb7c9;">=</span><span style="color:#db9d63;">3</span><span style="color:#abb2bf;">,
+</span><span style="color:#abb2bf;">)
+</span><span style="color:#abb2bf;">
+</span><span style="color:#abb2bf;">app.conf.broker_transport_options </span><span style="color:#adb7c9;">= </span><span style="color:#abb2bf;">{
+</span><span style="color:#abb2bf;">    </span><span style="color:#9acc76;">&quot;visibility_timeout&quot;</span><span style="color:#abb2bf;">: </span><span style="color:#db9d63;">12 </span><span style="color:#adb7c9;">* </span><span style="color:#db9d63;">3600</span><span style="color:#abb2bf;">,
+</span><span style="color:#abb2bf;">}
+</span></code></pre>
+<pre data-lang="shell" style="background-color:#2b303b;color:#6c7079;" class="language-shell "><code class="language-shell" data-lang="shell"><span style="color:#abb2bf;">celery -A src.tasks worker -n hp@Billing-Manager --pool=gevent --concurrency=100 -Q hp -l INFO &amp;
+</span></code></pre>
+<p>Pretty simple and straightforward actually. We have redis as a broker on the same network and postgresql db for storing results of tasks. Also we are using ETA and retry features of celery which makes things more complex and hard. But we keep having mysterious problems with celery. What's happening was, our workers were stopping to process tasks suddenly, after working several hours, without any error. When we check the logs, status of the server, network, everything seemed ok. I even tried switching in between redis and rabbitmq as broker several times, but didn't help at all.</p>
+<p>There were <a href="https://stackoverflow.com/a/33936673/4087794" target="_blank">some debugging suggestions</a> on the internet using tools such as strace but they lead to nothing. My best guess was it was caused some kind of deadlock or connection problem with broker. Seemed like celery was losing connection to broker but was unable to reconnect to broker. I found some discussions on celery/kombu repo's discussion pages but there were no solution, just some unclosed pull requests that still needs work.</p>
+<hr />
+<pre data-lang="shell" style="background-color:#2b303b;color:#6c7079;" class="language-shell "><code class="language-shell" data-lang="shell"><span style="color:#abb2bf;">celery -A src.tasks worker -n hp@Billing-Manager --concurrency=20 -Q hp -l INFO &amp;
+</span></code></pre>
+<p>Then I started to try different methods. Firstly, I tried to switch just thread pooling. We were using gevent, which is using green threads, which allows you to use hundreds of thread compared to the default thread pooling but as expected it was working very slow and we were having oom(out of memory) issues.</p>
+<pre data-lang="shell" style="background-color:#2b303b;color:#6c7079;" class="language-shell "><code class="language-shell" data-lang="shell"><span style="color:#abb2bf;">celery -A src.tasks worker -n &#39;hp@Billing-Manager&#39; --pool=eventlet --concurrency=100 -Q hp -l INFO &amp;
+</span></code></pre>
+<p>Then I found another pooling method, which was eventlet. It's very similar to gevent, I am still not sure what's the difference exactly but it seems like they are using different libraries underneath them. If you want to read more about this, you can <a href="https://blog.gevent.org/2010/02/27/why-gevent/" target="_blank">check this link</a>.</p>
+<p>This was working much better compared to the alternatives but it was filling memory just within minutes. After checking task methods, I cleared all unhandled exceptions and return values. Also removed exc parameter from self.retry calls. Even we had a database for storing results, it seems like celery was unable to clear these from memory or it was happening because our tasks were retried all day several times. But this memory issue also solved after this update. Now, it works flawlessly.</p>
+<p>That was all. Hope that works for you too. Reach me out via linkedin if you have any questions.</p>
+
+        </div>
+
+        
+        <div class="pagination">
+            <div class="pagination__title">
+                <span class="pagination__title-h">Thanks for reading! Read other posts?</span>
+                <hr />
+            </div>
+            <div class="pagination__buttons">
+                    <span class="button previous">
+                        <a href="https://nmacun.com/ssl-settings-custom-subdomain-google-app-engine/">
+                            <span class="button__icon">←</span>&nbsp;
+                            <span class="button__text">Setting SSL for Custom Subdomain on Google App Engine</span>
+                        </a>
+                    </span>
+                
+                </div>
+        </div>
+    
+    </div>
+
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footer__inner">
+                <div class="copyright">
+                        <span>© 
+    2024
+ nurulmac11</span>
+                    <span class="copyright-theme">
+                        <span class="copyright-theme-sep">:: </span>
+                        Theme: <a href="https://github.com/pawroman/zola-theme-terminimal/">Terminimal</a> by pawroman
+                    </span>
+                </div>
+            </div>
+    </footer>
+    
+
+</div>
+</body>
+
+</html>
