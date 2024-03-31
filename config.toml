@@ -43,13 +43,12 @@ menu_items = [
     # $BASE_URL is going to be substituted by base_url from configuration
     {name = "blog", url = "$BASE_URL"},
     {name = "about me", url = "$BASE_URL/about"},
+    {name = "archive", url = "$BASE_URL/archive"},
 #    {name = "contact", url = "$BASE_URL/contact"},
     {name = "rss", url = "$BASE_URL/rss.xml"},
     {url = "https://www.linkedin.com/in/nrlmcn/", name = "linkedin", newtab=true},
     {url = "https://github.com/nurulmac11", name = "github", newtab=true},
 
-    # set newtab to true to make the link open in new tab
-#    {name = "github", url = "url-to-your-github", newtab = true},
 ]
 after_dark_title = "another developer"
 author = "nurulmac11"
