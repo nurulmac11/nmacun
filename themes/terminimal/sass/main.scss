@@ -78,44 +78,44 @@ p {
   margin-bottom: 20px;
 }
 
-figure {
-  display: table;
-  max-width: 100%;
-  margin: 25px 0;
+// figure {
+//   display: table;
+//   max-width: 100%;
+//   margin: 25px 0;
 
-  &.left, img {
-    margin-right: auto;
-  }
+//   &.left, img {
+//     margin-right: auto;
+//   }
 
-  &.center, img {
-    margin-left: auto;
-    margin-right: auto;
-  }
+//   &.center, img {
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
 
-  &.right, img {
-    margin-left: auto;
-  }
+//   &.right, img {
+//     margin-left: auto;
+//   }
 
-  figcaption {
-    font-size: 14px;
-    padding: 5px 10px;
-    margin-top: 5px;
-    background: var(--accent);
-    color: var(--background);
+//   figcaption {
+//     font-size: 14px;
+//     padding: 5px 10px;
+//     margin-top: 5px;
+//     background: var(--accent);
+//     color: var(--background);
 
-    &.left {
-      text-align: left;
-    }
+//     &.left {
+//       text-align: left;
+//     }
 
-    &.center {
-      text-align: center;
-    }
+//     &.center {
+//       text-align: center;
+//     }
 
-    &.right {
-      text-align: right;
-    }
-  }
-}
+//     &.right {
+//       text-align: right;
+//     }
+//   }
+// }
 
 code {
   font-family: Hack, DejaVu Sans Mono, Monaco, Consolas, Ubuntu Mono, monospace;
