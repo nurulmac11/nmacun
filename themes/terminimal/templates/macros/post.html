@@ -12,10 +12,22 @@
         </div>
     {% else %}
         <div class="post-content">
-            {{ page.content | safe }}
+            {% set content = page.content | split(pat="<!-- TOC -->") %}
+                {% if content | length > 1 %}
+                    {{ content[0] | safe }}
+                {% endif %}
+
+                {{toc_macros::toc(page=page)}}
+
+                {% if content | length > 1 %}
+                    {{ content[1] | safe }}
+                {% else %}
+                    {{ content[0] | safe }}
+                {% endif %}
         </div>
     {%- endif %}
 {% endmacro content %}
+
 
 
 {% macro date(page) %}
