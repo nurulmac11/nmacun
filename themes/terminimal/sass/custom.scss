@@ -14,6 +14,17 @@ a[target="_blank"][href*="youtu"]::before {
   vertical-align: middle;
 }
 
+a[target="_blank"][data-type="article"]::before {
+  content: '';
+  display: inline-block;
+  background-image: url('/photos/article.svg');
+  background-size: cover; /* Ensure the image fits within the given dimensions */
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 figure {
   display: flex;
   position: relative;
