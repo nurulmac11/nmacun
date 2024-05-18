@@ -1,28 +1,36 @@
-a[target="_blank"]::after {
-  content: ""
-    url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23ff9800'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
-}
-
-a[target="_blank"][href*="youtu"]::before {
+@mixin icon-before($icon) {
   content: '';
   display: inline-block;
-  background-image: url('/photos/youtube-icon.svg');
-  background-size: cover; /* Ensure the image fits within the given dimensions */
+  background-image: url($icon);
+  background-size: cover; // Ensure the image fits within the given dimensions
   width: 16px;
   height: 16px;
   margin-right: 5px;
   vertical-align: middle;
 }
 
-a[target="_blank"][data-type="article"]::before {
-  content: '';
-  display: inline-block;
-  background-image: url('/photos/article.svg');
-  background-size: cover; /* Ensure the image fits within the given dimensions */
-  width: 16px;
-  height: 16px;
-  margin-right: 5px;
-  vertical-align: middle;
+@mixin icon-after($icon) {
+  content: "" url($icon);
+  margin-left: 5px;
+}
+
+a[target="_blank"] {
+
+  &[data-type="youtube"]::before {
+    @include icon-before('/photos/youtube.svg');
+  }
+  
+  &[data-type="article"]::before {
+    @include icon-before('/photos/article.svg');
+  }
+  
+  &[data-type="news"]::before {
+    @include icon-before('/photos/news.svg');
+  }
+
+  &::after {
+    @include icon-after("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23ff9800'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+  }
 }
 
 figure {
