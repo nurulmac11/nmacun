@@ -5,10 +5,6 @@ date = 2022-11-10
 updated = 2022-11-10
 +++
 
-- [About me](#about)
-- [Movies](#movie)
-- [Photography](#photography)
-
 ---
 
 <section id="about">
