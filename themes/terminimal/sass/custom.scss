@@ -1,3 +1,13 @@
+.article_date {
+  font-size: 12px;
+  margin-left: 3px;
+  font-style: italic;
+}
+
+.article, .youtube, .news {
+  text-decoration: unset;
+}
+
 @mixin icon-before($icon) {
   content: '';
   display: inline-block;
