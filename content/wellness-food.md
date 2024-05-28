@@ -1,5 +1,5 @@
 +++
-title = "A Journey to Wellness: Food - I"
+title = "A Journey to Wellness: Food"
 date = 2024-05-16
 
 [taxonomies]
@@ -90,6 +90,13 @@ I was consuming very little to no oil while trying to gain muscle, following my 
 {{ img(src="/photos/posts/madensuyu.jpg", style="width: 35%;", caption="Mineral water") }}
 Another part of this equation is stomach acidity. Heartburn and acid reflux don't have to be caused by excess acidity; instead, they can be caused by low acidity. Because there is a valve in your stomach and it won't be triggered if there is not enough acidity. You can lower your stomach acidity using things like mineral water, antacid pills, excess liquid consumption with food—even water can lower stomach acidity. What happens afterward? You end up digesting foods partially. Normally, acidity is supposed to kill microbes in your food, but if you prevent this, microbes can start to go through your digestion, causing all sorts of stomach and intestine problems like heartburn, reflux, and bad breath. So, reconsider consuming these antacid pills.
 
+**Related articles:**
+- {{ article(href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7238301/", text="Antacid-induced acute hypercalcemia: An increasingly common and potentially dangerous occurrence", date="May 2020")}}
+
+**Related videos:**
+- {{ youtube(href="https://www.youtube.com/watch?v=aZx-8z2U6qY", text="The Fastest Way To Rid HEARTBURN, GERD and ACID REFLUX") }}
+- {{ youtube(href="https://www.youtube.com/watch?v=sbU_Pw2AegM", text="How to STOP Acid Reflux Instantly") }}
+
 <hr/>
 <br>
 
@@ -108,5 +115,21 @@ Vegetables, especially green vegetables, actually vital parts of plants. So, it 
 - {{ youtube(href="https://youtu.be/GgnnklDVhso?si=t3lFkjv-aBwNIzGg", text="Plants Do Not Like to Be Eaten: Thus the Anti Nutrients – Dr.Berg on Phytoestrogens & Phytic Acid") }}
 - {{ youtube(href="https://www.youtube.com/watch?v=xYRUCx7Bj08", text="I Was Wrong About Veggies (Plant Problems) 2024") }}
 
+<hr/>
+<br>
 
 ### Cut the crap, what do you eat now?
+I did strict keto for about 3-4 months but experienced an acne breakout about a month in. It subsided after 3-4 weeks, but when I quit keto and returned, the same thing happened again. So, I decided to continue with a low-carb diet, but not as strict as keto. I try to eat twice a day, breakfast and dinner, and keep my eating window to 6 to 8 hours for intermittent fasting. Since I am lactose intolerant, I try not to consume dairy products, except occasionally butter, yogurt, ayran, and some kinds of cheese. Goat and sheep cheese cause fewer issues for me. You can also try raw milk and raw milk products if you are lactose intolerant to see if they work for you.
+
+For breakfast, I generally eat:
+- Eggs cooked in various ways with olive oil
+- Sometimes avocado
+- Sometimes walnuts
+- Sometimes eggs with sucuk, pastirma, kavurma, minced meat, or mushrooms
+
+For dinner, I have:
+- Meat products such as ribeye, lamb or veal chops, any fish
+- Occasionally tavuk/et doner or chicken meat
+- Organ meats such as liver, heart, or kidney cooked with extra beef tallow like tail fat
+
+In between meals, since I don't want to be in strict ketosis, I eat fruits and honey. That's all unless I eat out and go off my regular diet. As beverage I consume diet coke although it's not innocent, ayran, coffee sometimes with coconut oil(bullet-proof coffee), black tea, herbal tea such as sage, mint and lastly as supplement, I only take vitamin D and omega - 3.
