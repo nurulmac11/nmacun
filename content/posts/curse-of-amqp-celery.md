@@ -1,6 +1,7 @@
 +++
 title = "Curse of AMQP: Celery"
 date = 2023-10-30
+description = "How to solve annoying problems with celery."
 
 [taxonomies]
 tags = ["celery", "eta", "sqs", "eta", "retry"]

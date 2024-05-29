@@ -1,9 +1,8 @@
 # The URL the site will be built for
 base_url = "https://nmacun.com"
 title = "nurulmac11's blog"
+#description = "A zola theme forked from [archie](https://github.com/athul/archie)"
 
-#theme = "after-dark"
-#theme = "terminimal"
 theme = "archie-zola"
 generate_feed = true
 feed_filename = "rss.xml"
@@ -14,64 +13,27 @@ taxonomies = [
     {name = "tags", feed = true},
 ]
 
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
 [markdown]
-# When set to "true", all code blocks are highlighted.
 highlight_code = true
 highlight_theme = "one-dark"
-# Whether external links are to be opened in a new tab
-# If this is true, a `rel="noopener"` will always automatically be added for security reasons
 external_links_target_blank = true
 
 
 [extra]
-# Put all your custom variables here
-after_dark_menu = [
-    {url = "/", name = "Home"},
-    {url = "/about/", name = "About me"},
-#    {url = "categories", name = "Categories"},
-#    {url = "tags", name = "Tags"},
-    {url = "https://www.linkedin.com/in/nrlmcn/", name = "linkedin", target= "_blank"},
-    {url = "https://github.com/nurulmac11", name = "github", target= "_blank"},
-]
-menu_items = [
-    # each of these is optional, name and url are required
-    # $BASE_URL is going to be substituted by base_url from configuration
-    {name = "blog", url = "$BASE_URL"},
-    {name = "about me", url = "$BASE_URL/about"},
-    {name = "archive", url = "$BASE_URL/archive"},
-#    {name = "contact", url = "$BASE_URL/contact"},
-    {name = "rss", url = "$BASE_URL/rss.xml"},
-    {url = "https://www.linkedin.com/in/nrlmcn/", name = "linkedin", newtab=true},
-    {url = "https://github.com/nurulmac11", name = "github", newtab=true},
-
-]
-after_dark_title = "another developer"
 author = "nurulmac11"
 logo_text = "nurulmac11's blog"
 #background_color = "dark"
 favicon = "/favicon.png"
 favicon_mimetype = "image/png"
 
-# Optional: Set how <title> elements are rendered.
-# Values:
-# - "main_only" -- only the main title (`config.title`) is rendered.
-# - "page_only" -- only the page title (if defined) is rendered,
-#                  falling back to `config.title` if not defined or empty.
-# - "combined" -- combine like so: "page_title | main_title",
-#                 or if page_title is not defined or empty, fall back to `main_title`
-#
-# Note that the main (index) page only has the main title.
 page_titles = "page_only"
 external_links_target_blank = true
 
 mode = "toggle"
-subtitle = "A zola theme forked from [archie](https://github.com/athul/archie)"
 useCDN = false
 
 # show in the footer
@@ -95,22 +57,17 @@ read_time = "minute read"
 all_tags = "All tags"
 menus = [
     { name = "home", url = "/", weight = 2 },
-    { name = "archive", url = "/posts", weight = 2 },
     { name = "about me", url = "/about", weight = 3 },
+    { name = "archive", url = "/posts", weight = 2 },
 ]
 
 # config social icon info in the footer
 [[extra.social]]
 icon = "github"
-name = "GitHub"
-url = "https://github.com/XXXMrG/archie-zola"
+name = "github"
+url = "https://github.com/nurulmac11"
 
 [[extra.social]]
-icon = "twitter"
-name = "Twitter"
-url = "https://github.com/your-name/"
-
-[[extra.social]]
-icon = "gitlab"
-name = "GitLab"
-url = "https://gitlab.com/your-name/"
+icon = "linkedin"
+name = "linkedin"
+url = "https://www.linkedin.com/in/nrlmcn/"

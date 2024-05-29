@@ -1,6 +1,7 @@
 +++
 title = "A Journey to Wellness: Food"
 date = 2024-05-16
+description = "What to eat to be healthier, mental clarity?"
 
 [taxonomies]
 tags = ["keto", "omega-3", "allergy", "stomach", "low-carb"]

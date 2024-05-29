@@ -1,6 +1,7 @@
 +++
 title = "Setting SSL for Custom Subdomain on Google App Engine"
 date = 2022-11-12
+description = "How to configure SSL for custom subdomain for cloudflare/google cloud platform."
 
 [taxonomies]
 tags = ["google app engine", "google cloud platform", "cloudflare", "ssl", "subdomain"]

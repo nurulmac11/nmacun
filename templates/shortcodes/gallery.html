@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div style="text-align: center; display: inline-block;">
 {% for asset in photos -%}
   {%- if asset is matching("[.](jpg|png)$") -%}
     {% set image = resize_image(path=asset, width=240, height=180) %}
