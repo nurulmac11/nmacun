@@ -39,7 +39,7 @@ useCDN = false
 copyright = "keith"
 
 # config your Google Analysis ID
-ga = "XXXX-XXXXX"
+ga = "UA-91588930-1"
 
 # optional: config your i18n entry
 [extra.translations]
