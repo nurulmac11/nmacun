@@ -8,9 +8,11 @@ tags = ["keto", "omega-3", "allergy", "stomach", "low-carb"]
 +++
 > There is a difference between knowing the path and walking the path. - Morpheus
 
-<!-- TOC -->
 
 > **DISCLAIMER:** I am not a healthcare professional. This post is based on my personal experience. Please consult a doctor before making any significant changes to your diet or health routine.
+
+
+<!-- TOC -->
 
 ### Surgery appointment
 
