@@ -24,7 +24,7 @@
         {% endfor %}
     {% endif %}
 
-    {% if current_path == "/" %}
+    {% if current_path and current_path == "/" %}
         <title>
             {{ config.title | default(value="Home") }}
         </title>
