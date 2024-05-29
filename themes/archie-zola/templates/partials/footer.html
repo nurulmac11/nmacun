@@ -1,9 +1,11 @@
 <footer>
   <div style="display:flex">
     {% for social in config.extra.social %}
+    <div class="right-border">
         <a class="soc no-icon" href={{ social.url }} target="_blank" title={{ social.name }}>
             <i data-feather={{ social.icon }}></i>
         </a>
+</div>
     {% endfor %}
   </div>
   <div class="footer-info">

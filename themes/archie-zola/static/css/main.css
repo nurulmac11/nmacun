@@ -223,14 +223,18 @@ footer {
 .soc {
   display: flex;
   align-items: center;
-  padding-right: 1rem;
-  margin-right: 1rem;
-  border-right: 2px solid;
   border-bottom: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.right-border {
+  border-right: 2px solid;
 }
 
 .footer-info {
   padding: var(--footer-padding);
+  margin-left: 5px;
 }
 
 #main_title {
