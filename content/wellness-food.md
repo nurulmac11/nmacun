@@ -132,4 +132,6 @@ For dinner, I have:
 - Occasionally tavuk/et doner or chicken meat
 - Organ meats such as liver, heart, or kidney cooked with extra beef tallow like tail fat
 
+I would consume some vegetable dishes if I had that much talent/time in kitchen, I don't see any problem with them that much but it's much easier for me to just preprare a piece of meat on pan or airfryer quickly.
+
 In between meals, since I don't want to be in strict ketosis, I eat fruits and honey. That's all unless I eat out and go off my regular diet. As beverage I consume diet coke although it's not innocent, ayran, coffee sometimes with coconut oil(bullet-proof coffee), black tea, herbal tea such as sage, mint and lastly as supplement, I only take vitamin D and omega - 3.
