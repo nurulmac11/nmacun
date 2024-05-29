@@ -41,10 +41,6 @@ copyright = "keith"
 # config your Google Analysis ID
 ga = "UA-91588930-1"
 
-# optional: config your i18n entry
-[extra.translations]
-languages = [{name = "en", url = "/"}]
-
 # config multi-language menu and other text
 [[extra.translations.en]]
 show_more = "Read more ⟶"
