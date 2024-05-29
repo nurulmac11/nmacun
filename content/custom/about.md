@@ -171,7 +171,7 @@ Also I have these lenses;
 - Sony FE 85mm F/1.8
 - Tamron 28-75mm f/2.8 Di III VXD
 
-You can check  <a target="_blank" href="https://www.instagram.com/nrlmcn/" rel="external">my instagram</a> and check my  <a target="_blank" href="https://www.pexels.com/@nurullah-macun-823732622/" rel="external">pexels account</a>.
+You can check  <a target="_blank" href="https://www.instagram.com/nrlmcn/" rel="external">my instagram</a> and check my  <a target="_blank" href="https://www.pexels.com/@nrlmcn/" rel="external">pexels account</a>.
 <br />
 Here are some examples of my shots;
 {{ gallery(photos=["photos/sky.jpg", "photos/sky2.jpg", "photos/lake.jpg", "photos/child.jpg", "photos/waiting.jpg", "photos/lunapark.jpg"]) }}
