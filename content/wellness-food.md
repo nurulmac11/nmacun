@@ -15,7 +15,7 @@ tags = ["keto", "omega-3", "allergy", "stomach"]
 
 {{ img(src="/photos/posts/doctors.jpg", style="width: 35%;") }}
 
-Everything started with getting a surgery appointment for my nose congestion problems. I had been going to the gym for a while, and in the last couple of months, my goal was to gain weight and increase my muscle mass. So, I started to eat chicken and rice with little to no oil at all in my diet. After following this diet for 2-3 months, I gained a bit of muscle, but it was becoming harder and harder for me to breathe. My nose was congested all the time. I saw three doctors, and all of them directly proposed surgery. So, finally, I gave up and got an appointment with a doctor in 3-4 weeks. But my way of dealing with problems is to not accept the first solution easily. So, I started to investigate and research this problem. Why would the nose swell at all? Then, I started to find clues about the importance of diet on our bodies.
+I started experiencing constant nose congestion while trying to gain muscle at the gym by eating chicken and rice with little to no oil. Despite seeing three doctors who all recommended surgery, I decided to research the issue myself before my scheduled surgery appointment. I wondered why my nose was swelling and began to uncover clues about the significant impact of diet on our bodies.
 
 <!-- more -->
 <hr/>
@@ -134,4 +134,4 @@ For dinner, I have:
 
 I would consume some vegetable dishes if I had that much talent/time in kitchen, I don't see any problem with them that much but it's much easier for me to just preprare a piece of meat on pan or airfryer quickly.
 
-In between meals, since I don't want to be in strict ketosis, I eat fruits and honey. That's all unless I eat out and go off my regular diet. As beverage I consume diet coke although it's not innocent, ayran, coffee sometimes with coconut oil(bullet-proof coffee), black tea, herbal tea such as sage, mint and lastly as supplement, I only take vitamin D and omega - 3.
+In between meals, since I don't want to be in strict ketosis, I eat fruits and honey. That's all unless I eat out and go off my regular diet. As beverage I consume diet coke although it's not innocent, ayran, coffee sometimes with coconut oil(bullet-proof coffee), black tea, herbal tea such as sage, mint and lastly as supplement, I only take vitamin D and omega - 3. So that's all. In the future, I am planning to share my take on other aspects of a healthy life. Thank you for reading this far.
