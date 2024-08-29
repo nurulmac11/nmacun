@@ -1,6 +1,6 @@
 <header>
     <div class="main" id="main_title">
-        <a href={{ config.base_url }}>{{ config.extra.translations[lang][0].title }}</a>
+        <a href="{% if lang != config.default_language %}{{ config.base_url }}/{{ lang }}{% else %}{{ config.base_url }}{% endif %}">{{ config.extra.translations[lang][0].title }}</a>
     </div>
 
     <nav>

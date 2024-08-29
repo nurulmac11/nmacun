@@ -51,6 +51,7 @@ taxonomies = [
 
 [[extra.translations.tr]]
 title = "nurulmac11'in blogu"
+all_articles = "bütün yazılar"
 tagged = "etiketli  yazılar"
 show_more = "Devamını oku ⟶"
 previous_page = "← Önceki"
@@ -60,13 +61,13 @@ posted_by = "Yayınlayan: "
 read_time = "dakika"
 all_tags = "Etiketler"
 menus = [
-    { name = "anasayfa", url = "/", weight = 2 },
-    { name = "hakkımda", url = "/about", weight = 3 },
-    { name = "arşiv", url = "/posts", weight = 2 },
+    { name = "hakkımda", url = "/hakkimda", weight = 3 },
+    { name = "arşiv", url = "/tr/yazilar", weight = 2 },
 ]
 
 [[extra.translations.en]]
 title = "nurulmac11's blog"
+all_articles = "all posts"
 tagged = "Entries tagged"
 show_more = "Read more ⟶"
 previous_page = "← Previous"
@@ -76,7 +77,6 @@ posted_by = "Published by"
 read_time = "minute read"
 all_tags = "All tags"
 menus = [
-    { name = "home", url = "/", weight = 2 },
     { name = "about me", url = "/about", weight = 3 },
     { name = "archive", url = "/posts", weight = 2 },
 ]
