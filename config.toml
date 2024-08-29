@@ -1,11 +1,9 @@
 # The URL the site will be built for
 base_url = "https://nmacun.com"
-title = "nurulmac11's blog"
-#description = "A zola theme forked from [archie](https://github.com/athul/archie)"
 
 theme = "archie-zola"
-generate_feed = true
-feed_filename = "rss.xml"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
 
 taxonomies = [
     # You can enable/disable RSS
@@ -42,7 +40,34 @@ copyright = "keith"
 ga = "UA-91588930-1"
 
 # config multi-language menu and other text
+[extra.translations]
+languages = [{name = "en", url = "/"}, {name = "tr", url = "/tr"}]
+[languages.tr]
+generate_feeds = true
+taxonomies = [
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
+[[extra.translations.tr]]
+title = "nurulmac11'in blogu"
+tagged = "etiketli  yazılar"
+show_more = "Devamını oku ⟶"
+previous_page = "← Önceki"
+next_page = "Sonraki →"
+posted_on = " "
+posted_by = "Yayınlayan: "
+read_time = "dakika"
+all_tags = "Etiketler"
+menus = [
+    { name = "anasayfa", url = "/", weight = 2 },
+    { name = "hakkımda", url = "/about", weight = 3 },
+    { name = "arşiv", url = "/posts", weight = 2 },
+]
+
 [[extra.translations.en]]
+title = "nurulmac11's blog"
+tagged = "Entries tagged"
 show_more = "Read more ⟶"
 previous_page = "← Previous"
 next_page = "Next →"
