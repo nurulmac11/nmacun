@@ -84,7 +84,7 @@
                     {{extra.translations[lang][0].posted_by }} <a href="{{ page.extra.author.social }}" target="_blank">{{ page.extra.author.name }}</a>
                 {% endif %}
                 {{ extra.translations[lang][0].posted_on }} {{ page.date | date(format="%Y-%m-%d") }}
-
+                <span>| {{ page.reading_time }} {{ config.extra.translations[lang][0].read_time }}</span>
                 {% if page.draft %}
                     <span class="draft-label">DRAFT</span>
                 {% endif %}
