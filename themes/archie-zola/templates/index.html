@@ -28,20 +28,32 @@
         </main>
 
         {% if paginator %}
-            <ul class="pagination">
-                {% if paginator.previous %}
-                    <span class="page-item page-prev">
-                        <a href={{ paginator.previous }} class="page-link" aria-label="Previous"><span aria-hidden="true">{{ config.extra.translations[lang][0].previous_page }}</span></a>
-                    </span>
-                {% endif %}
-
-                {% if paginator.next %}
-                    <span class="page-item page-next">
-                        <a href={{ paginator.next }} class="page-link" aria-label="Next"><span aria-hidden="true">{{ config.extra.translations[lang][0].next_page }}</span></a>
-                    </span>
-                {% endif %}
-            </ul>
-        {% endif %}
+        <ul class="pagination">
+            {% if paginator.previous %}
+                <li class="page-item page-prev">
+                    <a href="{{ paginator.previous }}" class="page-link" aria-label="{{ config.extra.translations[lang][0].previous_page }}"> {{ config.extra.translations[lang][0].previous_page }}</a>
+                </li>
+            {% else %}
+                <li class="page-item page-prev">
+                    <span class="page-link disabled" aria-disabled="true" aria-label="{{ config.extra.translations[lang][0].previous_page }} (disabled)"> {{ config.extra.translations[lang][0].previous_page }}</span>
+                </li>
+            {% endif %}
+    
+            <li class="page-item page-numbers">
+                {{ paginator.current_index }} / {{ paginator.number_pagers }}
+            </li>
+    
+            {% if paginator.next %}
+                <li class="page-item page-next">
+                    <a href="{{ paginator.next }}" class="page-link" aria-label="{{ config.extra.translations[lang][0].next_page }}">{{ config.extra.translations[lang][0].next_page }} </a>
+                </li>
+            {% else %}
+                <li class="page-item page-next">
+                    <span class="page-link disabled" aria-disabled="true" aria-label="{{ config.extra.translations[lang][0].next_page }} (disabled)">{{ config.extra.translations[lang][0].next_page }} </span>
+                </li>
+            {% endif %}
+        </ul>
+    {% endif %}
 
         {% endblock main_content %}
 
