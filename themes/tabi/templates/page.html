@@ -220,7 +220,7 @@
         {%- endif -%}
 
         {# Comments #}
-        {% if comment_system %}
+        {% if comment_system and not page.extra["disable_giscus"] %}
             {% include "partials/comments.html" %}
         {% endif %}
 

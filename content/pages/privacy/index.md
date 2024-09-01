@@ -3,6 +3,9 @@ title = "Privacy Policy"
 path = "privacy"
 date = 2023-10-31
 updated = 2024-05-12
+
+[extra]
+disable_giscus = true
 +++
 
 This privacy policy outlines how we collect and process your data on this website.

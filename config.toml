@@ -56,6 +56,7 @@ title = "nurulmac11'in blogu"
 description = "aklıma esenler"
 generate_feeds = true
 taxonomies = [{name = "tags", feed = true}]
+build_search_index = true
 
 [extra]
 # Check out the documentation (or the comments below) to learn how to customise tabi:

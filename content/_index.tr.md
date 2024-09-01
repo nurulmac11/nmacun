@@ -11,4 +11,4 @@ max_projects = 3
 show_projects_first = false
 +++
 
-blogumda okuduklarım, öğrendiklerim, yazılımda karşılaştıklarım/öğrendiklerim hakkında yazılar paylaşıyorum.
+blogumda okuduklarımı, öğrendiklerimi ve bazı diğer şeyleri paylaşıyorum.
