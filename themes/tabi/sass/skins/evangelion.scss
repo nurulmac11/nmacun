@@ -3,7 +3,11 @@
     --primary-color: #d12e36;  // Contrast ratio: 5.05:1
 }
 
+[data-theme='light'] {
+    background-color:oldlace; // or  aliceblue
+}
+
 // Evangelion Unit-01.
 [data-theme='dark'] {
-    --primary-color: #c09bd9;  // Contrast
+    --primary-color: #c09bd9 !important;  // Contrast
 }
