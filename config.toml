@@ -35,6 +35,7 @@ include_content = true
 index_format = "elasticlunr_json"
 
 [markdown]
+external_links_target_blank = true
 highlight_code = true
 bottom_footnotes = true
 # To use a Zola built-in theme, CSP needs to allow unsafe-inline for style-src.
@@ -230,9 +231,9 @@ social_media_card = "social_cards/index.jpg"
 
 menu = [
     { name = "blog", url = "blog", trailing_slash = true },
+    { url = "about", name = "about", trailing_slash = true },
     { name = "archive", url = "archive", trailing_slash = true },
-    {url = "about", name = "about", trailing_slash = true},
-    { name = "projects", url = "projects", trailing_slash = true },
+  #  { name = "projects", url = "projects", trailing_slash = true },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
