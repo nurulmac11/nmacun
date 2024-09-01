@@ -11,4 +11,4 @@ max_projects = 3
 show_projects_first = false
 +++
 
-I am sharing posts about programming and some other stuff here. I also take photos and read books about psychology, philosophy.
+I am sharing posts about programming and some other stuff here.
