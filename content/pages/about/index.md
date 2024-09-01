@@ -1,15 +1,14 @@
 +++
 title = "who and what is nurulmac11"
+template = "info-page.html"
 path = "about"
-date = 2022-11-10
-updated = 2022-11-10
 
 [extra]
-disable_giscus = true
-
+quick_navigation_buttons = true
 +++
 
----
+
+{{ toc() }}
 
 <section id="about">
 

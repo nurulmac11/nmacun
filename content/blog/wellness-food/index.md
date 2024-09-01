@@ -5,6 +5,7 @@ description = "What to eat to be healthier, mental clarity?"
 
 [taxonomies]
 tags = ["keto", "omega-3", "allergy", "stomach", "low-carb"]
+
 +++
 > There is a difference between knowing the path and walking the path. - Morpheus
 
@@ -16,7 +17,7 @@ tags = ["keto", "omega-3", "allergy", "stomach", "low-carb"]
 
 ### Surgery appointment
 
-{{ img(src="/photos/posts/doctors.jpg", style="width: 35%;") }}
+{{ img(src="/photos/posts/doctors.jpg", class="smaller-img") }}
 
 I started experiencing constant nose congestion while trying to gain muscle at the gym by eating chicken and rice with little to no oil. Despite seeing three doctors who all recommended surgery, I decided to research the issue myself before my scheduled surgery appointment. I wondered why my nose was swelling and began to uncover clues about the significant impact of diet on our bodies.
 
@@ -26,7 +27,7 @@ I started experiencing constant nose congestion while trying to gain muscle at t
 
 
 ### Omega 3-6 balence
-{{ img(src="/photos/posts/omega.jpg", style="width: 35%;", caption="Omega Sources") }}
+{{ img(src="/photos/posts/omega.jpg", class="smaller-img", caption="Omega Sources") }}
 One of the first things that I noticed was the omega 3-6 balance in our bodies. Both of them are essential oils that your body can neither produce nor store. So, you have to take them from outside sources regularly. The more important thing is the omega 3-6 ratio. It has to be balanced or, at worst, 4 to 1, omega 6 to omega 3. Omega 3 sources are very scarce. They are mainly oily fish like salmon, tuna, and sardines. It just clicked in my mind that I had not been eating almost any fish for months; in a year, I was eating it maybe once or twice. On the other hand, omega 6 is very common in our diets. It is found in lots of things, but one of the worst excess sources is sunflower oil or other plant oils. The ratio is 40:1 for sunflower oil and 83:1 for corn oil. So, what happens when you lose the omega 3-6 balance? Since I am not an expert, to my understanding, it works like this: omega 6 causes an increase in the production of inflammatory molecules, while omega 3 helps produce anti-inflammatory molecules. The thing is, inflammation is not just one thing; it depends on your body how it will react to inflammation. It can manifest as anxiety, depression, or just nose congestion, or all of them at once.
 
 **Related articles:**
@@ -41,7 +42,7 @@ One of the first things that I noticed was the omega 3-6 balance in our bodies. 
 
 ### Allergy/Inflammation
 
-{{ img(src="/photos/posts/antihistamin.jpg", style="width: 35%;", caption="Allergy pills") }}
+{{ img(src="/photos/posts/antihistamin.jpg", class="smaller-img", caption="Allergy pills") }}
 So, I was using allergy pills at that time just to be able to breathe. But after this enlightenment, I bought a salmon fish that day and just ate it, nothing else. After a while, my nose congestion cleared up as if I had used allergy pills. It was completely gone. Then I started to think about all three doctors who had suggested that surgery was the only solution. After following my new diet for a couple of weeks, I was sure that it was working. So, I canceled my surgery appointment.
 
 **Related video:**
@@ -51,7 +52,7 @@ So, I was using allergy pills at that time just to be able to breathe. But after
 <br>
 
 ### Ketogenic Diet
-{{ img(src="/photos/posts/keto-pyramid-square.jpg", style="width: 35%;", caption="Keto Pyramid") }}
+{{ img(src="/photos/posts/keto-pyramid-square.jpg", class="smaller-img", caption="Keto Pyramid") }}
 I continued to research eating healthy and being healthy. The omega 3-6 ratio was only one part of the puzzle. Then I learned about the ketogenic diet, which is mainly a low-carb diet, eating at most 20-50 grams of carbs, with the rest being fat and protein depending on your needs. What this does is, in a diet as we see as normal in today’s world, we eat lots of carbs, and carbs are our primary fuel source. So, the body is adapted to burn carbs, and excess carbs are stored as fat in our body. When you switch to a keto diet, your body will be forced to use fats as its main source of energy. When fat is used, it produces something called ketones as an energy source. Some parts of your body still need carbs, specifically glucose, but there is no need to worry because your body can produce the necessary glucose using a process called gluconeogenesis. There are no essential carbohydrates required in the diet because our bodies can produce the glucose we need.
 
 **Related articles:**
@@ -69,7 +70,7 @@ I continued to research eating healthy and being healthy. The omega 3-6 ratio wa
 <br>
 
 ### The Bro Diet
-{{ img(src="/photos/posts/gymbro.jpg", style="width: 35%;", caption="Chicken/rice/brocoli") }}
+{{ img(src="/photos/posts/gymbro.jpg", class="smaller-img", caption="Chicken/rice/brocoli") }}
 I was consuming very little to no oil while trying to gain muscle, following my so-called healthy diet. But when you think of it, our body needs a lot of oil. Your skin has a lot of fat, our brains are the fattest organ in our body, consisting of 60% fat, and our bone marrow and nerve tissues have it. We need it even for hormone production, and the list goes on. Despite carbs, there are essential oils that your body can't produce. So, it's very risky to consume less fat. Also, when you don't consume enough fat, your bile production decreases, leading to a higher risk of bile stones due to reduced bile movement. Of course, there are other factors related to bile stone generation, but this is one of them.
 
 **Related articles:**
@@ -90,7 +91,7 @@ I was consuming very little to no oil while trying to gain muscle, following my 
 <br>
 
 ### Stomach Acidity
-{{ img(src="/photos/posts/madensuyu.jpg", style="width: 35%;", caption="Mineral water") }}
+{{ img(src="/photos/posts/madensuyu.jpg", class="smaller-img", caption="Mineral water") }}
 Another part of this equation is stomach acidity. Heartburn and acid reflux don't have to be caused by excess acidity; instead, they can be caused by low acidity. Because there is a valve in your stomach and it won't be triggered if there is not enough acidity. You can lower your stomach acidity using things like mineral water, antacid pills, excess liquid consumption with food—even water can lower stomach acidity. What happens afterward? You end up digesting foods partially. Normally, acidity is supposed to kill microbes in your food, but if you prevent this, microbes can start to go through your digestion, causing all sorts of stomach and intestine problems like heartburn, reflux, and bad breath. So, reconsider consuming these antacid pills.
 
 **Related articles:**
@@ -104,7 +105,7 @@ Another part of this equation is stomach acidity. Heartburn and acid reflux don'
 <br>
 
 ### About Green
-{{ img(src="/photos/posts/green.jpg", style="width: 35%;", caption="Green vegetables") }}
+{{ img(src="/photos/posts/green.jpg", class="smaller-img", caption="Green vegetables") }}
 Vegetables, especially green vegetables, actually vital parts of plants. So, it actually doesnt want to be eaten and has lots of toxins in it like lectins, oxalates. If you don't cook them correctly, or eat excess amount you can quickly observe side effects in your body such as nausea, vomiting and diarrhea. 
 
 **Check these news about plants;**
