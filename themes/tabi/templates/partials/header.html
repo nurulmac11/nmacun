@@ -143,6 +143,18 @@
         {%- include "partials/analytics.html" -%}
     {%- endif -%}
 
+    {% if config.extra.ga %}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{config.extra.ga}}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '{{config.extra.ga}}');
+        </script>
+    {% endif %}
+
     {# Search #}
     {%- if config.build_search_index -%}
         {%- if config.search.index_format -%}

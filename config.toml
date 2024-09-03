@@ -69,6 +69,9 @@ build_search_index = true
 # index_format = "elasticlunr_javascript"
 # index_format = ""
 
+# Google analytics
+ga = "G-X7VT1SY2WY"
+
 # Use sans-serif font everywhere.
 # By default, the serif font is only used in articles.
 override_serif_with_sans = false
