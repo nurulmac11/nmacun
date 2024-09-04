@@ -24,7 +24,7 @@ Kitabın girişinde yazar, kitabın yazma sürecine değiniyor. Hatta bir kısm�
 
 *bkz: [estağfurullah efendim heykel bizi yaptı](https://eksisozluk.com/estagfurullah-efendim-heykel-bizi-yapti--5860526)*
 
-Bu distopik evrende itfaiyecelerin görevi artık yangın söndürmek değil, kitap yakmak. Artık gelişen teknolojiyle birlikte bütün evler yanmaz bir maddeyle kaplanmıştır, bu yüzden hiç yangın çıkmamaktadır ama bütün kitapların yakılması görevi itfaiyeye verilmiştir.
+Bu distopik evrende itfaiyecilerin görevi artık yangın söndürmek değil, kitap yakmak. Artık gelişen teknolojiyle birlikte bütün evler yanmaz bir maddeyle kaplanmıştır, bu yüzden hiç yangın çıkmamaktadır ama bütün kitapların yakılması görevi itfaiyeye verilmiştir.
 
 >"İnsanların, uğruna canlarını feda etmeyi göze aldığı bu kitapların içinde ne var? Gerçeklerin farkına vardıktan sonra bu karanlık toplumda artık yaşanabilir mi?"
 
