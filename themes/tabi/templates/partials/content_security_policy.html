@@ -1,4 +1,4 @@
-<meta http-equiv="Content-Security-Policy"
+<!-- <meta http-equiv="Content-Security-Policy"
 content="default-src 'self'
 {%- if config.extra.allowed_domains -%}
 ;
@@ -96,11 +96,11 @@ content="default-src 'self'
         ;
         {%- endif -%}
     {%- endfor -%}
-
+    {{"https://www.googletagmanager.com"}}
     {#- Insert the generated connect-src -#}
     {{ ";" ~ connect_src }}
 
     {#- Insert the generated script-src -#}
     {{ ";" ~ script_src }}
 
-{%- endif -%}">
+{%- endif -%}"> -->
