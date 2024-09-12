@@ -73,3 +73,4 @@ Bu bölümde, depresyonun tekrarlamaması için neler yapılması gerektiğine d
 
 İkinci kısımda, onay bağımlılığından bahsediliyor ve onaylanmakla değerli olmanın neden bağlantılı olmak zorunda olmadığını açıklıyor. Neden böyle bir inanç geliştirdiğinize dair çocukluğunuzda yaşamış olabileceğiniz bazı örneklere yer verilmiş ve bu durumla başa çıkmak için bazı yazma egzersizleri. Ayrıca reddedilmenin, neden kişisel bir şey olmadığı anlatılıyor.
 
+Üçüncü kısımda, ikinci kısma çok benzer bir şekilde, sevgi bağımlılığından bahsediliyor. Biri beni sevmezse, gerçekten mutlu olamam inancını irdeliyor. Bunun nasıl bir zorunluluk olmadığını, yalnızken de hayattan keyif alınabileceğine değiniyor. 
