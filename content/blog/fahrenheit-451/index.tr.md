@@ -13,8 +13,7 @@ tags = ["okudum", "fahrenheit 451"]
 >  Kalıtım ve çevre tuhaf şeylerdir. Yalnızca birkaç yılda, bütün garip
 ördeklerden kurtulamazsınız. Okulda yapmaya çalıştığınız birçok şeyi ev
 çevresi bozabilir. İşte bu nedenle, anaokulu yaşını her yıl biraz daha
-düşürdük, şimdi neredeyse beşikten alacağız.
-*— Fahrenheit 451, s. 97-98*
+düşürdük, şimdi neredeyse beşikten alacağız. <br/> — *Fahrenheit 451, s. 97-98*
 
 Fahrenheit 451'i ithaki yayınlarından 8. baskısını okudum. Türkçeye Zerrin Kayalıoğlu ve Korkut Kayalıoğlu çevirmiş. Yazarı Ray Bradbury, 1920'de Waukegan, Illionis'de doğmuş. Bu kitabı ise 1953 yılında yani 33 yaşındayken yayınlanmış. Kitap ismini kağıdın tutuşma derecesi olan 233 santigrat yani 451 fahreinheit'dan alıyor. Buna biraz baktım ve tam net bir derece bulamasam da ortalama olarak doğru bir değer gibi gözüküyor. Yani uydurulmamış.
 

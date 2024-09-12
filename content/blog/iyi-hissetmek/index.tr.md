@@ -10,8 +10,7 @@ tags = ["okudum", "iyi hissetmek"]
 {{ img(src="/photos/posts/iyi-hissetmek.png", class="x-smaller-img", caption="İyi Hissetmek, psikonet yayınları") }}
 > Bu blog yazısı, genel bilgi ve inceleme amaçlı hazırlanmıştır. Buradaki bilgiler, profesyonel psikoterapi hizmetlerinin yerini almaz ve herhangi bir psikolojik rahatsızlık ya da tedavi gerektiren durumlar için profesyonel bir uzmana başvurulması tavsiye edilir. İçerik, kişisel deneyimler ve araştırmalara dayanarak hazırlanmış olup, kesinlikle tıbbi veya psikolojik tavsiye olarak değerlendirilmemelidir.
 
-> Size kendinizi kötü hissettiren sadece ve sadece kendi düşünceleriniz; dünyada size zulmeden tek kişi kendinizsiniz.
-*- İyi Hissetmek, s.122*
+> Size kendinizi kötü hissettiren sadece ve sadece kendi düşünceleriniz; dünyada size zulmeden tek kişi kendinizsiniz. <br/>— *İyi Hissetmek, s.122*
 
 <hr/>
 
@@ -47,8 +46,7 @@ Kitapta yedi başlığa kısım denilmiş ama bana daha kapsayıcı ve doğru ge
 
 Bu bölümün ilk kısmında, depresyonun düşük özgüvene, düşük özgüven de depresyona sebep olduğu için, özgüveninizi nasıl oluşturabileceğinizi anlatıyor. Aslında özgüvenli olmak diye bir şey yok. Değersiz olduğunuzu hissetmenize sebep olan düşüncelerden kurtulduğunuz anda, olması gerektiği gibi hissetmeye başlıyorsunuz. Burda da, örneklerle, bu düşünce kalıplarından bahsediliyor.
 
-> Unutmayın ki, başarısız olsanız bile, bundan da iyi bir şey çıkabilir. Üstelik siz yürümeyi de bu şekilde öğrendiniz. Bir gün beşiğinizden çıkıp oda içinde volta atmadınız. Dengenizi kaybettiniz ve yüzünüzün üstüne düştünüz ve kalkıp yeniden denediniz. Hangi yaşta birden her şeyi bilmeniz ve artık daha fazla hata yapmamanız beklendi? 
-*- İyi Hissetmek, s.139*
+> Unutmayın ki, başarısız olsanız bile, bundan da iyi bir şey çıkabilir. Üstelik siz yürümeyi de bu şekilde öğrendiniz. Bir gün beşiğinizden çıkıp oda içinde volta atmadınız. Dengenizi kaybettiniz ve yüzünüzün üstüne düştünüz ve kalkıp yeniden denediniz. Hangi yaşta birden her şeyi bilmeniz ve artık daha fazla hata yapmamanız beklendi? <br/> — *İyi Hissetmek, s.139*
 
 İkinci kısmında ise, depresyondan dolayı hiç bir şey yapamamanın nedenleri irdelenmiş. Bunun nasıl bir bilişsel çarpıtmalarla başlayan, kişinin sonrasında kendini kötü hissettiği bir döngüden kaynaklandığı açıklanıyor. Bu bilişsel çarpıtmalardan ve hatalı mantığınızdan kurtulduğunuzda, bu döngüyü nasıl kırabileceğiniz anlatılmış ve çeşitli örnekler verilmiş.
 
@@ -67,6 +65,11 @@ Bu bölüm sadece bir kısımdan oluşuyor; "Üzüntü Depresyon Değildir". Bu 
 
 ### 4. Önleme ve Kişisel Geliştirme
 
-> Olumsuz bir puan "Kutsal Kase"yi aramaya saplandığınızı gösterir. Kendinizden mükemmeli beklersiniz, yanlışlar tabudur, başarısızlık ölümden beterdir, olumsuz duygular bile felakettir. Her zaman iyi görünmek, iyi hissetmek, iyi düşünmek zorundasınızdır. Mükemmelin biraz altında olmak cehennem ateşinde yanmak gibidir. Büyük bir hızla ilerleseniz de, yeterli tatmini alamazsınız. Bir hedefe ulaştığınızda, daha uzaktaki başka bir hedef hemen sizi cezbeder; böylece dağın tepesine ulaşma zevkine hiç varamazsınız.
+> Olumsuz bir puan "Kutsal Kase"yi aramaya saplandığınızı gösterir. Kendinizden mükemmeli beklersiniz, yanlışlar tabudur, başarısızlık ölümden beterdir, olumsuz duygular bile felakettir. Her zaman iyi görünmek, iyi hissetmek, iyi düşünmek zorundasınızdır. Mükemmelin biraz altında olmak cehennem ateşinde yanmak gibidir. Büyük bir hızla ilerleseniz de, yeterli tatmini alamazsınız. Bir hedefe ulaştığınızda, daha uzaktaki başka bir hedef hemen sizi cezbeder; böylece dağın tepesine ulaşma zevkine hiç varamazsınız.  <br/> — *İyi Hissetmek, s.280*
 
 Bu bölümde, depresyonun tekrarlamaması için neler yapılması gerektiğine değiniliyor. İlk kısımda, şu an iyi hissetseniz bile, hala bilinçaltınızda bazı bilişsel çarpıtmalar kalmış olabileceğini ve bunları nasıl tanılayabileceğinizden bahsediyor. Örneğin, "İnsan olarak değerim başardıklarımla orantılıdır." gibi bunun için de bir olay karşısındaki düşüncelerinizi dikey ok adı verilen bir teknikle derinliklerine nasıl inebileceğiniz anlatılıyor. Ayrıca, ikinci bir yöntem olarak de İTÖ adında bir test verilmiş ve bunu yaparak, ne konularda yanlış varsayımlarınızın olduğunuzu bulmayı sağlıyor. Onay, sevgi, başarı, mükemmelliyetçilik gibi 8 kavrama yer verilmiş. Hepsine burda değinmek istemiyorum ama bence kitabın kesinlikle okunması gereken parçalarından biri burası. 
+
+> Duygusal aydınlanmanın anahtarı, duygudurumunuzu etkileyecek tek şeyin düşünceleriniz olduğu şeklindeki bilgidir. Onay bağımlısı iseniz, iç ışığınızı, sadece dışarıdan birisi ışığını üzerinize tuttuktan sonra yakmak şeklinde kötü bir alışkanlığınız var demektir. Onların onayını kendi için onayınızla karıştırıyorsunuz; çünkü, her ikisi aynı anda oluşuyor. Yanlış biçimde, diğer insanın kendinizi iyi hissetmenizi sağladığı sonucuna varıyorsunuz. <br/> — *İyi Hissetmek, s.304*
+
+İkinci kısımda, onay bağımlılığından bahsediliyor ve onaylanmakla değerli olmanın neden bağlantılı olmak zorunda olmadığını açıklıyor. Neden böyle bir inanç geliştirdiğinize dair çocukluğunuzda yaşamış olabileceğiniz bazı örneklere yer verilmiş ve bu durumla başa çıkmak için bazı yazma egzersizleri. Ayrıca reddedilmenin, neden kişisel bir şey olmadığı anlatılıyor.
+
