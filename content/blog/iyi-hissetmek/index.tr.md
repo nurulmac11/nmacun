@@ -92,4 +92,12 @@ Bu bölümde intihar isteğinizin derecesini ölçmek için çeşitli sorular so
 > Holy ile bir yıldan az süren haftalık seanslarımızın ardından yollarımız ayrıldı. Bir tartışmanın ortasında, muayenehaneden fırladı, kapıyı çarptı ve bir daha dönmemeye yemin etti. Belki de veda etmenin başka bir yolunu bilmiyordu. <br/> — *İyi Hissetmek, s.383*
 
 
+### 6. Günlük Hayatın Stres ve Gerilimleriyle Başa Çıkmak
+
+Yazar bu bölümde özellikle hastalarıyla kendi yaşadığı zorulukları ve kendisinin bunlarla nasıl başa çıktığını, tüm kitap boyunca anlattığı teknikleri kendisinin de nasıl kullandığını örneklerle anlatıyor. 
+
+
+### 7. İlaç Kılavuzu
+
+
 [^1]: <a href="https://youtu.be/kbRsDPHOX7s?si=8Xnho8ke-DbzOkQJ&t=60" target="_blank">https://youtu.be/kbRsDPHOX7s?si=8Xnho8ke-DbzOkQJ&t=61</a>
