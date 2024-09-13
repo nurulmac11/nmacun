@@ -73,4 +73,20 @@ Bu bölümde, depresyonun tekrarlamaması için neler yapılması gerektiğine d
 
 İkinci kısımda, onay bağımlılığından bahsediliyor ve onaylanmakla değerli olmanın neden bağlantılı olmak zorunda olmadığını açıklıyor. Neden böyle bir inanç geliştirdiğinize dair çocukluğunuzda yaşamış olabileceğiniz bazı örneklere yer verilmiş ve bu durumla başa çıkmak için bazı yazma egzersizleri. Ayrıca reddedilmenin, neden kişisel bir şey olmadığı anlatılıyor.
 
+> Sevgi yetişin bir insanın gereksinim duyduğu bir şey değildir! <br/> — *İyi Hissetmek, s.314*
+
 Üçüncü kısımda, ikinci kısma çok benzer bir şekilde, sevgi bağımlılığından bahsediliyor. Biri beni sevmezse, gerçekten mutlu olamam inancını irdeliyor. Bunun nasıl bir zorunluluk olmadığını, yalnızken de hayattan keyif alınabileceğine değiniyor. 
+
+Dördüncü kısımda ise, değerinizi başardıklarınızla ölçmenin neden yanlış olduğunu ve mutluluk için başarılı olmayı beklemenin mantıksızlığına değiniyor. Bu kısımda, ayrıca diğerlerinden farklı olarak, benlik değerinizi nasıl kazanabileceğinize dair dört yöntemden bahsediyor. Bu yöntemlerden birisi biraz zen felsefesini de anımsatan bir şekilde, aslında değer diye bir kavram olmadığını, bunun bizim uydurduğumuz bir kavram olduğu ve dolayısıyla kazanılacak ya da kaybedilecek bir şey de olmadığı.
+
+> Etrafına bak süpermen! Evlere bak! Herkes haketti de oturuyor öyle mi? Hiç arak yok yani? Hı? Tertemiz! Uyan süpermen daha uçucan! <br/> — Organize İşler [^1]
+
+Beşinci ve son kısımda, mükemmelliyetçiliği yenmenin yolları anlatılmış. Mükemmeli hedeflemek yerine vasatı hedeflemenin yapabileceği değişikler anlatılıyor ve bazen daha çok keyif aldığımız şeylerin mükemmel değil de vasat olduğu gibi önemli noktalardan örnekler veriliyor ve bunu yenmek için 14 maddeye yer verilmiş. Bunlar, durumu farklı açılardan görmenize olanak sağlıyor ve uygulayabileceğiniz bazı pratik öneriler verilmiş. Bunun nasıl sizin veriminizi düşürdüğü, siz de bir insan olduğunuz için hata yapmanızın ne kadar normal olduğu gibi konulara değiniliyor.
+
+
+
+
+
+
+
+[^1]: <a href="https://youtu.be/kbRsDPHOX7s?si=8Xnho8ke-DbzOkQJ&t=60" target="_blank">https://youtu.be/kbRsDPHOX7s?si=8Xnho8ke-DbzOkQJ&t=61</a>
