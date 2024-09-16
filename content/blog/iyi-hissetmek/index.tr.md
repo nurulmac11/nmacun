@@ -99,5 +99,21 @@ Yazar bu bölümde özellikle hastalarıyla kendi yaşadığı zorulukları ve k
 
 ### 7. İlaç Kılavuzu
 
+Bu bölümde depresyonun fijyolojik olarak ne anlama geldiği, ne tip ilaç tedavileri olduğu, bunların ne kadar etkili olduğu, depresyonun biyolojik kökenli mi çevre kökenli mi olduğu gibi konulara yer verilmiş.
+
+İlk kısımda bipolar bozukluğun büyük ölçüde genetik olduğuna ama depresyon için bu kadar net çalışmalar olmadığına yer verilmiş. Ayrıca beynin nasıl çalıştığına, nöronların ve serotonin gibi nörotransmitterlerin nasıl çalıştığına değinilmiş. Sonrasında depresyonun neden olduğunu açıklamaya çalışan teorilere yer verilmiş. Bunlar serotoninin sinapslarda az bulunması veya reseptörlerin yapısında veya sayısındaki değişiklikler gibi çeşitli teorileri içeriyor ama sonuç olarak bu konuda aslında çok yetersiz olduğumuzu ve hiç birinin teoriden öteye gidemediği anlatılmış. Ayrıca bu kimyasal değişikliklerin mi depresyona sebep olduğu yoksa depresyonun mu bu kimyasal değişikliklere sebep olduğu sorusu da hala cevaplanamamış zor ve bir ölçüde felsefi sayılabilecek bir soru.
+
+Devamında ilaçlardan ve nasıl etki ediyor olabileceğine dair bazı teorilerden bahsedilmiş ama yine de kesin kanıtlanmış bir sonuç yok elimizde. Sadece bazı ilaçların gerçekten de insanların duygu durumunu değiştirdiğini görüyoruz ama sebep olduğu değişikliklerden hangisinin bunun sebebi olduğu belirsiz.
+
+Sonraki kısımda zihin beden sorununa değinilmiş. Zihnin beden ayrı olduğu temelli bir tedavi olarak psikoterapiden, fiziksel bir bozukluk olduğu düşüncesi yüzünden de ilaçların oluşması örneği verilmiş ama yapılan bazı araştırmalarda iki tedavi türünün de benzer şekilde benzer oranlarda etkili olduğu anlatılmış. Ayrıca psikoterapi alarak da iyileşmiş hastaların, sadece ilaçla tedavi görmüş hastalara göre bu iyi hal durumunu daha uzun süre koruyabildiklerine değinilmiş. 
+
+Ben de açıkcası bu fikre daha yakınım çünkü kitapta da değinildiği üzere, psikoterapi gören hastalar, kendilerini tekrar depresyona sürükleyebilecek olaylarla, durumlarla karşılaştıklarında, bir düşünce girdabına kapılıp kendilerini depresyonun ortasında bulmadan önce, bunlarla savaşabilecek silahlara, araçlara sahip oldukları için, bu durumdan kendilerini kurtarabiliyorlar, sadece ilaçla tedavi olan insanların aksine. 
+
+Bu kısımda ayrıca insanların ilaç tedavisi ve psikoterapilere karşı olan önyargılarına ve bunların neden yanlış olduğuna değinilmiş. 
+
+Bu bölümün üçüncü kısmında, yazar, bir antidepresandan beklentilerini dile getirmiş.Kendisinin hastalarına nasıl tedaviler uyguladığı ve tam iyileşme hedeflediği gibi konulara değinmiş ama genel olarak kariyerinin başında sadece ilaçla tedaviyi denemiş olsa da artık, terapi olmadan sadece ilaçla tedavi yolunu terk ettiğini söylüyor. Kendisinin ilaçları sadece iyileşme dönemi bitene kadar kullanma yanlısı, terapi sayesinde ilaç kullanılmasa bile çoğu durumda depresyonun tekrar etmediğinden bahsediyor.
+463
+
+
 
 [^1]: <a href="https://youtu.be/kbRsDPHOX7s?si=8Xnho8ke-DbzOkQJ&t=60" target="_blank">https://youtu.be/kbRsDPHOX7s?si=8Xnho8ke-DbzOkQJ&t=61</a>
