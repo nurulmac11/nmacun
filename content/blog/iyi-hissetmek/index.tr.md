@@ -7,6 +7,8 @@ description = "Psikoterapiye tonlarca para dökmeye gerek yok mu? Evde, bir kita
 tags = ["okudum", "iyi hissetmek"]
 +++
 
+
+
 {{ img(src="/photos/posts/iyi-hissetmek.png", class="x-smaller-img", caption="İyi Hissetmek, psikonet yayınları") }}
 > Bu blog yazısı, genel bilgi ve inceleme amaçlı hazırlanmıştır. Buradaki bilgiler, profesyonel psikoterapi hizmetlerinin yerini almaz ve herhangi bir psikolojik rahatsızlık ya da tedavi gerektiren durumlar için profesyonel bir uzmana başvurulması tavsiye edilir. İçerik, kişisel deneyimler ve araştırmalara dayanarak hazırlanmış olup, kesinlikle tıbbi veya psikolojik tavsiye olarak değerlendirilmemelidir.
 
@@ -14,35 +16,44 @@ tags = ["okudum", "iyi hissetmek"]
 
 <hr/>
 
+
 {{ img(src="/photos/posts/david-burns.jpg", class="x-smaller-img", caption="David Burns") }}
 ## Yazar Hakkında
+___
+
 
 İyi Hissetmek kitabını psikonet yayınlarından 51. baskısını okudum. Türkçeye Esra Tuncer (Uz.Psikolog), Özlem Mestçioğlu (Psikiyatrist),
 İrem Erdem Atak (Uz.Psikolog), Gönül Acar (Psikolog) tarafından çevrilmiş. Yazarı David D. Burns, 1942 yılında, Minneapolis'de doğmuş. 1970 yılında Stanford Üniversitesi Tıp Fakültesi'ni bitirip, 1974 yılında Pensilvanya Üniversitesi Tıp Fakültesi'nde psikiyatri uzmanlığını tamamlamış. İlk kitabı olan İyi Hissetmek'i 1980 yılında, 38 yaşında, yazmış. Yazar, Bilişsel Davranışçı Terapinin kurucusu sayılan, Aaron Beck'in öğrencisi olmuş. Kitapta da anlatılan bu terapi türü zaten. Yazarın bana Hide the Pain Harold meme'indeki dedeyi hatırlattığına da değinmeden geçmek istemiyorum;
 
 {{ img(src="/photos/posts/harold-01.jpg", class="x-smaller-img", caption="Hide the Pain Harold") }}
 
-<hr/>
-
 ## Bilişsel Davranışçı Terapi Hakkında
+___
 
 {{ img(src="/photos/posts/bdt.jpg", class="smaller-img") }}
+
+Bilişsel Davranışçı Terapi (İngilizce adıyla Cognitive Behavioral Therapy, CBT), anksiyete, depresyon ve travma sonrası stres bozukluğu (PTSD) gibi zihinsel rahatsızlıkların tedavisinde kullanılan, oldukça pratik bir terapi yöntemidir. Temel hedefi, bu hastalıklara neden olan bozulmuş düşünce, inanç kalıpları ve tutumları, daha sağlıklı bakış açılarıyla değiştirmektir. Bir başka deyişle, dünyayı yorumlama ve algılama biçimimizi daha gerçekçi ve yapıcı şekillerle yeniden şekillendirmeyi amaçlar. Bu, sanki kirli ve her şeyi bulanık gösteren bir gözlüğü çıkarıp, yerine temiz ve net bir gözlük takmak gibidir.
+
+CBT, olaylar karşısında verdiğimiz tepkileri analiz eder ve bu tepkilerin ardındaki düşünce çarpıtmalarını fark etmemizi sağlar.
+
 Bilişsel Davranışçı Terapi (ingilizce adıyla, cognitive behavioral therapy, CBT), çok kabaca özetlemek gerekirse, özellikle anksiyete, depresyon, PTSD(travma sonrası stres bozukluğu) gibi bazı zihinsel hastalıkların  tedavisi için, bozulmuş ve bahsedilen hastalıklara yol açtığı düşünülen, düşünce, inanç kalıpları ve tutumları yeni düşüncelerle, bakış açılarıyla değiştirmeyi amaçlar. Daha da kabaca özetlemek gerekirse, bozulmuş olan dünyayı yorumlama ve algılama biçimimizi daha sağlıklılarıyla değiştirmeyi amaçlar. Adeta gözünüzden kirlenmiş ve her şeyi isli gösteren bir gözlüğü alıp, yerine temiz ve dünyayı olduğu gibi gösteren bir gözlük takmak gibi. Bu yüzden aslında çok pratik bir terapi türü, şöyle bir olay karşısında kötü hissettiniz çünkü gerçekte olan şuydu ama siz bunu öyle olmamasına rağmen, şöyle yorumladınız, olayları çarpıtmayıp olduğu gibi görebilseydiniz, kötü hissetmeyecektiniz. Çocukluğunuza inmeden işi çözdük.
 
 Tabiki bunu bir sihir veya büyü gibi yapmıyor. Çok sistematik bir şekilde, olaylar karşısında verdiğimiz tepkileri kategorize ederek, hepsi üzerinden tek tek geçip, farkında olmadan nasıl çarpıtmalar yaptığınızı ve bunun nasıl sonuçlarının olabileceğini örneklerle açıklıyor. 
-<hr/>
 
 ## Kitabın bölümleri
+___
 
 {{ img(src="/photos/posts/feeling-good-first.jpg", class="x-smaller-img", caption="İyi Hissetmek kitabı, ilk baskı") }}
 
 Kitapta yedi başlığa kısım denilmiş ama bana daha kapsayıcı ve doğru geldiği için bunlara bölüm, alt başlıklarına da kısım dedim. Her başlıktaki kısımları da birden başlatarak numaralandırdım. 
 
 ###  1. Teori ve Araştırma
+___
 
 Önsözde ve bu bölümün ilk kısmında, bu terapi türünün ve kitabın ne kadar etkili olduğuyla ilgili araştırmalara yer verilmiş. Kitaba şüpheyle yaklaşan insanlara bilimsel verilerle ve kitap hakkındaki kuşkularını tahmin edip cevap vermeye çalışılmış. İkinci kısımda, kendi depresyonunuzu değerlendirebileceğiniz bir kısma yer verilmiş. Bendeki basımda, sayfa 51 ile 70 arasında bulunan son kısımda ise, bana göre tüm kitabın ve bu terapi türünün özünü oluşturan bilişsel çarpıtmalara yer verilmiş.
 
 ### 2. Pratik Uygulamalar
+___
 
 Bu bölümün ilk kısmında, depresyonun düşük özgüvene, düşük özgüven de depresyona sebep olduğu için, özgüveninizi nasıl oluşturabileceğinizi anlatıyor. Aslında özgüvenli olmak diye bir şey yok. Değersiz olduğunuzu hissetmenize sebep olan düşüncelerden kurtulduğunuz anda, olması gerektiği gibi hissetmeye başlıyorsunuz. Burda da, örneklerle, bu düşünce kalıplarından bahsediliyor.
 
@@ -57,6 +68,7 @@ Dördüncü kısım ise, neden öfkeli olduğunuz ve gerekmediği durumlarda öf
 Beşinci kısımda ise, suçluluk duygusuna yol açan bilişsel çarpıtmalara yer verilmiş. Suçlulukla kendinize acı çektirmek yerine, daha yapıcı bir şekilde başa çıkmanın yollarından bahsediliyor. 
 
 ### 3. Gerçekçi Depresyonlar
+___
 
 Bu bölüm sadece bir kısımdan oluşuyor; "Üzüntü Depresyon Değildir". Bu bölümde, iflas, yoksulluk, ölümcül hastalıklar, sevilen birinin kaybı gibi, bizim gerçek depresyon sebebi olarak gördüğümüz durumların da aslında, depresyona sebep olmak zorunda olmadığından bahsediyor. Depresyon ve üzüntü arasındaki çizgiyi çekiyor. 
 
@@ -64,6 +76,7 @@ Bu bölüm sadece bir kısımdan oluşuyor; "Üzüntü Depresyon Değildir". Bu 
 
 
 ### 4. Önleme ve Kişisel Geliştirme
+___
 
 > Olumsuz bir puan "Kutsal Kase"yi aramaya saplandığınızı gösterir. Kendinizden mükemmeli beklersiniz, yanlışlar tabudur, başarısızlık ölümden beterdir, olumsuz duygular bile felakettir. Her zaman iyi görünmek, iyi hissetmek, iyi düşünmek zorundasınızdır. Mükemmelin biraz altında olmak cehennem ateşinde yanmak gibidir. Büyük bir hızla ilerleseniz de, yeterli tatmini alamazsınız. Bir hedefe ulaştığınızda, daha uzaktaki başka bir hedef hemen sizi cezbeder; böylece dağın tepesine ulaşma zevkine hiç varamazsınız.  <br/> — *İyi Hissetmek, s.280*
 
@@ -84,8 +97,7 @@ Dördüncü kısımda ise, değerinizi başardıklarınızla ölçmenin neden ya
 Beşinci ve son kısımda, mükemmelliyetçiliği yenmenin yolları anlatılmış. Mükemmeli hedeflemek yerine vasatı hedeflemenin yapabileceği değişikler anlatılıyor ve bazen daha çok keyif aldığımız şeylerin mükemmel değil de vasat olduğu gibi önemli noktalardan örnekler veriliyor ve bunu yenmek için 14 maddeye yer verilmiş. Bunlar, durumu farklı açılardan görmenize olanak sağlıyor ve uygulayabileceğiniz bazı pratik öneriler verilmiş. Bunun nasıl sizin veriminizi düşürdüğü, siz de bir insan olduğunuz için hata yapmanızın ne kadar normal olduğu gibi konulara değiniliyor. Bu bölüm bence mükemmelliyetçilikten muzdarip insanların kesinlikle okuması gereken bir bölüm. Hatta bir kere de değil, belirli aralıklarla hatırlamak için okunabileceğini düşünüyorum.
 
 ### 5. Umutsuzluk ve İntiharı Yenmek
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2s7pyee9w04uQy3cNKzey9?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+___
 
 Bu bölümde intihar isteğinizin derecesini ölçmek için çeşitli sorular sorulmuş. İntihar isteğinin, mantıksız ve bilişsel çarpıtmalarla inşa edilmiş bir umutsuzluk kaynaklı olduğundan bahsediliyor. Ayrıca intiharın mantıksız olduğundan ve nihilizmin de mantıksız olduğunu açıkçası çok da fazla destekli savlarda bulunmadan kestirip atıyor. Zaten koskoca bir felsefi akımı tek bir paragrafta çürütmesi de beklenemez. Ben açıkçası bu konulardaki savlarını yetersiz buldum. Sorununuz gerçekten nihilizmse, absurdizm bununla başa çıkmak için çok daha destekli ve benim de mantıklı bulduğum bir felsefi görüş. Çoğu nihilist kişinin kitabın bu bölümünden tatmin olmayacağını düşünüyorum. Bu konuda Diamond Tema'nın {{ youtube(href="https://youtu.be/L2mZdbC_b_4?si=J03m9gD82ZH6sRcL", text=" Neden İntihar Etmemeliyiz? (Camus ve Sisyphus) ")}} videosunu tavsiye edebilirim.
 
@@ -93,11 +105,13 @@ Bu bölümde intihar isteğinizin derecesini ölçmek için çeşitli sorular so
 
 
 ### 6. Günlük Hayatın Stres ve Gerilimleriyle Başa Çıkmak
+___
 
 Yazar bu bölümde özellikle hastalarıyla kendi yaşadığı zorulukları ve kendisinin bunlarla nasıl başa çıktığını, tüm kitap boyunca anlattığı teknikleri kendisinin de nasıl kullandığını örneklerle anlatıyor. 
 
 
 ### 7. İlaç Kılavuzu
+___
 
 Bu bölümde depresyonun fijyolojik olarak ne anlama geldiği, ne tip ilaç tedavileri olduğu, bunların ne kadar etkili olduğu, depresyonun biyolojik kökenli mi çevre kökenli mi olduğu gibi konulara yer verilmiş.
 
