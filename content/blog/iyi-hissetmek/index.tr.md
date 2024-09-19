@@ -40,7 +40,7 @@ Kitapta yedi başlığa kısım denilmiş ama bana daha kapsayıcı ve doğru ge
 
 ###  1. Teori ve Araştırma
 
-Önsözde ve bu bölümün ilk kısmında, bu terapi türünün ve kitabın ne kadar etkili olduğuyla ilgili araştırmalara yer verilmiş. İkinci kısımda, kendi depresyonunuzu değerlendirebileceğiniz bir kısma yer verilmiş. Bendeki basımda, sayfa 51 ile 70 arasında bulunan son kısımda ise, bana göre tüm kitabın ve bu terapi türünün özünü oluşturan bilişsel çarpıtmalara yer verilmiş.
+Önsözde ve bu bölümün ilk kısmında, bu terapi türünün ve kitabın ne kadar etkili olduğuyla ilgili araştırmalara yer verilmiş. Kitaba şüpheyle yaklaşan insanlara bilimsel verilerle ve kitap hakkındaki kuşkularını tahmin edip cevap vermeye çalışılmış. İkinci kısımda, kendi depresyonunuzu değerlendirebileceğiniz bir kısma yer verilmiş. Bendeki basımda, sayfa 51 ile 70 arasında bulunan son kısımda ise, bana göre tüm kitabın ve bu terapi türünün özünü oluşturan bilişsel çarpıtmalara yer verilmiş.
 
 ### 2. Pratik Uygulamalar
 
@@ -109,11 +109,15 @@ Sonraki kısımda zihin beden sorununa değinilmiş. Zihnin beden ayrı olduğu 
 
 Ben de açıkcası bu fikre daha yakınım çünkü kitapta da değinildiği üzere, psikoterapi gören hastalar, kendilerini tekrar depresyona sürükleyebilecek olaylarla, durumlarla karşılaştıklarında, bir düşünce girdabına kapılıp kendilerini depresyonun ortasında bulmadan önce, bunlarla savaşabilecek silahlara, araçlara sahip oldukları için, bu durumdan kendilerini kurtarabiliyorlar, sadece ilaçla tedavi olan insanların aksine. 
 
-Bu kısımda ayrıca insanların ilaç tedavisi ve psikoterapilere karşı olan önyargılarına ve bunların neden yanlış olduğuna değinilmiş. 
+Bu kısımda ayrıca insanların ilaç tedavisi ve psikoterapilere karşı olan ön yargılarına ve bunların neden yanlış olduğuna değinilmiş. 
 
 Bu bölümün üçüncü kısmında, yazar, bir antidepresandan beklentilerini dile getirmiş.Kendisinin hastalarına nasıl tedaviler uyguladığı ve tam iyileşme hedeflediği gibi konulara değinmiş ama genel olarak kariyerinin başında sadece ilaçla tedaviyi denemiş olsa da artık, terapi olmadan sadece ilaçla tedavi yolunu terk ettiğini söylüyor. Kendisinin ilaçları sadece iyileşme dönemi bitene kadar kullanma yanlısı, terapi sayesinde ilaç kullanılmasa bile çoğu durumda depresyonun tekrar etmediğinden bahsediyor.
-463
 
+Ayrıca çok çeşitli ilaçlar olduğundan ve henüz hiçbirinin depresyonu nasıl önlediği tam olarak anlaşılmadığı için, çoğu hekimin deneme-yanılma yaklaşımını kullandığından bahsediliyor ama bu konuda iyileşmeye dair herhangi bir belirti olmamasına rağmen aynı ilaçta aylarca direten doktorların hata yaptığını söylüyor. İlaca ve çeşitli durumlara göre değişebilmekle birlikte ortalama 4-5 hafta gibi bir sürede bir iyileşme görmeyi beklediğini söylüyor. Bir ilaç işe yaradığında ise, nadiren 6 aydan fazla kullanmayı gerekli gördüğünden bahsediyor. 
+
+Sonrasında ilaçların yan etkilerinden bahsediliyor ve bazı durumlarda bu sözde yan etkilerin nasıl plasebo olabileceğine dair bir örnek verilmiş.  Sonrasında birden fazla ilaç kullanımında olası ilaç etkileşimleri hakkında açıklamalar var.
+
+Kitabın son kısmında ise antidepresanlar ve ana etken maddeleri hakkında çok detaylı bilgilere yer verilmiş. Nasıl etki ettikleri, yan etkileri, hangi reseptörlere etki ettikleri vs gibi. Olası ilaç etkileşimleri gibi. Bir doktorun bile rehber olarak kullanabileceği kadar detaylı gözüküyor.
 
 
 [^1]: <a href="https://youtu.be/kbRsDPHOX7s?si=8Xnho8ke-DbzOkQJ&t=60" target="_blank">https://youtu.be/kbRsDPHOX7s?si=8Xnho8ke-DbzOkQJ&t=61</a>
