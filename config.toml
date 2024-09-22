@@ -68,6 +68,8 @@ build_search_index = true
 # Example: If [search].index_format is "elasticlunr_javascript", set:
 # index_format = "elasticlunr_javascript"
 # index_format = ""
+title_description_translations.tr = "aramakla bulunmaz ama bulanlar arayanlardır"
+title_description_translations.en = "not all those who wander are lost"
 
 # Google analytics
 ga = "G-X7VT1SY2WY"
