@@ -78,6 +78,14 @@ figure {
 .x-smaller-img {
   width: 35%;
 }
+
+.xx-smaller-img {
+  width: 25%;
+}
+.xxx-smaller-img {
+  width: 15%;
+}
+
 .lang-item {
   margin-left: 5px;
   margin-right: 5px;
@@ -95,4 +103,19 @@ h3 {
   font-size: 14px;
   font-style: italic;
   opacity: 0.6;
+}
+
+[data-theme="light"], 
+[data-theme="dark"] {
+  article strong, 
+  h1, h2, h3, h4, h5, h6 {
+    color: black;
+  }
+}
+
+[data-theme="dark"] {
+  article strong, 
+  h1, h2, h3, h4, h5, h6 {
+    color: aliceblue;
+  }
 }
