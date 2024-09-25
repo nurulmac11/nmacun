@@ -46,7 +46,7 @@ ___
 
 {{ img(src="/photos/posts/bdt.jpg", class="x-smaller-img") }}
 
-Bilişsel Davranışçı Terapi (İngilizce adıyla Cognitive Behavioral Therapy, CBT), anksiyete, depresyon ve travma sonrası stres bozukluğu (PTSD) gibi zihinsel rahatsızlıkların tedavisinde kullanılan, oldukça pratik bir terapi yöntemi. Temel hedefi, bu hastalıklara neden olan bozulmuş düşünce, inanç kalıpları ve tutumları, daha sağlıklı bakış açılarıyla değiştirmektir. Çünkü duygudurumunuzu olayların değil, olaylar karşısında oluşan düşüncelerinizin belirliyor. Bu, sanki kirli ve her şeyi bulanık gösteren bir gözlüğü çıkarıp, yerine temiz ve net bir gözlük takmak gibidir.
+Bilişsel Davranışçı Terapi (İngilizce adıyla Cognitive Behavioral Therapy, CBT), anksiyete, depresyon ve travma sonrası stres bozukluğu (PTSD) gibi zihinsel rahatsızlıkların tedavisinde kullanılan, oldukça pratik bir terapi yöntemi. Temel hedefi, bu hastalıklara neden olan bozulmuş düşünce, inanç kalıpları ve tutumları, daha sağlıklı bakış açılarıyla değiştirmektir. Çünkü duygudurumunuzu olaylar değil, olaylar karşısında oluşan düşünceleriniz belirliyor. Bu, sanki kirli ve her şeyi bulanık gösteren bir gözlüğü çıkarıp, yerine temiz ve net bir gözlük takmak gibi.
 
 
 ## Kitabın İçeriği
@@ -142,9 +142,9 @@ Bu bölümde intihar isteğinizin derecesini ölçmek için çeşitli sorular so
 
 Kitaba en büyük eleştirim bu kısım olabilir. Gerçekten nihilizm, dini bir inançtan ateizme geçiş, hayatın anlamsızlığı gibi sebeplerden dolayı depresyona girdiyseniz kitabın bu kısmı yetersiz gelebilir. Bu konudaki kendi bakış açımı paylaşmak isterim. Hayatın anlamsız olması, depresyona girmeniz ve yaşamdan zevk almamanız için yeterli bir sebep değil. Her ne kadar bu durumun içindeyken bunu kavramak ne kadar zor olsa da, bunlar bağımsız konular. 
 
-Bu konuda absurdizm bununla başa çıkmak için çok daha destekli ve daha mantıklı bulduğum bir felsefi görüş. Bu konuda Diamond Tema'nın {{ youtube(href="https://youtu.be/L2mZdbC_b_4?si=J03m9gD82ZH6sRcL", text=" Neden İntihar Etmemeliyiz? (Camus ve Sisyphus) ")}} videosunu tavsiye edebilirim. Bu videoda da bahsedildiği gibi, kaybettiğiniz bir anlam, tüm dünyanızın yıkılmasına sebep oluyorsa, dünyanızı yanlış yere kurmuşsunuz demektir. Kendinizi gerçekleştirip, kendi dünyanızı kurabilir, kendi anlamlarınızı yaratabilirsiniz.
+Bu konuda absurdizm bununla başa çıkmak için çok daha destekli ve daha mantıklı bulduğum bir felsefi görüş. Bu konuda Diamond Tema'nın {{ youtube(href="https://youtu.be/L2mZdbC_b_4?si=J03m9gD82ZH6sRcL", text=" Neden İntihar Etmemeliyiz? (Camus ve Sisyphus) ")}} videosunu tavsiye edebilirim. Bu videoda da bahsedildiği gibi, kaybettiğiniz bir anlam, tüm dünyanızın yıkılmasına sebep oluyorsa, **dünyanızı yanlış yere kurmuşsunuz** demektir. Kendinizi gerçekleştirip, kendi dünyanızı kurabilir, kendi anlamlarınızı yaratabilirsiniz.
 
-Depresyonunuzdan kurtulup ve hayattan tekrar zevk almaya tekrar başladığınızda, hayatın bir anlamı olmaması o kadar da umrunuzda olmayacaktır. Bunun hep böyle süreceğini düşünmek, asla geçmeyeceğini düşünmek sizin bilişsel çarpıtmanız. Bırakın bir yılı, bir günde bile hayatınızın ne kadar değişeceğini bilemezsiniz. Sonsuza kadar böyle depresif kalacağınızı hissetmek depresyonunuzun oynadığı bir oyun. Ona inanmayın.
+Depresyonunuzdan kurtulup ve hayattan tekrar zevk almaya başladığınızda, hayatın bir anlamı olmaması o kadar da umrunuzda olmayacaktır. Bunun hep böyle süreceğini düşünmek, asla geçmeyeceğini düşünmek sizin bilişsel çarpıtmanız. Bırakın bir yılı, bir günde bile hayatınızın ne kadar değişeceğini bilemezsiniz. Sonsuza kadar böyle depresif kalacağınızı hissetmek depresyonunuzun oynadığı bir oyun. Ona inanmayın.
 
 #### Zen Felsefesi
 
@@ -180,14 +180,14 @@ Sonraki kısımda zihin beden sorununa değinilmiş. Zihnin bedenden ayrı oldu�
 
 Açıkçası, ben de bu fikre yakınım. Kitapta da bahsedildiği gibi, psikoterapi gören hastalar, depresyona tekrar sürüklenebilecekleri olaylar ya da durumlarla karşılaştıklarında, bir düşünce girdabına kapılıp depresyonun içine çekilmeden önce, bu durumla başa çıkmalarını sağlayan araçlara ve becerilere sahip oluyorlar. Oysa yalnızca ilaçla tedavi görenler, bu tür bir içsel savunma geliştirmekte zorlanabiliyorlar.
 
-Benim şahsi görüşüm, yataktan kalkamayacak durumda değilseniz, ve özellikle anksiyete, depresyon gibi durumlarda ilacın şart olmadığı. En azından ilaç çözümünü denemeden önce, psikoterapinin en azından birkaç ay denenmesi yönünde. Hiçbir gelişme görülmediği durumlarda ilacın düşünülmesi.
+Benim şahsi görüşüm, yataktan kalkamayacak durumda değilseniz, ve özellikle anksiyete, depresyon gibi durumlarda ilacın şart olmadığı. Hiç olmazsa ilaç çözümünü denemeden önce, psikoterapinin en azından birkaç ay denenmesi yönünde. Hiçbir gelişme görülmediği durumlarda ilacın düşünülmesi.
 
 ## Sona Gelirken
 ___
 
 Bu kitabın sadece depresyon hastalarının değil herkesin okuması gerektiğini düşünüyorum. Çünkü bahsedilen bilişsel çarpıtmalar, muhtemelen bütün insanların her zaman olmasa bile zaman zaman yaptığı şeyler ve bunları fark etmek, günlük hayatın kalitesini arttırabilir.
 
-En büyük eksik olarak gördüğüm kısım ise, bence iyileşmeye yardımcı olabilecek, çok önemli iki adımdan kitapta hiç bahsedilmemiş; Şükür ve meditasyon. Her sabah veya akşam, düzel olarak şükür etmek, minnettar olduğunuz şeyleri düşünmeye çalışmak ya da yazmak, sürekli olumsuzu, eksikleri bulmaya odaklanmış zihninize, iyi şeylerin de olduğunu göstermek için güzel bir pratiktir. 
+En büyük eksik olarak gördüğüm kısım ise, bence iyileşmeye yardımcı olabilecek, çok önemli iki adımdan kitapta hiç bahsedilmemiş; Şükür ve meditasyon. Her sabah veya akşam, düzenli olarak şükür etmek, minnettar olduğunuz şeyleri düşünmeye çalışmak ya da yazmak, sürekli olumsuzu, eksikleri bulmaya odaklanmış zihninize, iyi şeylerin de olduğunu göstermek için güzel bir pratiktir. 
 
 Meditasyon ise, kendi düşüncelerinize bir izleyici perspektifinden bakma pratiği yapmanızı sağlıyor. Bu sayede günlük hayatta aklınıza gelen düşüncelerin peşine kapılıp gitmeden önce onları değerlendirmenize olanak sağlıyor. 
 
