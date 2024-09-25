@@ -124,3 +124,18 @@ h3 {
   width: 25%;
   margin: 0 auto
 }
+
+@media (max-width: 768px) {
+  /* Adjust for tablets */
+  .insta-post {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust for phones */
+  .insta-post {
+    width: 100%;
+  }
+}
+
