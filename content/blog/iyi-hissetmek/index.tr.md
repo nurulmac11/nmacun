@@ -134,6 +134,12 @@ Bu konuda verebileceğim bir başka öneri zen felsefesi. Yakında bu konuda ayr
 {{ youtube(href="https://www.youtube.com/watch?v=dx4yW0mjezw", text="The Benefit of Living With No Purpose - Alan Watts")}}
 >  “Hayatın anlamı sadece yaşamaktır. Çok sade, açık ve basit. Ve yine de herkes, kendinin ötesinde bir şeylere ulaşmak gerekiyormuş gibi, büyük bir panik içinde dolaşıyor.”<br/> — *Alan Watts*
 
+> Bir balık hakkında şu hikâyeyi duymuştum.  
+Genç balık yaşlı balığa gider ve der ki: “O okyanus denilen yeri bulmaya çalışıyorum.” 
+“Okyanus mu?” der yaşlı balık; “Şu an bulunduğun yerdir.”  
+"Burası", der genç balık, “ama burası su. Benim istediğim okyanus.”  
+— Soul(2020) 
+
 #### Absürdlük Kardeşliği
 
 Bu konuda ImmanuelTolstoyevski'nin şu yazısını da okumanızı tavsiye ederim;  
@@ -142,7 +148,7 @@ Bu konuda ImmanuelTolstoyevski'nin şu yazısını da okumanızı tavsiye ederim
 
 {{ img(src="/photos/posts/cevirmeli-tel.jpeg", class="xxx-smaller-img", caption="antika çevirmeli ev telefonu") }}
 
-Bana sorarsanız, ben merak ediyorum. O salda neler olacağını da, nerelerden geçeceğini de, neleri anlayabileceğimizi de, neler yapabileceğimizi de. Uzaya bile çıktık ama burada ne olup bittiğini anlamaktan hala çok uzağız. Uzaya roket bile gönderdik, dünyanın yörüngesine uydu bile yerleştirdik ama, daha beynimizin nasıl çalıştığını bile bilmiyoruz. Dünyanın merkezine nasıl gideceğimizi bilmiyoruz. Bundan daha 25-30 yıl önce cep telefonu diye bir şey yoktu ya da çok nadirdi. Çevirmeli ev telefonları vardı sadece. Şu an neredeyse bütün dünya akıllı telefon kullanıyor. Sonuç olarak, ölene kadar neler olacağını görmek istiyorum, hatta bu keşfin bir parçası olmak istiyorum. 
+Bana sorarsanız, ben merak ediyorum. O salda neler olacağını da, nerelerden geçeceğini de, neleri anlayabileceğimizi de, neler yapabileceğimizi de. Uzaya bile çıktık ama burada ne olup bittiğini anlamaktan hala çok uzağız. Uzaya roket bile gönderdik, dünyanın yörüngesine uydu bile yerleştirdik ama, daha beynimizin nasıl çalıştığını bile bilmiyoruz. Dünyanın merkezine nasıl gideceğimizi bilmiyoruz. Bundan daha 25-30 yıl önce cep telefonu diye bir şey yoktu ya da çok nadirdi. Çevirmeli ev telefonları vardı sadece. Şu an neredeyse bütün dünya akıllı telefon kullanıyor. Sonuç olarak, ölene kadar neler olacağını görmek istiyorum, hatta bu keşfin bir parçası olmak istiyorum. Ve bu keşif sadece dışsal bir yolculuk değil, içsel bir keşif de aynı zamanda. 10 sene önce olduğumdan çok daha farklı biriyim ve 10 sene sonra nasıl biri olacağımı da ölesiye merak ediyorum. O yüzden ölümümümde acele etmiyorum.
 
 
 ### İlaç mı, Psikoterapi mi?
@@ -156,5 +162,13 @@ Ben de açıkcası bu fikre daha yakınım çünkü kitapta da değinildiği üz
 
 Benim şahsi görüşüm, yataktan kalkamayacak durumda değilseniz ilacın şart olmadığı. En azından ilaç çözümünü denemeden önce, psikoterapinin en azından birkaç ay denenmesi yönünde. Hiçbir gelişme görülmediği durumda ilacın düşünülmesi.
 
-## Genel Bakış
+## Sona Gelirken
+
+Bu kitabın sadece depresyon hastalarının değil herkesin okuması gerektiğini düşünüyorum. Çünkü bahsedilen bilişsel çarpıtmalar, muhtemelen bütün insanların her zaman olmasa bile zaman zaman yaptığı şeyler ve farkındalık iyileşmenin ilk adımı. 
+
+En büyük eksik olarak gördüğüm kısım ise, bence iyileşmeye yardımcı olabilecek, çok önemli iki adımdan kitapta hiç bahsedilmemiş; Şükür ve meditasyon. Her sabah veya akşam, düzel olarak şükür etmek, minnettar olduğunuz şeyleri düşünmeye çalışmak ya da yazmak, sürekli olumsuzu, eksikleri bulmaya odaklanmış zihninize, iyi şeylerin de olduğunu göstermek için güzel bir pratiktir. 
+
+Meditasyon ise, kendi düşüncelerinize bir izleyici perspektifinden bakma pratiği yapmanızı sağlıyor. Bu sayede günlük hayatta aklınıza gelen düşüncelerin peşine kapılıp gitmeden önce onları değerlendirmenize olanak sağlıyor. 
+
+Ayrıca bu kitap ve genel olarak bu terapi yöntemi, benim gördüğüm kadarıyla, aslında sorunlarınızın kökenine inmiyor. Biraz daha pratik kalıyor. Sizin bu düşünce kalıplarını oluşturmanıza sebep olabilecek, çocukluğunuzdaki sorunları irdelemiyor. Bunun için "Hayatı Yeniden Keşfedin" isimli kitabı ve uyguladığı şema terapi metodunu daha çok beğendim. Yakında onun için de bir inceleme paylaşacağım. Çok kabaca iki kitabı kıyaslamak gerekirse, "İyi Hissetmek" bahçenizde biten yabani otları biçmeyi öğrenmek gibi, "Hayatı Yeniden Keşfedin" kitabı ise bu otları kökünden koparmak gibi. Ama tabiki bu süreç çok daha acılı ve zor olabilir. O yüzden bana soran arkadaşlarıma, önce İyi Hissetmek kitabını okumalarını, sonrasında bir süre meditasyon yapmalarını, en son Hayatı Yeniden Keşfedin kitabı okumalarını öneriyorum.
 
