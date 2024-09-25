@@ -1,7 +1,7 @@
 +++
 title = "Okudum: İyi Hissetmek"
 date = "2024-09-25"
-description = "Psikoterapiye tonlarca para dökmeye gerek yok mu? Evde, bir kitap okuyarak düzelmek mümkün mü? Sahi, düzelmek ne demek?"
+description = "Psikoterapiye tonlarca para dökmeye gerek yok mu? Evde, bir kitap okuyarak düzelmek mümkün mü? Sahi, düzelmek ne demek? Hayatın bir anlamı var mı? Varsa bile, aranarak bulunabilir mi?"
 
 [taxonomies]
 tags = ["okudum", "iyi hissetmek", "psikoterapi", "psikoloji", "intihar", "depresyon"]
