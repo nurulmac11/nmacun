@@ -1,10 +1,10 @@
 +++
 title = "Okudum: İyi Hissetmek"
-date = "2024-09-05"
+date = "2024-09-25"
 description = "Psikoterapiye tonlarca para dökmeye gerek yok mu? Evde, bir kitap okuyarak düzelmek mümkün mü? Sahi, düzelmek ne demek?"
 
 [taxonomies]
-tags = ["okudum", "iyi hissetmek", "psikoterapi", "psikoloji", "intihar"]
+tags = ["okudum", "iyi hissetmek", "psikoterapi", "psikoloji", "intihar", "depresyon"]
 +++
 
 
