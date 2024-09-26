@@ -68,8 +68,8 @@ Kitap, İyi Hissetmek kitabını okuyan insanların depresyon durumuna ne kadar 
 - **Olumluyu geçersiz kılma:** Yaşadığınız olumlu durumlara bile, onları değersizleştirecek bir bakış açısından bakıp, kendinizi kötü hissedebilirsiniz. Örneğin kariyerinizde iyi bir noktaya gelseniz bile, bu durumda veya bundan daha iyi durumda pek çok insan var, bu bir anlam ifade etmiyor diyebilirsiniz.
 > "Kendi sahne arkanızı, bir başkasının oyunuyla karşılaştırmayın."
 
-- **Sonuçlara atlamak:** Elinizde yeterli kanıt olmadan başkalarının ne düşündüğünü, hissettiğini bildinizi sanırsınız veya sonucu henüz belli olmayan bir durumun kesinlikle kötü sonuçlanacağına inanırsınız.
-> "Gün olur Yusuf zindanlardadır, gün olur Yusuf mısıra paşadır."
+- **Sonuçlara atlamak:** Elinizde yeterli kanıt olmadan başkalarının ne düşündüğünü, hissettiğini, bildiğinizi sanırsınız veya sonucu henüz belli olmayan bir durumun kesinlikle kötü sonuçlanacağına inanırsınız.
+> "Gün olur Yusuf zindanlardadır, gün olur Yusuf Mısır'a paşadır."
 
 Bu düşünceler otomatik olarak oluştuğu için çoğu zaman bu çarpıtmaları fark etmek çok zor. Kitap bunun için bu düşünceleri yazarak görselleştirme, gün içinde bunları fark ettiğinizde sayma gibi çeşitli teknikler öneriyor. Bu sayede zamanla bu tip çarpıtılmış düşüncelere karşı duyarlılığınız artacak ve fark edip olaylara daha objektif bakabilme şansı bulacaksınız. 
 
@@ -174,9 +174,9 @@ Bana sorarsanız, ben merak ediyorum. O salda neler olacağını da, nerelerden 
 ### İlaç mı, Psikoterapi mi?
 ___
 
-Kitabın son kısmında beynin nasıl çalıştığına, ilaçların neyi hedeflediğine ve psikoterapiyle farklarına ve benzerliklerine değinişmiş.
+Kitabın son kısmında beynin nasıl çalıştığına, ilaçların neyi hedeflediğine ve psikoterapiyle farklarına ve benzerliklerine değinilmiş.
 
-Sonraki kısımda zihin beden sorununa değinilmiş. Zihnin bedenden ayrı olduğu temelli bir tedavi olarak psikoterapiden, fiziksel bir bozukluk olduğu düşüncesi yüzünden de ilaçların oluşması örneği verilmiş ama yapılan bazı araştırmalarda iki tedavi türünün de benzer şekilde benzer oranlarda etkili olduğu anlatılmış. Ayrıca psikoterapi alarak da iyileşmiş hastaların, sadece ilaçla tedavi görmüş hastalara göre bu iyi hal durumunu daha uzun süre koruyabildiklerine değinilmiş. 
+Sonrasında zihin beden sorununa yer veriliyor. Zihnin bedenden ayrı olduğu temelli bir tedavi olarak psikoterapiden, fiziksel bir bozukluk olduğu düşüncesi yüzünden de ilaçların oluşması örneği verilmiş ama yapılan bazı araştırmalarda iki tedavi türünün de benzer şekilde, benzer oranlarda etkili olduğu anlatılmış. Ayrıca psikoterapi alarak da iyileşmiş hastaların, sadece ilaçla tedavi görmüş hastalara göre bu iyi hal durumunu daha uzun süre koruyabildiklerine değinilmiş. 
 
 Açıkçası, ben de bu fikre yakınım. Kitapta da bahsedildiği gibi, psikoterapi gören hastalar, depresyona tekrar sürüklenebilecekleri olaylar ya da durumlarla karşılaştıklarında, bir düşünce girdabına kapılıp depresyonun içine çekilmeden önce, bu durumla başa çıkmalarını sağlayan araçlara ve becerilere sahip oluyorlar. Oysa yalnızca ilaçla tedavi görenler, bu tür bir içsel savunma geliştirmekte zorlanabiliyorlar.
 
@@ -195,7 +195,7 @@ Ayrıca bu kitap ve genel olarak bu terapi yöntemi, benim gördüğüm kadarıy
 
 Çok kabaca iki kitabı kıyaslamak gerekirse, "İyi Hissetmek" bahçenizde biten yabani otları biçmeyi öğrenmek gibi, "Hayatı Yeniden Keşfedin" kitabı ise bu otları kökünden koparmak gibi. Ama tabiki bu süreç çok daha acılı ve zor olabilir. O yüzden bana soran arkadaşlarıma, önce İyi Hissetmek kitabını okumalarını, sonrasında bir süre meditasyon yapmalarını, en son Hayatı Yeniden Keşfedin kitabı okumalarını öneriyorum.
 
-> "Bu acımasız dünyada hiçbir şey kalıcı değildir. Dertlerimiz bile. "  
+> "Bu acımasız dünyada hiçbir şey kalıcı değildir. Dertlerimiz bile."  
 — *Charlie Chaplin*
 
 Bir şarkı önerisiyle bu yazıyı sonlandırmak istiyorum, hoşçakalın;
