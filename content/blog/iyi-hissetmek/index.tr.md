@@ -35,7 +35,7 @@ ___
 
 {{ img(src="/photos/posts/david-burns.jpg", class="xx-smaller-img", caption="David Burns") }}
 
-Yazarı David D. Burns, 1942 yılında, Minneapolis'de doğmuş. 1970 yılında Stanford Üniversitesi Tıp Fakültesi'ni bitirip, 1974 yılında Pensilvanya Üniversitesi Tıp Fakültesi'nde psikiyatri uzmanlığını tamamlamış. İlk kitabı olan İyi Hissetmek'i 1980 yılında, 38 yaşında, yazmış. Yazar, Bilişsel Davranışçı Terapinin kurucusu sayılan, Aaron Beck'in öğrencisi olmuş. Kitapta da anlatılan bu terapi türü zaten. Yazarın bana Hide the Pain Harold meme'indeki dedeyi hatırlattığına da değinmeden geçmek istemiyorum;
+Yazarı David D. Burns, 1942 yılında, Minneapolis'de doğmuş. 1970 yılında Stanford Üniversitesi Tıp Fakültesi'ni bitirip, 1974 yılında Pensilvanya Üniversitesi Tıp Fakültesi'nde psikiyatri uzmanlığını tamamlamış. İlk kitabı olan İyi Hissetmek'i 1980 yılında, 38 yaşında, yazmış. Yazar, Bilişsel Davranışçı Terapinin kurucusu sayılan, Aaron Beck'in öğrencisi olmuş. Kitapta da anlatılan bu terapi türü zaten. Yazarın bana Hide the Pain Harold meme'indeki dedeyi hatırlattığını da değinmeden geçmek istemiyorum;
 
 {{ img(src="/photos/posts/harold-01.jpg", class="xx-smaller-img", caption="Hide the Pain Harold") }}
 
@@ -54,7 +54,7 @@ Bilişsel Davranışçı Terapi (İngilizce adıyla Cognitive Behavioral Therapy
 ### Bilişsel çarpıtmalar
 ___
 
-Kitap, İyi Hissetmek kitabını okuyan insanların depresyon durumuna ne kadar etki ettiğine dair araştırmalarla başlıyor. Paylaşılan araştırmalara göre bazen en az ilaçlar kadar etkili olduğu ispatlanmış. Üç yıllık bir süre sonunda bile hastaların yüzde 72'si hala kendini iyi hissediyordu.(depresyon tanı kriterlerine uymuyordu.) Sonrasında 10 tane bilişsel çarpıtmaya yer veriyor ama öncesinde güzel bir örnek verilmiş;
+Kitap, İyi Hissetmek kitabını okuyan insanların depresyon durumuna ne kadar etki ettiğine dair araştırmalarla başlıyor. Paylaşılan araştırmalara göre bazen en az ilaçlar kadar etkili olduğu ispatlanmış. Üç yıllık bir süre sonunda bile hastaların yüzde 72'si hala kendini iyi hissediyormuş.(depresyon tanı kriterlerine uymuyormuş.) Sonrasında 10 tane bilişsel çarpıtmaya yer veriyor ama öncesinde güzel bir örnek verilmiş;
 > Bazı okurlar -belki de siz- bu paragrafı okuduklarında umutsuzluğa düşebilirler. ... Belki de "Öbür insanlar için ufak bir ayarlama yeterli olabilir. Ama ben, tamir edilemeyecek kadar bozuk bir radyoyum... adım gibi eminim ki benim durumum umutsuz." diyorsunuz. ... Neredeyse her depresif kişi, mantıksızca kendisinin ümitsiz olan özel bir vaka olduğuna inanır. Aslında bu kuruntu, hastalığınızın temelinde yatan zihinsel süreci yansıtır. <br/> — *İyi Hissetmek, s.54*
 
 Şimdi bu bilişsel çarpıtmalardan bazılarına burada örnek vermek istiyorum;
@@ -68,7 +68,7 @@ Kitap, İyi Hissetmek kitabını okuyan insanların depresyon durumuna ne kadar 
 - **Olumluyu geçersiz kılma:** Yaşadığınız olumlu durumlara bile, onları değersizleştirecek bir bakış açısından bakıp, kendinizi kötü hissedebilirsiniz. Örneğin kariyerinizde iyi bir noktaya gelseniz bile, bu durumda veya bundan daha iyi durumda pek çok insan var, bu bir anlam ifade etmiyor diyebilirsiniz.
 > "Kendi sahne arkanızı, bir başkasının oyunuyla karşılaştırmayın."
 
-- **Sonuçlara atlamak:** Elinizde yeterli kanıt olmadan başkalarının ne düşündüğünü, hissettiğini, bildiğinizi sanırsınız veya sonucu henüz belli olmayan bir durumun kesinlikle kötü sonuçlanacağına inanırsınız.
+- **Sonuçlara atlamak:** Elinizde yeterli kanıt olmadan başkalarının ne düşündüğünü, hissettiğini bildiğinizi sanırsınız veya sonucu henüz belli olmayan bir durumun kesinlikle kötü sonuçlanacağına inanırsınız.
 > "Gün olur Yusuf zindanlardadır, gün olur Yusuf Mısır'a paşadır."
 
 Bu düşünceler otomatik olarak oluştuğu için çoğu zaman bu çarpıtmaları fark etmek çok zor. Kitap bunun için bu düşünceleri yazarak görselleştirme, gün içinde bunları fark ettiğinizde sayma gibi çeşitli teknikler öneriyor. Bu sayede zamanla bu tip çarpıtılmış düşüncelere karşı duyarlılığınız artacak ve fark edip olaylara daha objektif bakabilme şansı bulacaksınız. 
@@ -123,11 +123,11 @@ ___
 
 > Duygusal aydınlanmanın anahtarı, duygudurumunuzu etkileyecek tek şeyin düşünceleriniz olduğu şeklindeki bilgidir. Onay bağımlısı iseniz, iç ışığınızı, sadece dışarıdan birisi ışığını üzerinize tuttuktan sonra yakmak şeklinde kötü bir alışkanlığınız var demektir. Onların onayını kendi için onayınızla karıştırıyorsunuz; çünkü, her ikisi aynı anda oluşuyor. Yanlış biçimde, diğer insanın kendinizi iyi hissetmenizi sağladığı sonucuna varıyorsunuz. <br/> — *İyi Hissetmek, s.304*
 
-Bu kısımda, onay bağımlılığından bahsediliyor ve onaylanmakla değerli olmanın neden bağlantılı olmak zorunda olmadığını açıklıyor. Neden böyle bir inanç geliştirdiğinize dair çocukluğunuzda yaşamış olabileceğiniz bazı örneklere yer verilmiş ve bu durumla başa çıkmak için bazı yazma egzersizleri. Ayrıca reddedilmenin, neden kişisel bir şey olmadığı anlatılıyor.
+Bu kısımda, onay bağımlılığından bahsediliyor ve onaylanmakla değerli olmanın neden bağlantılı olmak zorunda olmadığını açıklıyor. Neden böyle bir inanç geliştirdiğinize dair çocukluğunuzda yaşamış olabileceğiniz bazı örneklere ve bu durumla başa çıkmak için bazı yazma egzersizlerine yer verilmiş. Ayrıca reddedilmenin neden kişisel bir şey olmadığı anlatılıyor.
 
 > Sevgi yetişkin bir insanın gereksinim duyduğu bir şey değildir! <br/> — *İyi Hissetmek, s.314*
 
-Sonrasında, sevgi bağımlılığından bahsediliyor. Biri beni sevmezse, gerçekten mutlu olamam inancını irdeliyor. Bunun nasıl bir zorunluluk olmadığını, yalnızken de hayattan keyif alınabileceğine değiniyor. 
+Sonrasında, sevgi bağımlılığından bahsediliyor. Biri beni sevmezse gerçekten mutlu olamam inancını irdeliyor. Bunun bir zorunluluk olmadığına, yalnızken de hayattan keyif alınabileceğine değiniliyor. 
 
 
 ### İntihar
@@ -148,7 +148,7 @@ Depresyonunuzdan kurtulup ve hayattan tekrar zevk almaya başladığınızda, ha
 
 #### Zen Felsefesi
 
-Bu konuda verebileceğim bir başka öneri zen felsefesi. Yakında bu konuda ayrı bir yazı yazmayı planlıyorum ama kendiniz de zen felsefesini, özellikle Alan Watts'ın konuşmalarına youtube'dan bakabilirsiniz. Örnek vermek gerekirse;  
+Bu konuda verebileceğim bir başka öneri zen felsefesi. Yakında bu konuda ayrı bir yazı yazmayı planlıyorum ama kendiniz de zen felsefesini öğrenmek için Alan Watts’ın konuşmalarına youtube’dan bakabilirsiniz. Örnek vermek gerekirse;  
 {{ youtube(href="https://www.youtube.com/watch?v=rBpaUICxEhk", text="Life is NOT a Journey - Alan Watts")}}  
 {{ youtube(href="https://www.youtube.com/watch?v=dx4yW0mjezw", text="The Benefit of Living With No Purpose - Alan Watts")}}
 >  “Hayatın anlamı sadece yaşamaktır. Çok sade, açık ve basit. Ve yine de herkes, kendinin ötesinde bir şeylere ulaşmak gerekiyormuş gibi, büyük bir panik içinde dolaşıyor.”<br/> — *Alan Watts*
@@ -167,7 +167,7 @@ Bu konuda ImmanuelTolstoyevski'nin şu yazısını da okumanızı tavsiye ederim
 
 {{ img(src="/photos/posts/cevirmeli-tel.jpeg", class="xxx-smaller-img", caption="antika çevirmeli ev telefonu") }}
 
-Bana sorarsanız, ben merak ediyorum. O salda neler olacağını da, nerelerden geçeceğini de, neleri anlayabileceğimizi de, neler yapabileceğimizi de. Uzaya bile çıktık ama burada ne olup bittiğini anlamaktan hala çok uzağız. Uzaya roket bile gönderdik, dünyanın yörüngesine uydu bile yerleştirdik ama, daha beynimizin nasıl çalıştığını bile bilmiyoruz. Dünyanın merkezine nasıl gideceğimizi bilmiyoruz. Bundan daha 25-30 yıl önce cep telefonu diye bir şey yoktu ya da çok nadirdi. Çevirmeli ev telefonları vardı sadece. Şu an neredeyse bütün dünya akıllı telefon kullanıyor. Sonuç olarak, ölene kadar neler olacağını görmek istiyorum, hatta bu keşfin bir parçası olmak istiyorum. Ve bu keşif sadece dışsal bir yolculuk değil, içsel bir keşif de aynı zamanda. 10 sene önce olduğumdan çok daha farklı biriyim ve 10 sene sonra nasıl biri olacağımı da ölesiye merak ediyorum. O yüzden ölümümümde acele etmiyorum.
+Bana sorarsanız, ben merak ediyorum. O salda neler olacağını da, nerelerden geçeceğini de, neleri anlayabileceğimizi de, neler yapabileceğimizi de. Uzaya bile çıktık ama burada ne olup bittiğini anlamaktan hala çok uzağız. Uzaya roket bile gönderdik, dünyanın yörüngesine uydu bile yerleştirdik ama, daha beynimizin nasıl çalıştığını bile bilmiyoruz. Dünyanın merkezine nasıl gideceğimizi bilmiyoruz. Bundan daha 25-30 yıl önce cep telefonu diye bir şey yoktu ya da çok nadirdi. Çevirmeli ev telefonları vardı sadece. Şu an neredeyse bütün dünya akıllı telefon kullanıyor. Sonuç olarak, ölene kadar neler olacağını görmek istiyorum, hatta bu keşfin bir parçası olmak istiyorum. Ve bu keşif sadece dışsal bir yolculuk değil, içsel bir keşif de aynı zamanda. 10 sene önce olduğumdan çok daha farklı biriyim ve 10 sene sonra nasıl biri olacağımı da ölesiye merak ediyorum. O yüzden ölümümde acele etmiyorum.
 
 {{ instareel(reellink="https://www.instagram.com/reel/Czodo7ePwfE") }}
 
@@ -176,11 +176,11 @@ ___
 
 Kitabın son kısmında beynin nasıl çalıştığına, ilaçların neyi hedeflediğine ve psikoterapiyle farklarına ve benzerliklerine değinilmiş.
 
-Sonrasında zihin beden sorununa yer veriliyor. Zihnin bedenden ayrı olduğu temelli bir tedavi olarak psikoterapiden, fiziksel bir bozukluk olduğu düşüncesi yüzünden de ilaçların oluşması örneği verilmiş ama yapılan bazı araştırmalarda iki tedavi türünün de benzer şekilde, benzer oranlarda etkili olduğu anlatılmış. Ayrıca psikoterapi alarak da iyileşmiş hastaların, sadece ilaçla tedavi görmüş hastalara göre bu iyi hal durumunu daha uzun süre koruyabildiklerine değinilmiş. 
+Sonrasında zihin beden sorununa yer veriliyor. Zihnin bedenden ayrı olduğunu savunanlar tedavi olarak psikoterapi yöntemini öne çıkarırken, zihin ve bedenin bütünselliğini benimseyenler ilaç kullanımıyla “zihinsel” rahatsızlıkların giderilebileceğini savunuyor. Diğer taraftan, kitapta iki tedavi türünün de benzer şekilde, benzer oranlarda etkili olduğuna dair bazı araştırma sonuçlarına yer verilmiş olsa da psikoterapi alarak iyileşmiş hastaların, sadece ilaçla tedavi görmüş hastalara göre bu iyi hal durumunu daha uzun süre koruyabildiklerine değinilmiş. 
 
 Açıkçası, ben de bu fikre yakınım. Kitapta da bahsedildiği gibi, psikoterapi gören hastalar, depresyona tekrar sürüklenebilecekleri olaylar ya da durumlarla karşılaştıklarında, bir düşünce girdabına kapılıp depresyonun içine çekilmeden önce, bu durumla başa çıkmalarını sağlayan araçlara ve becerilere sahip oluyorlar. Oysa yalnızca ilaçla tedavi görenler, bu tür bir içsel savunma geliştirmekte zorlanabiliyorlar.
 
-Benim şahsi görüşüm, yataktan kalkamayacak durumda değilseniz, ve özellikle anksiyete, depresyon gibi durumlarda ilacın şart olmadığı. Hiç olmazsa ilaç çözümünü denemeden önce, psikoterapinin en azından birkaç ay denenmesi yönünde. Hiçbir gelişme görülmediği durumlarda ilacın düşünülmesi.
+Benim şahsi görüşüm, yataktan kalkamayacak durumda değilseniz, özellikle anksiyete ve depresyon gibi durumlarda ilacın şart olmadığı ve hiç olmazsa ilaca başvurulmadan önce, psikoterapinin en azından birkaç ay denenmesi, hiçbir gelişme görülmediği durumlarda ilacın düşünülmesi yönünde.
 
 ## Sona Gelirken
 ___
