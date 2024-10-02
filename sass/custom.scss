@@ -58,7 +58,7 @@ figure {
   figcaption {
     margin-top: 5px;
     text-align: center;
-    font-weight: bold;
+    // font-weight: bold;
     font-style: italic;
   }
 }
@@ -130,6 +130,22 @@ h3 {
   .insta-post {
     width: 100%;
   }
+  .insta-post {
+    width: 100%;
+  }
+  .smaller-img {
+    width: 80%;
+  }
+  .x-smaller-img {
+    width: 70%;
+  }
+
+  .xx-smaller-img {
+    width: 50%;
+  }
+  .xxx-smaller-img {
+    width: 30%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -137,5 +153,19 @@ h3 {
   .insta-post {
     width: 100%;
   }
+  .smaller-img {
+    width: 80%;
+  }
+  .x-smaller-img {
+    width: 70%;
+  }
+
+  .xx-smaller-img {
+    width: 50%;
+  }
+  .xxx-smaller-img {
+    width: 30%;
+  }
+
 }
 
