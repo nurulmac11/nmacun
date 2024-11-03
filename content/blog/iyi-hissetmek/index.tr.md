@@ -33,8 +33,6 @@ ___
 ## Yazar Hakkında
 ___
 
-{{ img(src="/photos/posts/david-burns.jpg", class="xx-smaller-img", caption="David Burns") }}
-
 Yazarı David D. Burns, 1942 yılında, Minneapolis'de doğmuş. 1970 yılında Stanford Üniversitesi Tıp Fakültesi'ni bitirip, 1974 yılında Pensilvanya Üniversitesi Tıp Fakültesi'nde psikiyatri uzmanlığını tamamlamış. İlk kitabı olan İyi Hissetmek'i 1980 yılında, 38 yaşında, yazmış. Yazar, Bilişsel Davranışçı Terapinin kurucusu sayılan, Aaron Beck'in öğrencisi olmuş. Kitapta da anlatılan bu terapi türü zaten. Yazarın bana Hide the Pain Harold meme'indeki dedeyi hatırlattığını da değinmeden geçmek istemiyorum;
 
 {{ img(src="/photos/posts/harold-01.jpg", class="xx-smaller-img", caption="Hide the Pain Harold") }}
@@ -165,7 +163,7 @@ Bu konuda ImmanuelTolstoyevski'nin şu yazısını da okumanızı tavsiye ederim
 {{ article(href="https://fularsizentellik.com/journal/2017/1/26/hayatinanlami", text="Hayatın Anlamı: Absürdlük Kardeşliği")}}
 > Gereğinden fazla gelişmiş bir beynin kurbanı olan tüm element yığınlarına, aynı absürdlüğü paylaştığımız için asgari bir sempati besliyorum. Sonsuz bir okyanusun ortasında kalmış ufak bir sal üstünde, karayı gördüklerini iddia eden ve her biri kendi karasına doğru yol aldığını sanan binbir türlü insanla, kara diye bir şey olmadığını ve ilerlemediklerini düşünenlerin, hep birlikte dalgalanmaları. Bazısı bir yelken yapıp daha da hızlı ilerlemeyi hayal eder, bazısı o yelkeni süslemeyi. Bazısı atlamayı ister, bazısı da kendiyle birlikte tüm salı batırmayı. <br/> — *ImmanuelTolstoyevski*
 
-{{ img(src="/photos/posts/cevirmeli-tel.jpeg", class="xxx-smaller-img", caption="antika çevirmeli ev telefonu") }}
+{{ img(src="/photos/posts/cevirmeli-tel.jpg", class="xx-smaller-img", caption='Photo by <a href="https://unsplash.com/@edokov95?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ian Edokov</a> on <a href="https://unsplash.com/photos/an-old-fashioned-rotary-telephone-sits-on-a-table-MFwqL9MtyN0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>') }}
 
 Bana sorarsanız, ben merak ediyorum. O salda neler olacağını da, nerelerden geçeceğini de, neleri anlayabileceğimizi de, neler yapabileceğimizi de. Uzaya bile çıktık ama burada ne olup bittiğini anlamaktan hala çok uzağız. Uzaya roket bile gönderdik, dünyanın yörüngesine uydu bile yerleştirdik ama, daha beynimizin nasıl çalıştığını bile bilmiyoruz. Dünyanın merkezine nasıl gideceğimizi bilmiyoruz. Bundan daha 25-30 yıl önce cep telefonu diye bir şey yoktu ya da çok nadirdi. Çevirmeli ev telefonları vardı sadece. Şu an neredeyse bütün dünya akıllı telefon kullanıyor. Sonuç olarak, ölene kadar neler olacağını görmek istiyorum, hatta bu keşfin bir parçası olmak istiyorum. Ve bu keşif sadece dışsal bir yolculuk değil, içsel bir keşif de aynı zamanda. 10 sene önce olduğumdan çok daha farklı biriyim ve 10 sene sonra nasıl biri olacağımı da ölesiye merak ediyorum. O yüzden ölümümde acele etmiyorum.
 
