@@ -34,8 +34,6 @@ ___
 ## Yazarlar Hakkında
 ___
 
-{{ img(src="/photos/posts/yazar-hayat.png", class="xx-smaller-img", caption="Janet S. Klosko and Jeffrey Young") }}
-
 Yazarı David D. Burns, 1942 yılında, Minneapolis'de doğmuş. 1970 yılında Stanford Üniversitesi Tıp Fakültesi'ni bitirip, 1974 yılında Pensilvanya Üniversitesi Tıp Fakültesi'nde psikiyatri uzmanlığını tamamlamış. İlk kitabı olan İyi Hissetmek'i 1980 yılında, 38 yaşında, yazmış. Yazar, Bilişsel Davranışçı Terapinin kurucusu sayılan, Aaron Beck'in öğrencisi olmuş. Kitapta da anlatılan bu terapi türü zaten. Yazarın bana Hide the Pain Harold meme'indeki dedeyi hatırlattığını da değinmeden geçmek istemiyorum;
 
 
