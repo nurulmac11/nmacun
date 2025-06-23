@@ -7,7 +7,7 @@ description = "Hepsi yakılmadan, kaç kitap okuyabilirsiniz ?"
 tags = ["okudum", "fahrenheit 451"]
 +++
 
-{{ img(src="/photos/posts/fahrenheit-451.jpg", class="x-smaller-img", caption="Fahrenheit 451, ithaki yayınları") }}
+{{ img(src="photos/posts/fahrenheit-451.jpg", class="x-smaller-img", caption="Fahrenheit 451, ithaki yayınları") }}
 > Bu yazı spoiler **içermemektedir**.
 
 >  Kalıtım ve çevre tuhaf şeylerdir. Yalnızca birkaç yılda, bütün garip
