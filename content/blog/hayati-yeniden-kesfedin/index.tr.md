@@ -9,7 +9,7 @@ tags = ["okudum", "hayatı yeniden keşfedin", "psikoterapi", "psikoloji", "depr
 
 
 
-{{ img(src="/photos/posts/hayati-yeniden-kesfedin.jpg", class="xx-smaller-img", caption="Hayatı Yeniden Keşfedin - psikonet yayınları") }}
+{{ img(src="photos/posts/hayati-yeniden-kesfedin.jpg", class="xx-smaller-img", caption="Hayatı Yeniden Keşfedin - psikonet yayınları") }}
 
 **Orjinal Adı:** Reinventing Your Life  
 **Yazar:** Janet S. Klosko and Jeffrey Young  
@@ -41,7 +41,7 @@ Yazarı David D. Burns, 1942 yılında, Minneapolis'de doğmuş. 1970 yılında 
 ## Şema Terapi Hakkında
 ___
 
-{{ img(src="/photos/posts/lego.jpg", class="x-smaller-img", caption='Photo by <a href="https://unsplash.com/@iurte?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Iker Urteaga</a> on <a href="https://unsplash.com/photos/blue-building-block-lot-TL5Vy1IM-uA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>') }}
+{{ img(src="photos/posts/lego.jpg", class="x-smaller-img", caption='Photo by <a href="https://unsplash.com/@iurte?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Iker Urteaga</a> on <a href="https://unsplash.comphotos/blue-building-block-lot-TL5Vy1IM-uA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>') }}
 
 
 Bilişsel Davranışçı Terapi (İngilizce adıyla Cognitive Behavioral Therapy, CBT), anksiyete, depresyon ve travma sonrası stres bozukluğu (PTSD) gibi zihinsel rahatsızlıkların tedavisinde kullanılan, oldukça pratik bir terapi yöntemi. Temel hedefi, bu hastalıklara neden olan bozulmuş düşünce, inanç kalıpları ve tutumları, daha sağlıklı bakış açılarıyla değiştirmektir. Çünkü duygudurumunuzu olaylar değil, olaylar karşısında oluşan düşünceleriniz belirliyor. Bu, sanki kirli ve her şeyi bulanık gösteren bir gözlüğü çıkarıp, yerine temiz ve net bir gözlük takmak gibi.
