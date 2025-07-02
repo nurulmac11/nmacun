@@ -38,7 +38,7 @@ Aslında mantığın ne olduğunu iyice irdelemeye başladığınızda, felsefey
 
 #### Algıda Seçicilik
 
-{{ instareel(reellink="https://www.instagram.com/p/CQa0XSioenQ/") }}
+{{ instareel(reellink="https://www.instagram.com/p/CQa0XSioenQ/" caption="The Number 23 (2007)") }}
 
 Algıda seçicilik en sık yapılan mantık hatalarından biridir. Kısaca, kişinin gerçekliğin bilerek veya bilmeyerek, sürekli olarak sadece belirli kısımlarını algılamasıdır. Bu filtre, ön yargılarla veya korku gibi duygularla oluşturulur. Bu elbette tamamen faydasız bir mekanizma değildir, odaklanma dediğimiz şey de aslında bir nevi algıda seçiciliktir. 
 
@@ -123,3 +123,30 @@ Ayrıca doğada insana zarar verebilecek pek çok unsur bulunmaktadır; zehirli 
 
 Uzmanlığa veya otoriteye başvurma safsatası, bir konu hakkında tartışırken, o konu hakkında herhangi bir uzmanlığı olan birini gösterip, sanki onun bu konuda söylediği her şey kesin doğruymuş gibi bir algı yaratmaya çalışmaktır. Yine, bir şeyin doğru olup olmadığını, onu kimin söylediği değil, veri, kanıt, deney ve gözlem gibi objektif gerçekler belirler.
 
+
+#### Çoğunluğa Başvurma Mantık Hatası 
+
+> "Yanlış yanlıştır, herkes yapıyor olsa bile. Doğru doğrudur, kimse yapmıyor olsa bile."  
+— *Augustine of Hippo*
+
+{{ img(src="photos/posts/galileo.jpg", class="x-smaller-img", caption="") }}
+
+Bu safsata da en yaygın kullanılan safsatalardan biridir. İnsanlar arkasına çoğunluğu alarak iddiasını güçlendirmeye çalışır. Herkes yanılıyor olamaz değil mi? Çağlar boyunca, çoğu zaman, insanların çoğunluğu yanılmıştır. Çok değil bir kaç yüzyıl önce kölelik normaldi. Dünyanın dönmediğine, düz olduğuna inanılıyordu. 
+
+Bu safsatanın psikolojimizle ilgisi ise, insan doğasının temelinde yatmaktadır. İnsan, doğası gereği bir gruba, topluluğa ait olmak ister çünkü bu daha güvenlidir. Sürüden ayrılanı kurt kapar neticede. Ama hayat yolunda kendinizi çevrenizdeki insanlarla görüş ayrılığı içinde bulabilirsiniz. Bu noktada depresif hissedebilir veya boşlukta hissedip kaygılanabilirsiniz. Bunun neden olduğunun bilincinde olursanız, bu süreci yönetmek daha kolay olabilir.
+
+#### Cehalete Başvurma Mantık Hatası 
+
+Bu safsata, bir iddianın aksi ispatlanamıyorsa, onun doğru olduğunu savunur. Bu tabiki de tamamıyla hatalı bir çıkarımdır. Occam'ın usturasında da bahsettiğimize benzer bir mantıkla, ortaya aksi ispatlanamayacak sonsuz sayıda iddiaa atabilirsiniz.
+
+> "Kanıt yokluğu, yokluk kanıtı değildir. Ne de varlık kanıtıdır."  
+— *Carl Sagan*
+
+
+Ya da evrim ağacının genişlettiği versiyonuyla,  
+ “Kanıtın yokluğu, yokluğun kanıtı değildir; ancak varlığın kanıtı hiç değildir!”.
+
+{{ instareel(reellink="https://www.instagram.com/reel/Cte0ODBgBD8/" caption="The Seventh Seal (1957)") }}
+
+
+#### Parça-Bütün Safsataları
