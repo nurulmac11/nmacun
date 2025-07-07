@@ -1,10 +1,10 @@
 +++
-title = "Filmler, safsatalar ve psikolojimiz"
+title = "Filmler, safsatalar ve psikolojimiz - #1"
 date = 2025-02-02
 description = "Kaos dolu bu dünyada, mantık hatalarını bilmek, yolumuzu bulmada bize yardım edebilir mi? Psikolojimiz bu denklemin neresinde? Atasözlerinin tüm bunlarla ne ilgisi var?"
 
 [taxonomies]
-tags = ["mantık hataları", "safsatalar", "psikoloji"]
+tags = ["mantık hataları", "safsatalar", "psikoloji", "filmler"]
 +++
 
 <!-- > İstinalar kaideyi bozmaz, bu civan bu civarda fazla tozmaz (aha)   -->
@@ -150,3 +150,27 @@ Ya da evrim ağacının genişlettiği versiyonuyla,
 
 
 #### Parça-Bütün Safsataları
+
+Bir bütünü oluşturan parçaların, bütünün özelliklerini taşıması gerektiğini veya, bütünün parçalarında bulunan özelliklerin de bütünde bulunması gerektiğini düşünmektir. Bu konuda evrim ağacının verdiği örnekleri çok beğendiğim için direk yer veriyorum {{ bkz(href="https://evrimagaci.org/parcabutun-safsatalari-parcalarin-ozellikleri-butunde-butunun-ozellikleri-parcalarinda-gorulmek-zorunda-mi-11434") }};
+- Atomlar bilinçsizdir. Dolayısıyla atomlardan oluşan insanlar da bilinçsiz olmalıdır.
+- Evren'deki hiçbir şey ezeli ve ebedi değildir; dolayısıyla Evren'in kendisi de ezeli ve ebedi olamaz
+- Evren'deki her şeyin bir nedeni olduğu için, Evren'in kendisinin de bir nedeni olmalıdır.
+- Bir kaplan, bir insandan daha fazla yemek yer. Dolayısıyla kaplanların bir yılda yediği toplam yemek, tüm insanların bir yılda yediği toplam yemekten daha fazladır.
+- Takımın her bir oyuncusu, harika birer futbolcu. Dolayısıyla takım, harika bir takımdır.
+- Din tarihinde çok kötü ve cani şeyler yapılmıştır. Dolayısıyla tüm dindarlar kötü ve canidir.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1aoX9XK0z-A?si=-I8xihMa0GUIAZiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### Sürü psikolojisi
+
+Bando vagonu etkisi olarak da geçen bu etkinin bir çok sebebi vardır. Gruplar halinde yaşayıp, örgütlenme yeteneği sayesinde besin piramidinin en üst basamağına tırmanan insan, bu yolda farklı özellikler geliştirdi. Bir gruba ait hissetme, grubun gerekliliklerine uyma bu organizasyonu hayatta tutuyordu ve bireyin hayatta kalma şansını da arttırıyordu. Bu yüzden bazen neden olduğunu anlamasa bile grubun davranışlarını taklit etmeye meyillidir. Bu konuda yapılan bazı deneyler:
+
+{{ youtube(href="https://www.youtube.com/watch?v=0IJCXXTMrv8", text="Hangi çubuk daha kısa?")}}  
+{{ youtube(href="https://www.youtube.com/watch?v=aOOsfkM-nGQ", text="Asansörde hangi yöne bakmalı?")}}  
+{{ youtube(href="https://www.youtube.com/watch?v=WkT0BtfOB-M", text="Maymun/muz deneyi")}}  
+
+{{ instareel(reellink="https://www.instagram.com/reel/DJmRJnJMXmE/" caption="12 Angry Men (1957)") }}
+
+#### İlk partın sonu
+Evrim ağacındaki bütün safsataları olmasa da çoğunu incelemek istediğim bu seride, bu partı burada bitiriyorum. Bu safsataları bilmenin, gerçekten çoğu insan için çok fazla faydası olacağını düşündüğüm için bu seriye başladım. Özellikle depresyon gibi zor dönemlerden geçerken farkında olmadan kendimize çektirdiğimiz acıların büyük kısmının bu yazıda bahsettiğim safsataları barındırdığını düşünüyorum. Ve bunu pollyannacılık olarak görmüyorum, gerçekten zihnimiz kusurlu çalışmaya çok müsait ve kusurlu çalışırken bunun farkına özellikle çaba göstermediğiniz sürece, kolay kolay varamıyor. Tüm bunlar için daha fazla safsata, daha fazla film sahnesiyle diğer partlarda görüşmek üzere. Son zamanlarda sık sık dinlediğim, retro bir video kliple veda ediyorum: O gün gıravat ile gözlüğle çok şıktı...
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ohf-EiCvMRc?si=oQdrqJMjn4zQK0Hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
