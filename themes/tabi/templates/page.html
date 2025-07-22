@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
 {% block main_content %}
+{% if page.draft %}
+    <main><article><h1>This post is a draft and not publicly available.</h1></article></main>
+{% else %}
 {%- set separator = config.extra.separator | default(value="•") -%}
 
 {%- set rel_attributes = macros_rel_attributes::rel_attributes() | trim -%}
@@ -229,4 +232,5 @@
 
 {%- include "partials/extra_features.html" -%}
 
+{% endif %}
 {% endblock main_content %}

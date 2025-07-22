@@ -2,8 +2,11 @@
 
 {%- set separator = config.extra.separator | default(value="•") -%}
 
+{# Filter out draft posts #}
+{% set visible_posts = posts | filter(attribute="draft", value=false) %}
+
 <div class="bloglist-container">
-    {% for post in posts %}
+    {% for post in visible_posts %}
         {% if loop.index <= max %}
             {% if loop.index == max %}
                 <section class="bloglist-row">

@@ -2,6 +2,7 @@
 title = "Okudum: Hayatı Yeniden Keşfedin"
 date = "2024-10-2"
 description = "Bir psikoterapi kitabı özgür iradeye inancınızı ne kadar kırabilir? Seçimlerinizin ne kadarı sizin kararınız, ne kadarı bilinçaltınızın dayatması? Çocukluğunuzda edindiğiniz savunma yöntemleri kaderinizi mi belirliyor? Bu zinciri kırmak mümkün mü?"
+draft = true
 
 [taxonomies]
 tags = ["okudum", "hayatı yeniden keşfedin", "psikoterapi", "psikoloji", "depresyon"]
