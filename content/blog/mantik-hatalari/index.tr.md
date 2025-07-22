@@ -74,10 +74,10 @@ Bunu psikolojimizle tam olarak ilişkilendirmek mümkün olmasa da, çok yakın 
 En saçma ama bir o kadar da sık yapılan safsatalardan birisi olan Ad Hominem, kişiliğe saldırı safsatasıdır. Özetle, bir tartışmada sunulan argümanı tamamen yok sayıp, argümanı sunan kişinin kişilik özelliklerine dair saldırıda bulunulmasıdır. Birkaç örnek vermek gerekirse;  
 
 A: Dating applerin günümüz ilişkilerini olumsuz yönde etkilediğini düşünüyorum.  
-B: Zaten senin gibi dindar biri başka bir şey düşünemez!
-...
+B: Zaten senin gibi dindar biri başka bir şey düşünemez!  
+...  
 A: Zor bir dönemden geçiyorsun ama her şeyi bırakıp içine kapanmak durumu daha da zorlaştırabilir.  
-B: Zengin bir züppenin anlayamayacağı konularda yorum yapma!
+B: Zengin bir züppenin anlayamayacağı konularda yorum yapma!  
 
 
 #### Doğaya Başvurma Safsatası
