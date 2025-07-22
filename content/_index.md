@@ -6,6 +6,7 @@ template = "section.html"
 [extra]
 header = {title = "hello! I'm Nurullah.", img = "img/retro.webp", img_alt = "nurulmac11" }
 section_path = "blog/_index.md"
+projects_path = "series/_index.md"
 max_posts = 4
 max_projects = 3
 show_projects_first = false

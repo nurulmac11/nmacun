@@ -239,7 +239,7 @@ menu = [
     { name = "blog", url = "blog", trailing_slash = true },
     { url = "about", name = "about", trailing_slash = true },
     { name = "archive", url = "archive", trailing_slash = true },
-  #  { name = "projects", url = "projects", trailing_slash = true },
+    { name = "series", url = "series", trailing_slash = true },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
