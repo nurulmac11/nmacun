@@ -179,7 +179,7 @@ Bu kavram ise daha çok anksiyete ile ilişkilendirilebilir. Anksiyete elinizde 
 > "Bir deli kuyuya taş atmış, kırk akıllı çıkaramamış"  
 — *Anonim*
 
-Bu yasa özetle, ortaya bir iddia atmanın, onu çürütmekten çok daha kolay olduğunu söyler. Absürt bir örnek vermek gerekirse, sosyal medyada çok fazla Nejat İşler adı altında alıntı paylaşılır ama bunların gerçekten ona ait olup olmadığını kanıtlamak, herhangi bir alıntıyı Nejat İşler adı altında yayınlamaktan çok daha kolaydır.
+Bu yasa özetle, ortaya bir iddia atmanın, onu çürütmekten çok daha kolay olduğunu söyler. Absürt bir örnek vermek gerekirse, sosyal medyada çok fazla Nejat İşler adı altında alıntı paylaşılır ama bunların gerçekten ona ait olup olmadığını kanıtlamak, herhangi bir alıntıyı Nejat İşler adı altında yayınlamaktan çok daha zordur.
 
 
 ### İlk partın sonu
