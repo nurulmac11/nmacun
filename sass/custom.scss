@@ -183,3 +183,14 @@ h3 {
 
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+article p, article li, article details, article summary {
+  font-family: var(--serif-font);
+  font-family: 'Montserrat', sans-serif;
+  color: #d0d0d0;
+}
