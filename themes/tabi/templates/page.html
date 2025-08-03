@@ -14,6 +14,9 @@
     {%- set blank_target = "" -%}
 {%- endif -%}
 
+{# Reading Progress Bar #}
+<div class="reading-progress" id="reading-progress"></div>
+
 {# Debugging #}
 {# {% set last_ancestor = page.ancestors | slice(start=-1) %}
 {% set current_section = get_section(path=last_ancestor.0) %}
@@ -93,6 +96,87 @@
 
                 {%- set by_author = macros_translate::translate(key="by_author", default="By $AUTHOR", language_strings=language_strings) -%}
                 <li>{{ by_author | replace(from="$AUTHOR", to=author_string) }}</li>
+                {%- set previous_visible = true -%}
+            {% endif %}
+
+            {#- Contributors -#}
+            {% if page.extra.contributors %}
+                {%- if previous_visible -%}&nbsp;{{ separator }}&nbsp;{%- endif -%}
+                <li>
+                    <div class="contributors-container count-{{ page.extra.contributors | length }}">
+                        <div class="left" style="display: none;">
+                            <svg fill="currentColor" class="eacon eac-angle-left-solid" width="22" height="22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19.031 4.281l-11 11-.687.719.687.719 11 11 1.438-1.438L10.187 16 20.47 5.719z"></path></svg>
+                        </div>
+                        <div class="contributors">
+                            {% for contributor in page.extra.contributors %}
+                                {% set people_data = load_data(path="data/people.toml") %}
+                                {% if contributor.id and people_data.people[contributor.id] %}
+                                    {% set person = people_data.people[contributor.id] %}
+                                    
+                                    {# Handle multilingual attributes #}
+                                    {% if person.name is object %}
+                                        {% set name = contributor.name | default(value=person.name[lang] | default(value=person.name.en)) %}
+                                    {% else %}
+                                        {% set name = contributor.name | default(value=person.name) %}
+                                    {% endif %}
+                                    
+                                    {% if person.role is object %}
+                                        {% set role = contributor.role | default(value=person.role[lang] | default(value=person.role.en)) %}
+                                    {% else %}
+                                        {% set role = contributor.role | default(value=person.role) %}
+                                    {% endif %}
+                                    
+                                    {% if person.bio is object %}
+                                        {% set bio = contributor.bio | default(value=person.bio[lang] | default(value=person.bio.en)) %}
+                                    {% else %}
+                                        {% set bio = contributor.bio | default(value=person.bio) %}
+                                    {% endif %}
+                                    
+                                    {% set url = contributor.url | default(value=person.url) %}
+                                    {% set avatar = contributor.avatar | default(value=person.avatar) %}
+                                {% else %}
+                                    {% set name = contributor.name %}
+                                    {% set role = contributor.role | default(value='Contributor') %}
+                                    {% set url = contributor.url | default(value='#') %}
+                                    {% set avatar = contributor.avatar | default(value='/img/people/default-avatar.jpg') %}
+                                    {% set bio = contributor.bio | default(value='') %}
+                                {% endif %}
+                                
+                                {% if url and url != '#' and url != '' %}
+                                    <a href="{{ url }}" 
+                                       class="contributor user-hover-box" 
+                                       target="_blank"
+                                       title="{{ name }}"
+                                       {% if contributor.id %}data-user-id="{{ contributor.id }}"{% endif %}
+                                       {% if loop.first %}id="content-author" rel="author"{% endif %}>
+                                        <img loading="lazy" 
+                                             src="{{ avatar | safe }}" 
+                                             width="50" height="50" 
+                                             alt="{{ name }}">
+                                        <div>
+                                            <div class="name">{{ name }}</div>
+                                            <div class="title">{{ role }}</div>
+                                        </div>
+                                    </a>
+                                {% else %}
+                                    <div class="contributor user-hover-box" 
+                                         title="{{ name }}"
+                                         {% if contributor.id %}data-user-id="{{ contributor.id }}"{% endif %}
+                                         {% if loop.first %}id="content-author"{% endif %}>
+                                        <img loading="lazy" 
+                                             src="{{ avatar | safe }}" 
+                                             width="50" height="50" 
+                                             alt="{{ name }}">
+                                        <div>
+                                            <div class="name">{{ name }}</div>
+                                            <div class="title">{{ role }}</div>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </li>
                 {%- set previous_visible = true -%}
             {% endif %}
 

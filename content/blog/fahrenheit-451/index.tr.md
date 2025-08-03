@@ -5,6 +5,10 @@ description = "Hepsi yakılmadan, kaç kitap okuyabilirsiniz ?"
 
 [taxonomies]
 tags = ["okudum", "fahrenheit 451"]
+[extra]
+contributors = [
+    {id = "nurulmac11"},
+]
 +++
 
 {{ img(src="photos/posts/fahrenheit-451.jpg", class="x-smaller-img", caption="Fahrenheit 451, ithaki yayınları") }}

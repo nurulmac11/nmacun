@@ -139,26 +139,88 @@ h3 {
   border-radius: 8px;
 }
 
-@media (max-width: 768px) {
-  /* Adjust for tablets */
-  .insta-post {
-    width: 100%;
+.contributors-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  
+  .left, .right {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+    
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    svg {
+      width: 22px;
+      height: 22px;
+    }
   }
-  .insta-post {
-    width: 100%;
+  
+  .contributors {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
-  .smaller-img {
-    width: 80%;
+  
+  .contributor {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.2s;
+    min-width: 200px;
+    
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+      text-decoration: none;
+    }
+    
+    img {
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .name {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.2;
+    }
+    
+    .title {
+      font-size: 12px;
+      color: #666;
+      line-height: 1.2;
+    }
   }
-  .x-smaller-img {
-    width: 70%;
-  }
+}
 
-  .xx-smaller-img {
-    width: 50%;
-  }
-  .xxx-smaller-img {
-    width: 30%;
+@media (max-width: 768px) {
+  .contributors-container {
+    .left, .right {
+      display: none !important;
+    }
+    
+    .contributors {
+      justify-content: center;
+    }
+    
+    .contributor {
+      min-width: 150px;
+    }
   }
 }
 
@@ -193,4 +255,173 @@ article p, article li, article details, article summary {
   font-family: var(--serif-font);
   font-family: 'Montserrat', sans-serif;
   color: #d0d0d0;
+}
+
+// Typography improvements for better readability
+.article {
+  // Better line height for body text
+  line-height: 1.7;
+  
+  // Improved paragraph spacing
+  p {
+    margin-bottom: 1.5em;
+    text-align: justify;
+    hyphens: auto;
+  }
+  
+  // Better heading hierarchy
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    line-height: 1.3;
+  }
+  
+  // Improved list spacing
+  ul, ol {
+    margin-bottom: 1.5em;
+    padding-left: 2em;
+    
+    li {
+      margin-bottom: 0.5em;
+      line-height: 1.6;
+    }
+  }
+  
+  // Better blockquote styling
+  blockquote {
+    border-left: 4px solid #007acc;
+    padding-left: 1.5em;
+    margin: 2em 0;
+    font-style: italic;
+    background: rgba(0, 122, 204, 0.05);
+    padding: 1.5em;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  // Improved code blocks
+  pre {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1.5em;
+    overflow-x: auto;
+    margin: 2em 0;
+  }
+  
+  // Better inline code
+  code {
+    background: #f1f3f4;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+}
+
+// Reading width optimization
+.article {
+  max-width: 65ch; // Optimal reading width
+  margin: 0 auto;
+}
+
+// Dark mode improvements
+@media (prefers-color-scheme: dark) {
+  .article {
+    blockquote {
+      background: rgba(0, 122, 204, 0.1);
+    }
+    
+    code {
+      background: #2d3748;
+    }
+    
+    pre {
+      background: #2d3748;
+      border-color: #4a5568;
+    }
+  }
+}
+
+// Reading progress bar
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, #007acc, #00d4aa);
+  z-index: 1000;
+  transition: width 0.1s ease;
+}
+
+// Estimated reading time
+.reading-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.9em;
+  color: #666;
+  
+  &::before {
+    content: "⏱";
+    font-size: 1.1em;
+  }
+}
+
+// Key points callout
+.key-points {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5em;
+  border-radius: 12px;
+  margin: 2em 0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  
+  h3 {
+    margin-top: 0;
+    color: white;
+  }
+  
+  ul {
+    margin-bottom: 0;
+    
+    li {
+      margin-bottom: 0.5em;
+      color: rgba(255,255,255,0.9);
+    }
+  }
+}
+
+// Summary box
+.summary-box {
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
+  padding: 1.5em;
+  margin: 2em 0;
+  
+  h3 {
+    margin-top: 0;
+    color: #495057;
+  }
+  
+  p {
+    margin-bottom: 0;
+    color: #6c757d;
+  }
+}
+
+// Dark mode for new elements
+@media (prefers-color-scheme: dark) {
+  .summary-box {
+    background: #2d3748;
+    border-color: #4a5568;
+    
+    h3 {
+      color: #e2e8f0;
+    }
+    
+    p {
+      color: #a0aec0;
+    }
+  }
 }

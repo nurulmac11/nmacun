@@ -45,7 +45,8 @@ go_to_top = "Sayfanın üstüne git"
 go_to_comments = "Yorumlar bölümüne git"
 
 # Gönderi meta verileri.
-by_author = "$AUTHOR tarafından"  # $AUTHOR yazar(lar) ile değiştirilecektir.
+by_author = "Yazar: $AUTHOR"  # $AUTHOR yazar(lar) ile değiştirilecektir.
+edited_by = "Editör: $EDITOR"  # $EDITOR editör ile değiştirilecektir.
 author_separator = ", "  # Birden fazla yazar için. Gerekli yerlerde boşluk bırakmayı unutmayın.
 author_conjunction = " ve "  # Birden fazla yazar için. Gerekli yerlerde boşluk bırakmayı unutmayın.
 draft = "TASLAK"

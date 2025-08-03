@@ -5,6 +5,11 @@ description = "How to solve annoying problems with celery."
 
 [taxonomies]
 tags = ["celery", "eta", "sqs", "eta", "retry"]
+
+[extra]
+contributors = [
+    {id = "nurulmac11"},
+]
 +++
 > Nobody panics when things go "according to plan." Even if the plan is horrifying! 
 

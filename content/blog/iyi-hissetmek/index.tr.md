@@ -5,6 +5,11 @@ description = "Psikoterapiye tonlarca para dökmeye gerek yok mu? Evde, bir kita
 
 [taxonomies]
 tags = ["okudum", "iyi hissetmek", "psikoterapi", "psikoloji", "intihar", "depresyon"]
+
+[extra]
+contributors = [
+    {id = "nurulmac11"},
+]
 +++
 
 
@@ -193,6 +198,5 @@ Ayrıca bu kitap ve genel olarak bu terapi yöntemi, benim gördüğüm kadarıy
 > "Bu acımasız dünyada hiçbir şey kalıcı değildir. Dertlerimiz bile."  
 — *Charlie Chaplin*
 
-Bir şarkı önerisiyle bu yazıyı sonlandırmak istiyorum, hoşçakalın;
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3Lc3AX7Ta7WsefbEAFplQr?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+Bir şarkı önerisiyle bu yazıyı sonlandırmak istiyorum, hoşçakalın;  
+{{ youtube(href="https://www.youtube.com/watch?v=obzXMDikmp0", text="Dancing Thing")}}

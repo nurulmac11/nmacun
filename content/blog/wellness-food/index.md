@@ -6,6 +6,10 @@ description = "What to eat to be healthier, mental clarity?"
 [taxonomies]
 tags = ["keto", "omega-3", "allergy", "stomach", "low-carb"]
 
+[extra]
+contributors = [
+    {id = "nurulmac11"},
+]
 +++
 > There is a difference between knowing the path and walking the path. - Morpheus
 

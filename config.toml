@@ -70,6 +70,7 @@ build_search_index = true
 # index_format = ""
 title_description_translations.tr = "aramakla bulunmaz ama bulanlar arayanlardır"
 title_description_translations.en = "not all those who wander are lost"
+edited_by_translations.tr = "Editör: "
 
 # Google analytics
 ga = "G-X7VT1SY2WY"

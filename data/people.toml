@@ -1,0 +1,13 @@
+[people.nurulmac11]
+name = {en = "Nurullah Macun", tr = "Nurullah Macun"}
+role = {en = "Author", tr = "Yazar"}
+url = "https://github.com/nurulmac11"
+avatar = "/img/people/nurulmac11.jpg"
+bio = {en = "Software developer and writer", tr = "Yazılım geliştirici ve yazar"}
+
+[people.tugceercan]
+name = {en = "Tuğçe Ercan", tr = "Tuğçe Ercan"}
+role = {en = "Editor", tr = "Editör"}
+url = ""
+avatar = "/img/people/default.png"
+bio = {en = "Editor and content creator", tr = "Editör ve içerik üreticisi"}

@@ -5,6 +5,12 @@ description = "Kaos dolu bu dünyada, mantık hatalarını bilmek, yolumuzu bulm
 
 [taxonomies]
 tags = ["mantık hataları", "safsatalar", "psikoloji", "filmler"]
+
+[extra]
+contributors = [
+    {id = "nurulmac11"},
+    {id = "tugceercan"}
+]
 +++
 
 Bu yazı, evrim ağacının felsefe akademisi derlemesinden yararlanarak hazırlanmıştır. Safsatalar, bilişsel ön yargılar ve çarpıtmalar hakkında bazı örnekler içerir. Safsatalar hakkında daha detaylı bilgi edinmek için bu sayfayı kontrol edebilirsiniz;  
