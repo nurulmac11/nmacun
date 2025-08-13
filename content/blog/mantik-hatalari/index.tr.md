@@ -51,6 +51,7 @@ Yazımın ilk kısmında günlük hayatta sıklıkla ağına düştüğümüz ç
 Algıda seçicilik en sık yapılan mantık hatalarından biridir. Kısaca, kişinin gerçekliğin, bilerek veya bilmeyerek sürekli olarak sadece belirli kısımlarını algılamasıdır. Bu filtre, ön yargılarla veya korku ya da kaygı gibi duygulara kapıldığımızda bir savunma tepkisi olarak oluşturulur.  Bu elbette tamamen faydasız bir mekanizma değildir, odaklanma dediğimiz şey de aslında bir nevi algıda seçiciliktir. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wAxYk8CoJQg?si=WN-QB-uPP9BbLr9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{ caption(caption="Interstate 60 (2002)") }}
 
 En yaygın örneklerinden bazıları astroloji ve fal yorumlarıdır. Özellikle bu konulara meraklı ve inanan insanlar, sadece tutan yorumları örnek göstererek, bunların gerçek olduğunu iddia edebilir. Ama bunu yaparken şimdiye kadar hiç tutmamış onlarca yorumu dikkate almaz. 
 
@@ -65,6 +66,7 @@ Bu safsatayı anlatmanın en iyi yolu, muhtemelen herkesin de aşina olduğu şu
 > "Abi komünizm gelsin de doktorla çöpçü aynı maaşı mı alsın ?"  
 — *Hüseyin abi*
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6KxL0X9MZRA?si=VO3Ibzog9Cc2StW7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{ caption(caption="Ali Baba ve 7 Cüceler (2015)") }}
 
 Aslında komünizm bundan çok daha fazla derinliği olan bir olgudur. Herkesin aynı maaşı alması kadar basit bir mesele değildir, ki hedeflenen, para mefhumunun ortadan tamamen kalkmasıdır zaten. Bütün insanların temel ihtiyaçlarına ulaşabilmesidir amaç. Tabii ki burada kimin neye ihtiyacı olduğuna kim, nasıl karar verecek sorusu gündeme gelebilir ama bu daha derin bir tartışmanın başlangıç noktasıdır sadece. 
 
@@ -150,6 +152,7 @@ Bir bütünü oluşturan parçaların, bütünün özelliklerini taşıması ger
 - Din tarihinde çok kötü ve cani şeyler yapılmıştır. Dolayısıyla tüm dindarlar kötü ve canidir.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1aoX9XK0z-A?si=-I8xihMa0GUIAZiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{ caption(caption="Wristcutters: A Love Story (2006)") }}
 
 
 ### İlke ve Kavramlar
