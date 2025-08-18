@@ -433,3 +433,27 @@ article p, article li, article details, article summary {
     }
   }
 }
+
+h1 {
+  font-size: 2.5rem; /* Base largest heading */
+}
+
+h2 {
+  font-size: 2rem;   /* 80% of h1 */
+}
+
+h3 {
+  font-size: 1.5rem; /* 75% of h2 */
+}
+
+h4 {
+  font-size: 1.25rem; /* ~83% of h3 */
+}
+
+h5 {
+  font-size: 1rem;   /* 80% of h4 */
+}
+
+h6 {
+  font-size: 0.875rem; /* ~87.5% of h5 */
+}

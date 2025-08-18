@@ -46,18 +46,18 @@ Yazımın ilk kısmında günlük hayatta sıklıkla ağına düştüğümüz ç
 
 #### Algıda Seçicilik Safsatası
 
-{{ instareel(reellink="https://www.instagram.com/p/CQa0XSioenQ/" caption="The Number 23 (2007)") }}
+{{ instareel(reellink="https://www.instagram.com/p/CQa0XSioenQ/" caption="🎬 The Number 23 (2007)") }}
 
 Algıda seçicilik en sık yapılan mantık hatalarından biridir. Kısaca, kişinin gerçekliğin, bilerek veya bilmeyerek sürekli olarak sadece belirli kısımlarını algılamasıdır. Bu filtre, ön yargılarla veya korku ya da kaygı gibi duygulara kapıldığımızda bir savunma tepkisi olarak oluşturulur.  Bu elbette tamamen faydasız bir mekanizma değildir, odaklanma dediğimiz şey de aslında bir nevi algıda seçiciliktir. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wAxYk8CoJQg?si=WN-QB-uPP9BbLr9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-{{ caption(caption="Interstate 60 (2002)") }}
+{{ caption(caption="🎬 Interstate 60 (2002)") }}
 
 En yaygın örneklerinden bazıları astroloji ve fal yorumlarıdır. Özellikle bu konulara meraklı ve inanan insanlar, sadece tutan yorumları örnek göstererek, bunların gerçek olduğunu iddia edebilir. Ama bunu yaparken şimdiye kadar hiç tutmamış onlarca yorumu dikkate almaz. 
 
 Bu safsata, psikolojimizde de önemli bir yere sahiptir. Algıda seçicilik, depresyonlu bir beynin en sık kullandığı safsatalardan biridir. *İyi Hissetmek* kitabında da bahsedilen, bilişsel davranışçı terapinin örneklerinden biri olan, "zihinsel filtre" bu başlık altında incelenebilir. Depresyondayken, geçmişe dair bütün anılarımız, şu an olan her şey ve gelecekte olabilecek her şey kötüymüş gibi gelebilir ama durup biraz uzaktan bakılabilirse, durum çoğu zaman o kadar karanlık değildir. II. Dünya Savaşı'nda, nazi kamplarından kurtulan insanlar, o günlerin biteceğine ihtimal veriyor muydu sizce ? 
 
-{{ img(src="photos/posts/piquote.jpg", class="x-smaller-img", caption="Pi (1988)") }}
+{{ img(src="photos/posts/piquote.jpg", class="x-smaller-img", caption="🎬 Pi (1988)") }}
 
 
 #### Saman Adam Safsatası
@@ -66,7 +66,7 @@ Bu safsatayı anlatmanın en iyi yolu, muhtemelen herkesin de aşina olduğu şu
 > "Abi komünizm gelsin de doktorla çöpçü aynı maaşı mı alsın ?"  
 — *Hüseyin abi*
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6KxL0X9MZRA?si=VO3Ibzog9Cc2StW7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-{{ caption(caption="Ali Baba ve 7 Cüceler (2015)") }}
+{{ caption(caption="🎬 Ali Baba ve 7 Cüceler (2015)") }}
 
 Aslında komünizm bundan çok daha fazla derinliği olan bir olgudur. Herkesin aynı maaşı alması kadar basit bir mesele değildir, ki hedeflenen, para mefhumunun ortadan tamamen kalkmasıdır zaten. Bütün insanların temel ihtiyaçlarına ulaşabilmesidir amaç. Tabii ki burada kimin neye ihtiyacı olduğuna kim, nasıl karar verecek sorusu gündeme gelebilir ama bu daha derin bir tartışmanın başlangıç noktasıdır sadece. 
 
@@ -124,7 +124,7 @@ Bando vagonu etkisi olarak da geçen bu etkinin bir çok sebebi vardır. Evrimse
 {{ youtube(href="https://www.youtube.com/watch?v=aOOsfkM-nGQ", text="Asansörde hangi yöne bakmalı?")}}  
 {{ youtube(href="https://www.youtube.com/watch?v=WkT0BtfOB-M", text="Maymun/muz deneyi")}}  
 
-{{ instareel(reellink="https://www.instagram.com/reel/DJmRJnJMXmE/" caption="12 Angry Men (1957)") }}
+{{ instareel(reellink="https://www.instagram.com/reel/DJmRJnJMXmE/" caption="🎬 12 Angry Men (1957)") }}
 
 
 #### Cehalete Başvurma Safsatası
@@ -138,7 +138,7 @@ Bu safsata, bir iddianın aksi ispatlanamıyorsa, onun doğru olduğunu savunur.
 Ya da evrim ağacının genişlettiği versiyonuyla,  
  “Kanıtın yokluğu, yokluğun kanıtı değildir; ancak varlığın kanıtı hiç değildir!”.
 
-{{ instareel(reellink="https://www.instagram.com/reel/Cte0ODBgBD8/" caption="The Seventh Seal (1957)") }}
+{{ instareel(reellink="https://www.instagram.com/reel/Cte0ODBgBD8/" caption="🎬 The Seventh Seal (1957)") }}
 
 
 #### Parça-Bütün Safsataları
@@ -152,8 +152,13 @@ Bir bütünü oluşturan parçaların, bütünün özelliklerini taşıması ger
 - Din tarihinde çok kötü ve cani şeyler yapılmıştır. Dolayısıyla tüm dindarlar kötü ve canidir.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1aoX9XK0z-A?si=-I8xihMa0GUIAZiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-{{ caption(caption="Wristcutters: A Love Story (2006)") }}
+{{ caption(caption="🎬 Wristcutters: A Love Story (2006)") }}
 
+> Bir kum tanesiyim ama   
+Çölün derdini taşıyorum  
+— *Mevlâna İdris Zengin*
+
+Halbuki çölde bir parça olduğunu kabul edip, çölün derdini yük edinmemeli insan.
 
 ### İlke ve Kavramlar
 Yazımın ikinci kısmında ise bu safsatalarla başa çıkabilmek için işinize yarayabilecek bazı temel kavram ve ilkelere yer verdim;

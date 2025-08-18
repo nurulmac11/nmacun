@@ -169,7 +169,7 @@ Bu konuda ImmanuelTolstoyevski'nin şu yazısını da okumanızı tavsiye ederim
 
 Bana sorarsanız, ben merak ediyorum. O salda neler olacağını da, nerelerden geçeceğini de, neleri anlayabileceğimizi de, neler yapabileceğimizi de. Uzaya bile çıktık ama burada ne olup bittiğini anlamaktan hala çok uzağız. Uzaya roket bile gönderdik, dünyanın yörüngesine uydu bile yerleştirdik ama, daha beynimizin nasıl çalıştığını bile bilmiyoruz. Dünyanın merkezine nasıl gideceğimizi bilmiyoruz. Bundan daha 25-30 yıl önce cep telefonu diye bir şey yoktu ya da çok nadirdi. Çevirmeli ev telefonları vardı sadece. Şu an neredeyse bütün dünya akıllı telefon kullanıyor. Sonuç olarak, ölene kadar neler olacağını görmek istiyorum, hatta bu keşfin bir parçası olmak istiyorum. Ve bu keşif sadece dışsal bir yolculuk değil, içsel bir keşif de aynı zamanda. 10 sene önce olduğumdan çok daha farklı biriyim ve 10 sene sonra nasıl biri olacağımı da ölesiye merak ediyorum. O yüzden ölümümde acele etmiyorum.
 
-{{ instareel(reellink="https://www.instagram.com/reel/Czodo7ePwfE", caption="Kung Fu Panda (2008)") }}
+{{ instareel(reellink="https://www.instagram.com/reel/Czodo7ePwfE", caption="🎬 Kung Fu Panda (2008)") }}
 
 ### İlaç mı, Psikoterapi mi?
 ___
