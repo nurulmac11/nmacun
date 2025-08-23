@@ -3,6 +3,7 @@ title = "Filmler, safsatalar ve psikolojimiz - #2"
 date = 2025-08-23
 description = "Kaos dolu bu dünyada, mantık hatalarını bilmek, yolumuzu bulmada bize yardım edebilir mi? Psikolojimiz bu denklemin neresinde? Filmlerin tüm bunlarla ilgisi ne?"
 
+
 [taxonomies]
 tags = ["mantık hataları", "safsatalar", "psikoloji", "filmler"]
 
@@ -10,6 +11,7 @@ tags = ["mantık hataları", "safsatalar", "psikoloji", "filmler"]
 contributors = [
     {id = "nurulmac11"}
 ]
+social_media_card = "photos/antik.jpg"
 +++
 
 Bu yazımda kaldığımız yerden devam ederek, safsataları incelemeye devam edeceğim.
