@@ -102,6 +102,8 @@
     <meta property="og:type" content="article" />
 
     {# Image for social media sharing #}
+    {%- include "partials/social_media_images.html" -%}
+
     {# Add og:locale and hreflang tags for multilingual sites #}
     {%- if config.languages | length > 0 and current_url %}
         {%- include "partials/multilingual_tags.html" -%}
