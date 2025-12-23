@@ -12,3 +12,5 @@ Bu seri, mantık hataları, safsatalar ve psikolojimizin bu süreçteki rolü ü
 - [Filmler, safsatalar ve psikolojimiz - #1](../../blog/mantik-hatalari/)
 
 - [Filmler, safsatalar ve psikolojimiz - #2](../../blog/mantik-hatalari-iki/)
+
+- [Filmler, safsatalar ve psikolojimiz - #3](../../blog/mantik-hatalari-uc/)
