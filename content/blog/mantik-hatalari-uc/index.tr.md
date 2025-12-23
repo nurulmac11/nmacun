@@ -1,6 +1,6 @@
 +++
 title = "Filmler, safsatalar ve psikolojimiz - #3"
-date = 2025-11-29
+date = 2025-12-23
 description = "Kaos dolu bu dünyada, mantık hatalarını bilmek, yolumuzu bulmada bize yardım edebilir mi? Psikolojimiz bu denklemin neresinde? Filmlerin tüm bunlarla ilgisi ne?"
 
 
