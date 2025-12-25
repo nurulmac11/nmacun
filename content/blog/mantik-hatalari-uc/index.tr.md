@@ -90,7 +90,7 @@ Günlük hayatta bu yanılgının izlerini sıkça süreriz:
 
 **Nostalji ve Kalite:** 'Nerede o eski binalar, eski arabalar; her şey ne kadar kaliteliydi' derken aslında bir yanılgı içindeyizdir. Geçmişten günümüze sadece en sağlam, en kaliteli ve en iyi bakılmış örnekler ulaştığı için geçmişi kusursuz sanırız. Oysa o dönemde üretilen ve kısa sürede hurdaya dönen binlerce kalitesiz örneği artık görmediğimiz için hesaba katmayız.
 
-Sonuç olarak; bir resmi tam olarak görebilmek için sadece sahnenin ışık altındaki kazananlarına değil, karanlıkta kalan kaybedenlerine de bakmak gerekir."
+Sonuç olarak; bir resmi tam olarak görebilmek için sadece sahnenin ışık altındaki kazananlarına değil, karanlıkta kalan kaybedenlerine de bakmak gerekir.
 
 ### Üçüncü partın sonu
 Bilişsel ön yargılara, illüzyonlara ağırlık verdiğimiz üçüncü partın sonuna geldik. Yazı serisini bir sonraki partta bitirmeyi planlıyorum. O zaman dek görüşmek üzere. Bu yazının parçası da Abkountry'den gelsin;
