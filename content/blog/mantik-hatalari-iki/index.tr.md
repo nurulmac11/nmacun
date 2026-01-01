@@ -151,7 +151,7 @@ Zihin projeksiyon safsatası (İng: mind projection fallacy), kişi dünyayı na
 
 Burada sorun, aslında Platon'un mağara alegorisine kadar gitmektedir. Hepimiz dünyayı beynimizin oluşturduğu gerçeklik üzerinden deneyimliyoruz. Eğer diğer insanların da var olduğuna inanıyorsanız, herkesin gerçekliğinin biricik olduğunu kabul etmek çok zor değildir. Yani 8 milyar insanın oluşturduğu 8 milyar farklı dünya gerçekliği ve tek bir dünya var. Dünya gerçekliğini olduğu gibi görebilmenin yollarından biri bilimin sunduğu ölçüm cihazlarını vs. kullanmaktır. Bir diğeri tabiki de dinlerin sunduğu farklı yollardır. 
 
-{{ instareel(reellink="https://www.instagram.com/reel/DJbhJk8MEAA/", caption="🎬 The Matrix (1999)") }}
+{{ instareel(reellink="https://www.instagram.com/reel/DKczduDsg6j/", caption="🎬 The Matrix (1999)") }}
 
 ### İkinci partın sonu
 Safsataları incelediğim yazı serisinin ikinci partının sonuna geldik. Bu partta gerçekten çok sevdiğim film ve dizilerden sahnelere yer verme fırsatım oldu. Aynı şekilde diğer partlarda görüşmek üzere. Bu yazının parçası da Mansur Ark’tan gelsin;
