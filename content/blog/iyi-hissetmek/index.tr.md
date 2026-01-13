@@ -89,7 +89,7 @@ Bu bölümde, iflas, yoksulluk, ölümcül hastalıklar, sevilen birinin kaybı 
 
 Özetlemek gerekirse depresyonun bu olaylara verilen çarpıtılmış düşüncelerle yaratılmış, kalıcı bir üzüntü yarattığını ama aslında bir kayba belli bir süre dahilinde üzülmenin de bir seçenek olduğundan bahsediyor. Bahsedilen konulardan biri, böyle durumlarda bile, sadece yapılamayacak, kontrolü elinizde olmayan şeylere odaklanmak ve bundan sürekli bir acı duymaktansa, bakış açınızı değiştirip, kalan hayatınızla neler yapabileceğinize odaklanmanız salık veriliyor. 
 
-{{ instareel(reellink="https://www.instagram.com/reel/C0_TDsWAt9h") }}
+{{ instareel(reellink="https://www.instagram.com/reel/C4fri1YI7Np") }}
 > "Işığa sahip olmak için karanlığa sahip olman gerekir. Zıt şeylere sahip olmalısın. Karanlık ve ışık. Işık ve karanlık. Işığa karşı ışığınız varsa hiçbir şeyiniz yok demektir. Karanlığa karşı karanlığınız varsa temelde hiçbir şeye sahip değilsiniz. Tıpkı hayattaki gibi. Arada bir hüzünlenmen gerekir. İyi zamanların geleceğini bilmeliyiz."  
 — Bob Ross
 
