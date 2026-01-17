@@ -457,3 +457,22 @@ h5 {
 h6 {
   font-size: 0.875rem; /* ~87.5% of h5 */
 }
+
+// Series link styling
+.series-link {
+  margin: 1rem 0 1.5rem 0;
+  font-size: 0.95rem;
+  
+  a {
+    color: var(--primary-color, #007acc);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: opacity 0.2s ease;
+    
+    &:hover {
+      opacity: 0.8;
+      text-decoration: underline;
+    }
+  }
+}

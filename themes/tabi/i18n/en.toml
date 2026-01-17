@@ -33,6 +33,7 @@ all_posts = "All posts"
 all_tags = "All tags"
 all_projects = "All projects"
 featured_projects = "Series"
+back_to_series = "Back to series"
 language_selection = "Language selection"
 toggle_mode = "Toggle $MODE mode"  # $MODE will be replaced by a value (or both) below.
 dark = "dark"

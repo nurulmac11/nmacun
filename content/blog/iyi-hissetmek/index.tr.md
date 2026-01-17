@@ -7,6 +7,8 @@ description = "Psikoterapiye tonlarca para dökmeye gerek yok mu? Evde, bir kita
 tags = ["okudum", "iyi hissetmek", "psikoterapi", "psikoloji", "intihar", "depresyon"]
 
 [extra]
+series_url = "/tr/series/okudum/"
+series_title = "Okudum Serisi"
 contributors = [
     {id = "nurulmac11"},
 ]

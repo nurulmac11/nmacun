@@ -6,6 +6,8 @@ description = "Hepsi yakılmadan, kaç kitap okuyabilirsiniz ?"
 [taxonomies]
 tags = ["okudum", "fahrenheit 451"]
 [extra]
+series_url = "/tr/series/okudum/"
+series_title = "Okudum Serisi"
 contributors = [
     {id = "nurulmac11"},
 ]

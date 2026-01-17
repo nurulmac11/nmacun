@@ -7,6 +7,8 @@ description = "Kaos dolu bu dünyada, mantık hatalarını bilmek, yolumuzu bulm
 tags = ["mantık hataları", "safsatalar", "psikoloji", "filmler"]
 
 [extra]
+series_url = "/tr/series/filmler-safsatalar-psikolojimiz/"
+series_title = "Filmler, Safsatalar ve Psikolojimiz Serisi"
 contributors = [
     {id = "nurulmac11"},
     {id = "tugceercan"}

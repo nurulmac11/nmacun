@@ -33,6 +33,7 @@ all_posts = "Tüm gönderiler"
 all_tags = "Tüm etiketler"
 all_projects = "Tüm projeler"
 featured_projects = "Yazı dizileri"
+back_to_series = "Seriye dön"
 language_selection = "Dil seçimi"
 toggle_mode = "$MODE modunu değiştir"  # $MODE bir değerle (veya her iki) değiştirilecektir.
 dark = "koyu"

@@ -69,6 +69,26 @@
             {{ page.title }}
         </h1>
 
+        {#- Series link -#}
+        {% if page.extra.series %}
+            {%- set series_path = page.extra.series | trim -%}
+            {%- if series_path is starting_with("/") -%}
+                {%- set series_path = series_path | trim_start_matches(pat="/") -%}
+            {%- endif -%}
+            {%- set series_path = series_path | trim_end_matches(pat="/") -%}
+            {# get_section needs just the section path without the file name #}
+            {%- set series_section = get_section(path=series_path) -%}
+            {%- if series_section -%}
+                <div class="series-link">
+                    <a href="{{ series_section.permalink }}">← {{ macros_translate::translate(key="back_to_series", default="Back to series", language_strings=language_strings) }}: {{ series_section.title }}</a>
+                </div>
+            {%- endif -%}
+        {%- elif page.extra.series_url and page.extra.series_title -%}
+            <div class="series-link">
+                <a href="{{ page.extra.series_url }}">← {{ macros_translate::translate(key="back_to_series", default="Back to series", language_strings=language_strings) }}: {{ page.extra.series_title }}</a>
+            </div>
+        {%- endif -%}
+
         <ul class="meta">
             {#- Draft indicator -#}
             {% if page.draft %}

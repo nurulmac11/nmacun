@@ -6,6 +6,10 @@ draft = true
 
 [taxonomies]
 tags = ["okudum", "hayatı yeniden keşfedin", "psikoterapi", "psikoloji", "depresyon"]
+
+[extra]
+series_url = "/tr/series/okudum/"
+series_title = "Okudum Serisi"
 +++
 
 
