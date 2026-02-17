@@ -101,6 +101,8 @@ Bir başka kıtada, Roma’dan yaklaşık 6–7 yüzyıl sonra, 7. yüzyıl Arab
 
 Burada vurgu, yalnız “son” fikrinde değil; dönüş ve hesap bilincinde. Ölüm bir bitiş olduğu kadar, anlamı tamamlayan bir eşik.
 
+{{ img(src="photos/posts/mongolia.jpg", class="smaller-img", caption='Photo by <a href="https://unsplash.com/@patrick_schneider?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Schneider</a> on <a href="https://unsplash.com/photos/person-standing-beside-tent-mdtYgoLsfNk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>') }}
+
 Takvim biraz daha ilerler. 8. yüzyılda, bugünkü Moğolistan’daki Orhun Vadisi’nde, Göktürklerin taşlara kazıdığı sözler zamanın sertliğini ve insan ömrünün kısalığını bir cümlede toplar:
 
 > Öd Tengri yasar, kişi oğlı kop ölgeli törimiş.  
