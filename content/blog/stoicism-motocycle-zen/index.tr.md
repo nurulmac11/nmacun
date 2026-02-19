@@ -24,7 +24,7 @@ Bu kitabı okuma girişimimden bir kaç sene sonra ben de motosiklet sürmeyi ö
 
 #### An'da kalmak
 
-{{ instareel(reellink="https://www.instagram.com/p/Bt8e-bigEtg/", caption="Yesterday is history, tomorrow is a mystery, but today is a gift – that's why it is called the present.") }}
+{{ instareel(reellink="https://www.instagram.com/p/DTYFqKWDK5p/", caption="Yesterday is history, tomorrow is a mystery, but today is a gift – that's why it is called the present.") }}
 
 Anda kalmak, akışta olmak, flow state veya mindfulness gibi kavramları daha önce de duymuşsunuzdur. İddia odur ki, geçmiş de gelecek de aslında üzerinde hiç bir kontrolümüz olmayan, değiştiremeyeceğimiz hayali kavramlardır. Var olan tek şey şu andır. Geçmişi zaten değiştiremezsiniz ve geleceği inşa etmek için tek yol da yine bu an'dan geçer. Ve günlük hayatta zihnimizin andan çıkıp başka yerlere gidip, gereksiz yere kendisini yorduğu, yıprattığı üzdüğü söylenir. Aslında hala anı yaşıyorsunuzdur elbette, bunun başka çaresi yok ama o anda olmakta olanlara odaklanmak yerine çoktan olmuş ya da henüz olmamış dünyalarda dolaşmaktadır zihniniz.
 
@@ -84,7 +84,7 @@ Bir başka nokta ise kontrol. Motosikleti yönlendirebilmek için onu sımsıkı
 
 #### Memento mori, memento vivere  
 
-{{ img(src="photos/posts/mementomori.jpg", class="xx-smaller-img", caption="Memento mori, memento vivere") }}
+{{ img(src="photos/posts/timenow.png", class="xx-smaller-img") }}
 Ölümü hatırla, ama unutma, yaşıyorsun. Bu latince söz, ölümle yaşam arasında bir denge kurmamız gerektiğini anlatıyor bana. Öleceğiz, hiç bir şeye sımsıkı sarılmamalıyız, elbet bir gün elimizden kayıp gidecek, hiçbir güç bunu önleyemez ama yaşıyoruz da. Aslında hepimiz motor gibi her an elimizden kayıp gidebilecek hayatlar yaşıyoruz. Hiçbirimiz arabada değiliz. Bu gerçeği de göz ardı edemeyiz. Yaşamalı, yol alabilmek için bir şeylere sıkı sıkıya olmasa da tutunmalı, bir gün geldiğinde bırakması gerektiğini unutmadan. Yaşam bu iki gerçek arasında bir sarkaç gibi gidip geliyor.  
 <br/>
 Bu düşünce elbette yalnızca antik Roma’nın tekelinde değil. Yüzyıllar birbirini kovalarken, farklı coğrafyalarda ve dillerde aynı hakikat yeniden söylenmiş: zaman akar, insan geçer; fanilik bilgisi insana hem tevazu hem de uyanıklık verir.
@@ -120,6 +120,8 @@ Dünle beraber gitti, cancağızım. Ne kadar söz varsa düne ait.
 — Mevlânâ
 
 Burada fanilik, yalnızca "geçicilik" değil; aynı zamanda sürekli bir dönüşme ve tazelenme çağrısıdır: tutunmak yerine akmak, dünle kalmak yerine bugünü yaşamak.
+
+{{ img(src="photos/posts/mesnevi.jpg", class="x-smaller-img") }}
 
 Derken takvim biraz daha ilerler. 13.–14. yüzyıl Anadolu’sunda, bu kez bir derviş, sesiyle aynı gerçeği daha yumuşak ama daha sarsıcı bir sadelikle söyler. Roma’dan yaklaşık bin üç yüz yıl sonra:
 
