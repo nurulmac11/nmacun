@@ -1,0 +1,29 @@
+⏺ # Privacy Policy for SynthStack
+
+  **Version 1.0**
+
+  SynthStack is a mobile puzzle game for iOS.
+
+  ## Data Collection
+
+  We do not directly collect or store any personal data. However, the app uses third-party services that may collect data:
+
+  - **Google AdMob** — displays ads and may collect device identifiers and advertising data. See [Google's Privacy Policy](https://policies.google.com/privacy).
+  - **Apple In-App Purchases** — used for the "Remove Ads" purchase. Apple handles all payment processing.
+
+  ## Tracking
+
+  The app may request permission to track you via Apple's App Tracking Transparency framework. This is used by AdMob to show relevant ads. You can deny this permission and the app will still
+   function normally.
+
+  ## Crash Data
+
+  iOS may collect anonymous crash reports to help improve app stability.
+
+  ## Children
+
+  This app does not knowingly collect data from children under 13.
+
+  ## Contact
+
+  If you have any questions, contact us at: [your email]
