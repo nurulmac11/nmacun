@@ -1,0 +1,4 @@
+### SynthStack Support
+
+For questions, feedback, or bug reports, please contact the developer at:
+[nurullah201@gmail.com]

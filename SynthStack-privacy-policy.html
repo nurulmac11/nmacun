@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SynthStack - Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  [dir="rtl"] { text-align: right; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.2em; margin-top: 1.5em; }
+  a { color: #0066cc; }
+  .lang-select { margin-bottom: 20px; font-size: 0.95em; }
+  .lang-select select { padding: 4px 8px; font-size: 0.95em; }
+</style>
+</head>
+<body>
+
+<div class="lang-select">
+  <label for="lang">Language: </label>
+  <select id="lang" onchange="switchLang(this.value)">
+    <option value="en">English</option>
+    <option value="tr">Türkçe</option>
+    <option value="zh">中文(简体)</option>
+    <option value="ja">日本語</option>
+    <option value="ru">Русский</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+    <option value="pt">Português</option>
+    <option value="hi">हिन्दी</option>
+    <option value="ar">العربية</option>
+    <option value="it">Italiano</option>
+    <option value="ko">한국어</option>
+    <option value="es">Español</option>
+  </select>
+</div>
+
+<div id="content"></div>
+
+<script>
+const translations = {
+  en: `
+<h1>Privacy Policy for SynthStack</h1>
+<p><strong>Version 1.0</strong></p>
+<p>SynthStack is a mobile puzzle game for iOS.</p>
+<h2>Data Collection</h2>
+<p>We do not directly collect or store any personal data. However, the app uses third-party services that may collect data:</p>
+<ul>
+<li><strong>Google AdMob</strong> — displays ads and may collect device identifiers and advertising data. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+<li><strong>Apple In-App Purchases</strong> — used for the "Remove Ads" purchase. Apple handles all payment processing.</li>
+</ul>
+<h2>Tracking</h2>
+<p>The app may request permission to track you via Apple's App Tracking Transparency framework. This is used by AdMob to show relevant ads. You can deny this permission and the app will still function normally.</p>
+<h2>Crash Data</h2>
+<p>iOS may collect anonymous crash reports to help improve app stability.</p>
+<h2>Children</h2>
+<p>This app does not knowingly collect data from children under 13.</p>
+<h2>Contact</h2>
+<p>If you have any questions, contact us at: <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  tr: `
+<h1>SynthStack Gizlilik Politikası</h1>
+<p><strong>Sürüm 1.0</strong></p>
+<p>SynthStack, iOS için bir mobil bulmaca oyunudur.</p>
+<h2>Veri Toplama</h2>
+<p>Doğrudan herhangi bir kişisel veri toplamıyor veya saklamıyoruz. Ancak uygulama, veri toplayabilecek üçüncü taraf hizmetler kullanmaktadır:</p>
+<ul>
+<li><strong>Google AdMob</strong> — reklam gösterir ve cihaz tanımlayıcıları ile reklam verilerini toplayabilir. <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>'na bakın.</li>
+<li><strong>Apple Uygulama İçi Satın Alma</strong> — "Reklamları Kaldır" satın alımı için kullanılır. Tüm ödeme işlemleri Apple tarafından gerçekleştirilir.</li>
+</ul>
+<h2>İzleme</h2>
+<p>Uygulama, Apple'ın Uygulama İzleme Şeffaflığı çerçevesi aracılığıyla sizi izlemek için izin isteyebilir. Bu, AdMob tarafından alakalı reklamlar göstermek için kullanılır. Bu izni reddedebilirsiniz ve uygulama normal şekilde çalışmaya devam eder.</p>
+<h2>Çökme Verileri</h2>
+<p>iOS, uygulama kararlılığını iyileştirmeye yardımcı olmak için anonim çökme raporları toplayabilir.</p>
+<h2>Çocuklar</h2>
+<p>Bu uygulama, 13 yaşın altındaki çocuklardan bilerek veri toplamaz.</p>
+<h2>İletişim</h2>
+<p>Herhangi bir sorunuz varsa bizimle iletişime geçin: <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  zh: `
+<h1>SynthStack 隐私政策</h1>
+<p><strong>版本 1.0</strong></p>
+<p>SynthStack 是一款适用于 iOS 的移动益智游戏。</p>
+<h2>数据收集</h2>
+<p>我们不会直接收集或存储任何个人数据。但是，该应用使用的第三方服务可能会收集数据：</p>
+<ul>
+<li><strong>Google AdMob</strong> — 展示广告，可能会收集设备标识符和广告数据。请参阅 <a href="https://policies.google.com/privacy">Google 隐私政策</a>。</li>
+<li><strong>Apple 应用内购买</strong> — 用于"移除广告"购买。所有付款处理均由 Apple 负责。</li>
+</ul>
+<h2>跟踪</h2>
+<p>该应用可能会通过 Apple 的"应用跟踪透明度"框架请求跟踪您的权限。AdMob 使用此权限来展示相关广告。您可以拒绝此权限，应用仍将正常运行。</p>
+<h2>崩溃数据</h2>
+<p>iOS 可能会收集匿名崩溃报告，以帮助提高应用稳定性。</p>
+<h2>儿童</h2>
+<p>本应用不会故意收集 13 岁以下儿童的数据。</p>
+<h2>联系我们</h2>
+<p>如有任何问题，请联系我们：<a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  ja: `
+<h1>SynthStack プライバシーポリシー</h1>
+<p><strong>バージョン 1.0</strong></p>
+<p>SynthStack は iOS 向けのモバイルパズルゲームです。</p>
+<h2>データ収集</h2>
+<p>当社は個人データを直接収集または保存することはありません。ただし、アプリはデータを収集する可能性のあるサードパーティサービスを使用しています：</p>
+<ul>
+<li><strong>Google AdMob</strong> — 広告を表示し、デバイス識別子や広告データを収集する場合があります。<a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>をご覧ください。</li>
+<li><strong>Apple アプリ内課金</strong> — 「広告を削除」の購入に使用されます。すべての支払い処理は Apple が行います。</li>
+</ul>
+<h2>トラッキング</h2>
+<p>アプリは、Apple の App Tracking Transparency フレームワークを通じてトラッキングの許可を求める場合があります。これは AdMob が関連性の高い広告を表示するために使用されます。この許可を拒否しても、アプリは通常通り機能します。</p>
+<h2>クラッシュデータ</h2>
+<p>iOS はアプリの安定性向上のために匿名のクラッシュレポートを収集する場合があります。</p>
+<h2>子ども</h2>
+<p>このアプリは 13 歳未満の子どもから意図的にデータを収集することはありません。</p>
+<h2>お問い合わせ</h2>
+<p>ご質問がある場合は、こちらまでご連絡ください：<a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  ru: `
+<h1>Политика конфиденциальности SynthStack</h1>
+<p><strong>Версия 1.0</strong></p>
+<p>SynthStack — мобильная головоломка для iOS.</p>
+<h2>Сбор данных</h2>
+<p>Мы не собираем и не храним персональные данные напрямую. Однако приложение использует сторонние сервисы, которые могут собирать данные:</p>
+<ul>
+<li><strong>Google AdMob</strong> — показывает рекламу и может собирать идентификаторы устройств и рекламные данные. См. <a href="https://policies.google.com/privacy">Политику конфиденциальности Google</a>.</li>
+<li><strong>Покупки в приложении Apple</strong> — используются для покупки «Удалить рекламу». Вся обработка платежей осуществляется Apple.</li>
+</ul>
+<h2>Отслеживание</h2>
+<p>Приложение может запросить разрешение на отслеживание через систему App Tracking Transparency от Apple. Это используется AdMob для показа релевантной рекламы. Вы можете отказать в этом разрешении, и приложение продолжит работать нормально.</p>
+<h2>Данные о сбоях</h2>
+<p>iOS может собирать анонимные отчёты о сбоях для улучшения стабильности приложения.</p>
+<h2>Дети</h2>
+<p>Это приложение не собирает сознательно данные детей младше 13 лет.</p>
+<h2>Контакты</h2>
+<p>Если у вас есть вопросы, свяжитесь с нами: <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  fr: `
+<h1>Politique de confidentialité de SynthStack</h1>
+<p><strong>Version 1.0</strong></p>
+<p>SynthStack est un jeu de puzzle mobile pour iOS.</p>
+<h2>Collecte de données</h2>
+<p>Nous ne collectons ni ne stockons directement de données personnelles. Cependant, l'application utilise des services tiers susceptibles de collecter des données :</p>
+<ul>
+<li><strong>Google AdMob</strong> — affiche des publicités et peut collecter des identifiants d'appareil et des données publicitaires. Consultez la <a href="https://policies.google.com/privacy">Politique de confidentialité de Google</a>.</li>
+<li><strong>Achats intégrés Apple</strong> — utilisés pour l'achat « Supprimer les publicités ». Apple gère l'ensemble du traitement des paiements.</li>
+</ul>
+<h2>Suivi</h2>
+<p>L'application peut demander l'autorisation de vous suivre via le cadre App Tracking Transparency d'Apple. Ceci est utilisé par AdMob pour afficher des publicités pertinentes. Vous pouvez refuser cette autorisation et l'application continuera de fonctionner normalement.</p>
+<h2>Données de plantage</h2>
+<p>iOS peut collecter des rapports de plantage anonymes pour aider à améliorer la stabilité de l'application.</p>
+<h2>Enfants</h2>
+<p>Cette application ne collecte pas sciemment de données auprès d'enfants de moins de 13 ans.</p>
+<h2>Contact</h2>
+<p>Si vous avez des questions, contactez-nous à : <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  de: `
+<h1>Datenschutzrichtlinie für SynthStack</h1>
+<p><strong>Version 1.0</strong></p>
+<p>SynthStack ist ein mobiles Puzzlespiel für iOS.</p>
+<h2>Datenerfassung</h2>
+<p>Wir erfassen oder speichern keine personenbezogenen Daten direkt. Die App verwendet jedoch Drittanbieterdienste, die möglicherweise Daten erfassen:</p>
+<ul>
+<li><strong>Google AdMob</strong> — zeigt Werbung an und kann Gerätekennungen und Werbedaten erfassen. Siehe <a href="https://policies.google.com/privacy">Datenschutzrichtlinie von Google</a>.</li>
+<li><strong>Apple In-App-Käufe</strong> — werden für den Kauf „Werbung entfernen" verwendet. Apple wickelt die gesamte Zahlungsabwicklung ab.</li>
+</ul>
+<h2>Tracking</h2>
+<p>Die App kann über Apples App-Tracking-Transparenz-Framework um Erlaubnis bitten, Sie zu verfolgen. Dies wird von AdMob verwendet, um relevante Werbung anzuzeigen. Sie können diese Erlaubnis verweigern und die App funktioniert weiterhin normal.</p>
+<h2>Absturzdaten</h2>
+<p>iOS kann anonyme Absturzberichte sammeln, um die Stabilität der App zu verbessern.</p>
+<h2>Kinder</h2>
+<p>Diese App erfasst wissentlich keine Daten von Kindern unter 13 Jahren.</p>
+<h2>Kontakt</h2>
+<p>Bei Fragen kontaktieren Sie uns unter: <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  pt: `
+<h1>Política de Privacidade do SynthStack</h1>
+<p><strong>Versão 1.0</strong></p>
+<p>O SynthStack é um jogo de puzzle para dispositivos móveis iOS.</p>
+<h2>Recolha de Dados</h2>
+<p>Não recolhemos nem armazenamos diretamente quaisquer dados pessoais. No entanto, a aplicação utiliza serviços de terceiros que podem recolher dados:</p>
+<ul>
+<li><strong>Google AdMob</strong> — exibe anúncios e pode recolher identificadores de dispositivo e dados publicitários. Consulte a <a href="https://policies.google.com/privacy">Política de Privacidade da Google</a>.</li>
+<li><strong>Compras na App da Apple</strong> — utilizadas para a compra "Remover Anúncios". A Apple processa todos os pagamentos.</li>
+</ul>
+<h2>Rastreamento</h2>
+<p>A aplicação pode solicitar permissão para rastreá-lo através da estrutura de Transparência de Rastreamento de Apps da Apple. Isto é utilizado pelo AdMob para mostrar anúncios relevantes. Pode recusar esta permissão e a aplicação continuará a funcionar normalmente.</p>
+<h2>Dados de Falhas</h2>
+<p>O iOS pode recolher relatórios de falhas anónimos para ajudar a melhorar a estabilidade da aplicação.</p>
+<h2>Crianças</h2>
+<p>Esta aplicação não recolhe intencionalmente dados de crianças com menos de 13 anos.</p>
+<h2>Contacto</h2>
+<p>Se tiver alguma questão, contacte-nos em: <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  hi: `
+<h1>SynthStack गोपनीयता नीति</h1>
+<p><strong>संस्करण 1.0</strong></p>
+<p>SynthStack iOS के लिए एक मोबाइल पहेली खेल है।</p>
+<h2>डेटा संग्रह</h2>
+<p>हम सीधे कोई व्यक्तिगत डेटा एकत्र या संग्रहीत नहीं करते हैं। हालाँकि, ऐप तृतीय-पक्ष सेवाओं का उपयोग करता है जो डेटा एकत्र कर सकती हैं:</p>
+<ul>
+<li><strong>Google AdMob</strong> — विज्ञापन दिखाता है और डिवाइस पहचानकर्ता तथा विज्ञापन डेटा एकत्र कर सकता है। <a href="https://policies.google.com/privacy">Google की गोपनीयता नीति</a> देखें।</li>
+<li><strong>Apple इन-ऐप खरीदारी</strong> — "विज्ञापन हटाएँ" खरीदारी के लिए उपयोग किया जाता है। सभी भुगतान प्रसंस्करण Apple द्वारा किया जाता है।</li>
+</ul>
+<h2>ट्रैकिंग</h2>
+<p>ऐप Apple के ऐप ट्रैकिंग ट्रांसपेरेंसी फ्रेमवर्क के माध्यम से आपको ट्रैक करने की अनुमति माँग सकता है। इसका उपयोग AdMob द्वारा प्रासंगिक विज्ञापन दिखाने के लिए किया जाता है। आप इस अनुमति को अस्वीकार कर सकते हैं और ऐप सामान्य रूप से काम करता रहेगा।</p>
+<h2>क्रैश डेटा</h2>
+<p>iOS ऐप की स्थिरता में सुधार करने में मदद के लिए गुमनाम क्रैश रिपोर्ट एकत्र कर सकता है।</p>
+<h2>बच्चे</h2>
+<p>यह ऐप जानबूझकर 13 वर्ष से कम उम्र के बच्चों से डेटा एकत्र नहीं करता है।</p>
+<h2>संपर्क</h2>
+<p>यदि आपके कोई प्रश्न हैं, तो हमसे संपर्क करें: <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  ar: `
+<h1>سياسة الخصوصية لـ SynthStack</h1>
+<p><strong>الإصدار 1.0</strong></p>
+<p>SynthStack هي لعبة ألغاز للهواتف المحمولة على نظام iOS.</p>
+<h2>جمع البيانات</h2>
+<p>نحن لا نجمع أو نخزن أي بيانات شخصية بشكل مباشر. ومع ذلك، يستخدم التطبيق خدمات طرف ثالث قد تجمع بيانات:</p>
+<ul>
+<li><strong>Google AdMob</strong> — يعرض الإعلانات وقد يجمع معرّفات الجهاز وبيانات الإعلانات. راجع <a href="https://policies.google.com/privacy">سياسة خصوصية Google</a>.</li>
+<li><strong>مشتريات Apple داخل التطبيق</strong> — تُستخدم لشراء "إزالة الإعلانات". تتولى Apple معالجة جميع المدفوعات.</li>
+</ul>
+<h2>التتبع</h2>
+<p>قد يطلب التطبيق إذنًا لتتبعك عبر إطار عمل شفافية تتبع التطبيقات من Apple. يستخدم AdMob هذا لعرض إعلانات ذات صلة. يمكنك رفض هذا الإذن وسيستمر التطبيق في العمل بشكل طبيعي.</p>
+<h2>بيانات الأعطال</h2>
+<p>قد يجمع نظام iOS تقارير أعطال مجهولة الهوية للمساعدة في تحسين استقرار التطبيق.</p>
+<h2>الأطفال</h2>
+<p>لا يجمع هذا التطبيق عن قصد بيانات من الأطفال دون سن 13 عامًا.</p>
+<h2>اتصل بنا</h2>
+<p>إذا كانت لديك أي أسئلة، تواصل معنا على: <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  it: `
+<h1>Informativa sulla Privacy di SynthStack</h1>
+<p><strong>Versione 1.0</strong></p>
+<p>SynthStack è un gioco di puzzle per dispositivi mobili iOS.</p>
+<h2>Raccolta dei dati</h2>
+<p>Non raccogliamo né memorizziamo direttamente alcun dato personale. Tuttavia, l'app utilizza servizi di terze parti che potrebbero raccogliere dati:</p>
+<ul>
+<li><strong>Google AdMob</strong> — mostra annunci pubblicitari e potrebbe raccogliere identificatori del dispositivo e dati pubblicitari. Consulta l'<a href="https://policies.google.com/privacy">Informativa sulla Privacy di Google</a>.</li>
+<li><strong>Acquisti in-app Apple</strong> — utilizzati per l'acquisto "Rimuovi pubblicità". Apple gestisce l'intera elaborazione dei pagamenti.</li>
+</ul>
+<h2>Tracciamento</h2>
+<p>L'app potrebbe richiedere l'autorizzazione a tracciarti tramite il framework App Tracking Transparency di Apple. Questo viene utilizzato da AdMob per mostrare annunci pertinenti. Puoi negare questa autorizzazione e l'app continuerà a funzionare normalmente.</p>
+<h2>Dati sugli arresti anomali</h2>
+<p>iOS potrebbe raccogliere rapporti anonimi sugli arresti anomali per contribuire a migliorare la stabilità dell'app.</p>
+<h2>Minori</h2>
+<p>Questa app non raccoglie consapevolmente dati da minori di 13 anni.</p>
+<h2>Contatti</h2>
+<p>Per qualsiasi domanda, contattaci all'indirizzo: <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  ko: `
+<h1>SynthStack 개인정보 처리방침</h1>
+<p><strong>버전 1.0</strong></p>
+<p>SynthStack은 iOS용 모바일 퍼즐 게임입니다.</p>
+<h2>데이터 수집</h2>
+<p>당사는 개인 데이터를 직접 수집하거나 저장하지 않습니다. 그러나 앱은 데이터를 수집할 수 있는 타사 서비스를 사용합니다:</p>
+<ul>
+<li><strong>Google AdMob</strong> — 광고를 표시하며 기기 식별자 및 광고 데이터를 수집할 수 있습니다. <a href="https://policies.google.com/privacy">Google 개인정보 처리방침</a>을 참조하세요.</li>
+<li><strong>Apple 인앱 구매</strong> — "광고 제거" 구매에 사용됩니다. 모든 결제 처리는 Apple이 담당합니다.</li>
+</ul>
+<h2>추적</h2>
+<p>앱은 Apple의 앱 추적 투명성 프레임워크를 통해 추적 권한을 요청할 수 있습니다. 이는 AdMob이 관련 광고를 표시하는 데 사용됩니다. 이 권한을 거부해도 앱은 정상적으로 작동합니다.</p>
+<h2>충돌 데이터</h2>
+<p>iOS는 앱 안정성 향상을 위해 익명의 충돌 보고서를 수집할 수 있습니다.</p>
+<h2>아동</h2>
+<p>이 앱은 13세 미만 아동의 데이터를 의도적으로 수집하지 않습니다.</p>
+<h2>문의</h2>
+<p>질문이 있으시면 다음으로 연락해 주세요: <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`,
+  es: `
+<h1>Política de Privacidad de SynthStack</h1>
+<p><strong>Versión 1.0</strong></p>
+<p>SynthStack es un juego de puzles para dispositivos móviles iOS.</p>
+<h2>Recopilación de datos</h2>
+<p>No recopilamos ni almacenamos directamente ningún dato personal. Sin embargo, la aplicación utiliza servicios de terceros que pueden recopilar datos:</p>
+<ul>
+<li><strong>Google AdMob</strong> — muestra anuncios y puede recopilar identificadores de dispositivo y datos publicitarios. Consulta la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.</li>
+<li><strong>Compras dentro de la app de Apple</strong> — se utilizan para la compra "Eliminar anuncios". Apple gestiona todo el procesamiento de pagos.</li>
+</ul>
+<h2>Seguimiento</h2>
+<p>La aplicación puede solicitar permiso para rastrearte a través del marco de Transparencia de Seguimiento de Apps de Apple. AdMob lo utiliza para mostrar anuncios relevantes. Puedes denegar este permiso y la aplicación seguirá funcionando con normalidad.</p>
+<h2>Datos de fallos</h2>
+<p>iOS puede recopilar informes de fallos anónimos para ayudar a mejorar la estabilidad de la aplicación.</p>
+<h2>Menores</h2>
+<p>Esta aplicación no recopila conscientemente datos de menores de 13 años.</p>
+<h2>Contacto</h2>
+<p>Si tienes alguna pregunta, contáctanos en: <a href="mailto:nurullah201@gmail.com">nurullah201@gmail.com</a></p>
+`
+};
+
+function switchLang(lang) {
+  document.getElementById('content').innerHTML = translations[lang] || translations['en'];
+  document.documentElement.lang = lang;
+  document.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  const url = new URL(window.location);
+  url.searchParams.set('lang', lang);
+  window.history.replaceState({}, '', url);
+  document.getElementById('lang').value = lang;
+}
+
+const params = new URLSearchParams(window.location.search);
+const lang = (params.get('lang') || 'en').toLowerCase();
+switchLang(translations[lang] ? lang : 'en');
+</script>
+</body>
+</html>
